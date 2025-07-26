@@ -1,0 +1,6 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  Ping Pong.cpp
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Ping Pong.vcxproj -> C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\x64\Debug\Ping Pong.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
