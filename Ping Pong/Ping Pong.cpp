@@ -33,6 +33,8 @@ void main()
     // HalfSquare settings
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
+    const int firstHalfSquareSpeed = 2.0f;
+    const int secondHalfSquareSpeed = 2.0f;
     // Variables of random ball direction
     int directionOfBallForYInInt = randomFunction(1, 2); 
     int directionOfBallForXInInt = randomFunction(1, 2);
@@ -60,6 +62,7 @@ void main()
 
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
+        #pragma region Ball physics
         // X coords
         if (directionOfBallForX == StatusOfBallDirectionForX::Left && ballPosition.x <= screenWidth - ballRadius)
             ballPosition.x += ballSpeed;
@@ -81,12 +84,22 @@ void main()
             ballPosition.y -= ballSpeed;
         else 
             directionOfBallForY = StatusOfBallDirectionForY::Up;
+        #pragma endregion Ball physics
 
+        #pragma region First Half Square physics
+        // Y coords
+        if (IsKeyDown(KEY_W) && firstHalfSquarePosition.y >= 5)
+            firstHalfSquarePosition.y -= firstHalfSquareSpeed;
+        if (IsKeyDown(KEY_S) && firstHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10) 
+            firstHalfSquarePosition.y += firstHalfSquareSpeed;
+        #pragma endregion
+
+        #pragma region Objects draw
         BeginDrawing();
 
         ClearBackground(RAYWHITE);
 
-        DrawText("WASD and Arrows", 10, 10, 20, DARKGRAY);
+        DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
 
         // Draw gaming ball
         DrawCircleV(ballPosition, ballRadius, BLACK);
@@ -98,6 +111,7 @@ void main()
         DrawRectangle(secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
 
         EndDrawing();
+        #pragma endregion
     }
 
     CloseWindow();
