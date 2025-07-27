@@ -3,10 +3,8 @@
 
 void main()
 {
-	std::cout << "Hello World!" << std::endl;
+    bool directionIsRight;
 
-    // Initialization
-    //--------------------------------------------------------------------------------------
     const int screenWidth = 800;
     const int screenHeight = 450;
 
@@ -29,13 +27,14 @@ void main()
         //----------------------------------------------------------------------------------
 
         if (ballPosition.x - 2.0f >= 0)
-        {
+            directionIsRight = false;
+        else
+            directionIsRight = true;
+
+        if (!directionIsRight)
             ballPosition.x -= 2.0f;
-        }
-        else 
-        {
+        else
             ballPosition.x += 2.0f;
-        }
 
         // Draw
         //----------------------------------------------------------------------------------
