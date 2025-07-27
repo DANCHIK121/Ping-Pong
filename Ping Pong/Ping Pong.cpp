@@ -8,6 +8,18 @@
 // Functions signature
 int randomFunction(int minValue, int maxValue);
 
+enum StatusOfBallDirectionForY
+{
+    Up,
+    Down,
+};
+
+enum StatusOfBallDirectionForX
+{
+    Left,
+    Right,
+};
+
 void main()
 {
     // Initialization
@@ -21,12 +33,26 @@ void main()
     // HalfSquare settings
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
+    // Variables of random ball direction
+    int directionOfBallForYInInt = randomFunction(1, 2); 
+    int directionOfBallForXInInt = randomFunction(1, 2);
+    StatusOfBallDirectionForY directionOfBallForY;
+    StatusOfBallDirectionForX directionOfBallForX;
 
-    int directionOfBallForY = randomFunction(1, 2); // If 1 - up btw 2 - down
-    int directionOfBallForX = randomFunction(1, 2); // If 1 - up btw 2 - down
-    
+    // Convert values
+    if (directionOfBallForXInInt == 1)
+        directionOfBallForX = StatusOfBallDirectionForX::Left;
+    else
+        directionOfBallForX = StatusOfBallDirectionForX::Right;
+    if (directionOfBallForYInInt == 1)
+        directionOfBallForY = StatusOfBallDirectionForY::Up;
+    else
+        directionOfBallForY = StatusOfBallDirectionForY::Down;
+
+    // Objects position
     Vector2 ballPosition = { screenWidth / 2, screenHeight / 2 };
-    Vector2 firstHalfSquarePosition = { halfSquareWidth + 5, screenHeight / 2 - halfSquareHeight + 30};
+    Vector2 firstHalfSquarePosition = { halfSquareWidth, screenHeight / 2 - halfSquareHeight + 30};
+    Vector2 secondHalfSquarePosition = { screenWidth - halfSquareWidth - 20, screenHeight / 2 - halfSquareHeight + 30 };
 
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
 
@@ -35,26 +61,26 @@ void main()
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
         // X coords
-        if (directionOfBallForX == 2 && ballPosition.x <= screenWidth - ballRadius)
+        if (directionOfBallForX == StatusOfBallDirectionForX::Left && ballPosition.x <= screenWidth - ballRadius)
             ballPosition.x += ballSpeed;
         else
-            directionOfBallForX = 1;
+            directionOfBallForX = StatusOfBallDirectionForX::Right;
 
-        if (directionOfBallForX == 1 && ballPosition.x >= ballRadius)
+        if (directionOfBallForX == StatusOfBallDirectionForX::Right && ballPosition.x >= ballRadius)
             ballPosition.x -= ballSpeed;
         else
-            directionOfBallForX = 2;
+            directionOfBallForX = StatusOfBallDirectionForX::Left;
 
         // Y coords
-        if (directionOfBallForY == 2 && ballPosition.y <= screenHeight - ballRadius)
+        if (directionOfBallForY == StatusOfBallDirectionForY::Up && ballPosition.y <= screenHeight - ballRadius)
             ballPosition.y += ballSpeed;
         else 
-            directionOfBallForY = 1;
+            directionOfBallForY = StatusOfBallDirectionForY::Down;
 
-        if (directionOfBallForY == 1 && ballPosition.y >= ballRadius)
+        if (directionOfBallForY == StatusOfBallDirectionForY::Down && ballPosition.y >= ballRadius)
             ballPosition.y -= ballSpeed;
         else 
-            directionOfBallForY = 2;
+            directionOfBallForY = StatusOfBallDirectionForY::Up;
 
         BeginDrawing();
 
@@ -67,6 +93,9 @@ void main()
 
         // Draw first HalfSquare
         DrawRectangle(firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
+
+        // Draw second HalfSquare
+        DrawRectangle(secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
 
         EndDrawing();
     }
