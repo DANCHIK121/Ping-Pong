@@ -94,6 +94,14 @@ void main()
             firstHalfSquarePosition.y += firstHalfSquareSpeed;
         #pragma endregion
 
+        #pragma region Second Half Square physics
+        // Y coords
+        if (IsKeyDown(KEY_UP) && secondHalfSquarePosition.y >= 5)
+            secondHalfSquarePosition.y -= secondHalfSquareSpeed;
+        if (IsKeyDown(KEY_DOWN) && secondHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10)
+            secondHalfSquarePosition.y += secondHalfSquareSpeed;
+        #pragma endregion
+
         #pragma region Objects draw
         BeginDrawing();
 

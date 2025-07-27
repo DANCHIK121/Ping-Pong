@@ -3,10 +3,10 @@
 C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(23,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
 C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(36,38): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
 C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(37,39): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(108,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(108,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(111,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(111,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(116,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(116,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(119,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(119,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   Ping Pong.vcxproj -> C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\x64\Debug\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.
