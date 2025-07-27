@@ -56,12 +56,20 @@ void main()
     Vector2 firstHalfSquarePosition = { halfSquareWidth, screenHeight / 2 - halfSquareHeight + 30};
     Vector2 secondHalfSquarePosition = { screenWidth - halfSquareWidth - 20, screenHeight / 2 - halfSquareHeight + 30 };
 
+    // Rectangle objects
+    Rectangle firstHalfSquare;
+    Rectangle secondHalfSquare;
+
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
 
     SetTargetFPS(screenFPS);
 
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
+        // Rectangles update
+        firstHalfSquare = { firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
+        secondHalfSquare = { secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
+
         #pragma region Ball physics
         // X coords
         if (directionOfBallForX == StatusOfBallDirectionForX::Left && ballPosition.x <= screenWidth - ballRadius)
@@ -102,6 +110,16 @@ void main()
             secondHalfSquarePosition.y += secondHalfSquareSpeed;
         #pragma endregion
 
+        #pragma region Collision check
+        // Collision first half-square with ball
+        if (CheckCollisionCircleRec(ballPosition, ballRadius, firstHalfSquare))
+            directionOfBallForX = StatusOfBallDirectionForX::Left;
+
+        // Collision second half-square with ball 
+        if (CheckCollisionCircleRec(ballPosition, ballRadius, secondHalfSquare))
+            directionOfBallForX = StatusOfBallDirectionForX::Right;
+        #pragma endregion
+
         #pragma region Objects draw
         BeginDrawing();
 
@@ -133,11 +151,3 @@ int randomFunction(int minValue, int maxValue)
 
     return dist6(rng);
 }
-
-// Update
-        //----------------------------------------------------------------------------------
-        /*if (IsKeyDown(KEY_RIGHT)) ballPosition.x += 2.0f;
-        if (IsKeyDown(KEY_LEFT)) ballPosition.x -= 2.0f;
-        if (IsKeyDown(KEY_UP)) ballPosition.y -= 2.0f;
-        if (IsKeyDown(KEY_DOWN)) ballPosition.y += 2.0f;*/
-        //----------------------------------------------------------------------------------
