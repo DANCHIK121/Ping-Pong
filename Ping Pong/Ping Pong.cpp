@@ -1,6 +1,8 @@
 // Standart libraries
 #include <random>
+#include <string>
 #include <iostream>
+#include <fmt/format.h>
 
 // Projects libraries
 #include "raylib.h"
@@ -23,18 +25,28 @@ enum StatusOfBallDirectionForX
 void main()
 {
     // Initialization
+    // Points settings
+    int onePointValue = 100;
+    int firstPlayerPointsCount = 0;
+    int secondPlayerPointsCount = 0;
+    std::string firstPlayerPointsLabel;
+    std::string secondPlayerPointsLabel;
+
     // Ball settings
     const int ballRadius = 20;
     const float ballSpeed = 2.0f;
+
     // Screen settings
     const int screenFPS = 60;
     const int screenWidth = 800;
     const int screenHeight = 450;
+
     // HalfSquare settings
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
     const int firstHalfSquareSpeed = 2.0f;
     const int secondHalfSquareSpeed = 2.0f;
+
     // Variables of random ball direction
     int directionOfBallForYInInt = randomFunction(1, 2); 
     int directionOfBallForXInInt = randomFunction(1, 2);
@@ -95,7 +107,7 @@ void main()
         #pragma endregion Ball physics
 
         #pragma region First Half Square physics
-        // Y coords
+        // Y coords for first half-square
         if (IsKeyDown(KEY_W) && firstHalfSquarePosition.y >= 5)
             firstHalfSquarePosition.y -= firstHalfSquareSpeed;
         if (IsKeyDown(KEY_S) && firstHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10) 
@@ -103,7 +115,7 @@ void main()
         #pragma endregion
 
         #pragma region Second Half Square physics
-        // Y coords
+        // Y coords for second half-square
         if (IsKeyDown(KEY_UP) && secondHalfSquarePosition.y >= 5)
             secondHalfSquarePosition.y -= secondHalfSquareSpeed;
         if (IsKeyDown(KEY_DOWN) && secondHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10)
@@ -113,11 +125,24 @@ void main()
         #pragma region Collision check
         // Collision first half-square with ball
         if (CheckCollisionCircleRec(ballPosition, ballRadius, firstHalfSquare))
+        {
             directionOfBallForX = StatusOfBallDirectionForX::Left;
+            firstPlayerPointsCount += onePointValue;
+            continue;
+        }
 
         // Collision second half-square with ball 
         if (CheckCollisionCircleRec(ballPosition, ballRadius, secondHalfSquare))
+        {
             directionOfBallForX = StatusOfBallDirectionForX::Right;
+            secondPlayerPointsCount += onePointValue;
+            continue;
+        }
+        #pragma endregion
+
+        #pragma region Update points
+        firstPlayerPointsLabel = std::format("Your points: {}", firstPlayerPointsCount);
+        secondPlayerPointsLabel = std::format("Your points: {}", secondPlayerPointsCount);
         #pragma endregion
 
         #pragma region Objects draw
@@ -125,7 +150,17 @@ void main()
 
         ClearBackground(RAYWHITE);
 
+        // Welocome label
         DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
+
+        // Points label
+        // First player
+        DrawText("First player", 5, 410, 20, DARKGRAY);
+        DrawText(firstPlayerPointsLabel.c_str(), 5, 430, 20, DARKGRAY);
+
+        // Second player
+        DrawText("Second player", 615, 410, 20, DARKGRAY);
+        DrawText(secondPlayerPointsLabel.c_str(), 615, 430, 20, DARKGRAY);
 
         // Draw gaming ball
         DrawCircleV(ballPosition, ballRadius, BLACK);

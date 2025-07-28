@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/drlibs-x64-windows-2023-08-16-9bb8003c-3cd3-4651-a4f4-37f1a95da248",
+  "name": "drlibs:x64-windows@2023-08-16 496e7cb2819a887a95a5e9aef88876156b8a17fa4b4c7b4e70718cfcd2ffa87a",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-07-21-d4b65a2b83ae6c3526acd1c6f3b51aff2a884533"
+    ],
+    "created": "2025-07-27T05:29:54Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "drlibs",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2023-08-16",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/drlibs",
+      "homepage": "https://github.com/mackron/dr_libs",
+      "licenseConcluded": "(Unlicense OR MIT-0)",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Single-file audio decoding libraries for C/C++",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "drlibs:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "496e7cb2819a887a95a5e9aef88876156b8a17fa4b4c7b4e70718cfcd2ffa87a",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "(Unlicense OR MIT-0)",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "mackron/dr_libs",
+      "downloadLocation": "git+https://github.com/mackron/dr_libs@d35a3bc5efd02455d98cbe12b94647136f09b42d",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "34126c8eb65f0735b77f058db9f1618b3c4e820698804b47f7a629c47df571e9cbbeefd4cce193409ebd715d37ed5faf1c3c27a7240e0f5418089cffe853f1ea"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "410c4939118fe34c62477d42f9f137636672d9339c34667223efb039ee250c2a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4accb4a426d84cc26bb277751273d6fccfd7a299ecae76f82622e96b1358f7f4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
