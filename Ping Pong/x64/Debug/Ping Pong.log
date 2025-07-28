@@ -1,15 +1,17 @@
 ﻿  The vcpkg manifest was disabled, but we found a manifest file in E:\Programming\.cpp\Projects\Ping-Pong\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  GameOverLogic.cpp
   Ping Pong.cpp
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(40,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(127,36): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(127,102): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(147,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(155,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(200,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(203,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(203,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(206,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(206,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(39,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(134,36): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(134,102): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(154,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(162,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(207,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(210,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(210,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(213,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(213,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Создание кода...
   Ping Pong.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong\x64\Debug\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.

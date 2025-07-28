@@ -1,5 +1,3 @@
-#pragma comment(lib, "raylib.lib")
-
 // Standart libraries
 #include <string>
 #include <format>
@@ -10,10 +8,11 @@
 
 // Project files
 #include "LevelsMap.cpp"
+#include "GameOverLogic.cpp"
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
 
-int main()
+int main(char* argv[])
 {
     // Initialization
     // Level label object settings
@@ -72,6 +71,7 @@ int main()
     Rectangle firstHalfSquare;
     Rectangle secondHalfSquare;
 
+    // Window init
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
 
     SetTargetFPS(screenFPS);
@@ -93,6 +93,13 @@ int main()
             ballPosition.x -= ballSpeed;
         else
             directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
+
+        // Check condition for game over
+        if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
+        {
+            GameOver::GameOverFunction();
+            break;
+        }
 
         // Y coords
         if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Up && ballPosition.y <= screenHeight - ballRadius)
@@ -175,7 +182,7 @@ int main()
 
         ClearBackground(RAYWHITE);
 
-        // Welocome label
+        // Welcome label
         DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
 
         #pragma region Level label draw
