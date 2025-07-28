@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="GameLogicEnums.cpp" />
+    <ClCompile Include="LevelsMap.cpp" />
     <ClCompile Include="Ping Pong.cpp" />
   </ItemGroup>
   <ItemGroup>

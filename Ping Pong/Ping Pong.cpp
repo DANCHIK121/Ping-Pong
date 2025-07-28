@@ -12,8 +12,6 @@
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
 
-
-
 int main()
 {
     // Initialization
