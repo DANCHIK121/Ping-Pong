@@ -12,13 +12,14 @@
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
 
+
+
 int main()
 {
     // Initialization
     // Level label object settings
     int currentLevel = 1;
-    std::string firstPlayerLevelLabel;
-    std::string secondPlayerLevelLabel;
+    std::string levelLabel;
     
     // Points settings
     int onePointValue = 100;
@@ -128,8 +129,17 @@ int main()
         if (firstPlayerPointsCount >= 1000 && secondPlayerPointsCount >= 1000)
         {
             // Change ball settings
-            if (ballRadius - 2 >= 2) { ballRadius /= 2; }
+            if (ballRadius - 2 >= 2) { ballRadius -= 2; }
             if (ballSpeed * 2 <= 1000) { ballSpeed *= 2; }
+
+            // Change level index
+            currentLevel++;
+
+            // Reset player points
+            firstPlayerPointsCount = 0;
+            secondPlayerPointsCount = 0;
+
+            continue;
         }
         #pragma endregion
 
@@ -156,6 +166,11 @@ int main()
         secondPlayerPointsLabel = std::format("Your points: {}", secondPlayerPointsCount);
         #pragma endregion
 
+        #pragma region Update level label
+        // Update level label
+        levelLabel = std::format("Level: {}", currentLevel);
+        #pragma endregion
+
         #pragma region Objects draw
         BeginDrawing();
 
@@ -164,10 +179,10 @@ int main()
         // Welocome label
         DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
 
-        #pragma region Level labels draw
+        #pragma region Level label draw
         // Level labels
         // First player
-        DrawText("First player", 5, 410, 20, DARKGRAY);
+        DrawText(levelLabel.c_str(), 370, 40, 20, DARKGRAY);
         #pragma endregion
 
         #pragma region Poins draw
