@@ -98,7 +98,6 @@ int main(char* argv[])
         if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
         {
             GameOver::GameOverFunction();
-            break;
         }
 
         // Y coords
