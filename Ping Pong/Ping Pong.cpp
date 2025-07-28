@@ -9,6 +9,7 @@
 #include "raylib.h"
 
 // Project files
+#include "LevelsMap.cpp"
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
 
@@ -36,10 +37,9 @@ int main()
     const int screenHeight = 450;
 
     // HalfSquare settings
+    int halfSquareSpeed = 2.0f;
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
-    const int firstHalfSquareSpeed = 2.0f;
-    const int secondHalfSquareSpeed = 2.0f;
 
     // Instances of classes
     ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
@@ -109,26 +109,27 @@ int main()
         #pragma region First Half Square physics
         // Y coords for first half-square
         if (IsKeyDown(KEY_W) && firstHalfSquarePosition.y >= 5)
-            firstHalfSquarePosition.y -= firstHalfSquareSpeed;
+            firstHalfSquarePosition.y -= halfSquareSpeed;
         if (IsKeyDown(KEY_S) && firstHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10) 
-            firstHalfSquarePosition.y += firstHalfSquareSpeed;
+            firstHalfSquarePosition.y += halfSquareSpeed;
         #pragma endregion
 
         #pragma region Second Half Square physics
         // Y coords for second half-square
         if (IsKeyDown(KEY_UP) && secondHalfSquarePosition.y >= 5)
-            secondHalfSquarePosition.y -= secondHalfSquareSpeed;
+            secondHalfSquarePosition.y -= halfSquareSpeed;
         if (IsKeyDown(KEY_DOWN) && secondHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10)
-            secondHalfSquarePosition.y += secondHalfSquareSpeed;
+            secondHalfSquarePosition.y += halfSquareSpeed;
         #pragma endregion
 
         #pragma region Level up logic
         // Level up
-        if (firstPlayerPointsCount >= 1000 && secondPlayerPointsCount >= 1000)
+        if (firstPlayerPointsCount >= GameLevels::LevelsMap[currentLevel] && secondPlayerPointsCount >= GameLevels::LevelsMap[currentLevel])
         {
-            // Change ball settings
+            // Change ball and half-squares settings
             if (ballRadius - 2 >= 2) { ballRadius -= 2; }
             if (ballSpeed * 2 <= 1000) { ballSpeed *= 2; }
+            if (halfSquareSpeed * 2 <= 1000) { halfSquareSpeed *= 2; }
 
             // Change level index
             currentLevel++;
