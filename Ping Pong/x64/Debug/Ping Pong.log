@@ -1,11 +1,14 @@
-﻿  Ping Pong.cpp
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(25,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(47,38): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(48,39): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(169,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(169,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(172,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(172,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-  Ping Pong.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong\x64\Debug\Ping Pong.exe
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  Ping Pong.cpp
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(42,38): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(43,39): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(138,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(146,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(186,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(189,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(189,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(192,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\Ping Pong\Ping Pong.cpp(192,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Ping Pong.vcxproj -> C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\x64\Debug\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней
   командой, исполняемой программой или пакетным файлом.

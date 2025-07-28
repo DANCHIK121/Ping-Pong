@@ -1,30 +1,25 @@
+#pragma comment(lib, "raylib.lib")
+
 // Standart libraries
-#include <random>
 #include <string>
+#include <format>
 #include <iostream>
-#include <fmt/format.h>
 
 // Projects libraries
 #include "raylib.h"
 
-// Functions signature
-int randomFunction(int minValue, int maxValue);
+// Project files
+#include "GameLogicEnums.cpp"
+#include "Functions/Functions.h"
 
-enum StatusOfBallDirectionForY
-{
-    Up,
-    Down,
-};
-
-enum StatusOfBallDirectionForX
-{
-    Left,
-    Right,
-};
-
-void main()
+int main()
 {
     // Initialization
+    // Level label object settings
+    int currentLevel = 1;
+    std::string firstPlayerLevelLabel;
+    std::string secondPlayerLevelLabel;
+    
     // Points settings
     int onePointValue = 100;
     int firstPlayerPointsCount = 0;
@@ -33,8 +28,8 @@ void main()
     std::string secondPlayerPointsLabel;
 
     // Ball settings
-    const int ballRadius = 20;
-    const float ballSpeed = 2.0f;
+    int ballRadius = 20;
+    float ballSpeed = 2.0f;
 
     // Screen settings
     const int screenFPS = 60;
@@ -47,21 +42,27 @@ void main()
     const int firstHalfSquareSpeed = 2.0f;
     const int secondHalfSquareSpeed = 2.0f;
 
+    // Instances of classes
+    ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
+
     // Variables of random ball direction
-    int directionOfBallForYInInt = randomFunction(1, 2); 
-    int directionOfBallForXInInt = randomFunction(1, 2);
-    StatusOfBallDirectionForY directionOfBallForY;
-    StatusOfBallDirectionForX directionOfBallForX;
+    int directionOfBallForYInInt = functions->RandomFunction(1, 2); 
+    int directionOfBallForXInInt = functions->RandomFunction(1, 2);
+    GameEnums::StatusOfBallDirectionForY directionOfBallForY;
+    GameEnums::StatusOfBallDirectionForX directionOfBallForX;
 
     // Convert values
+    // X coords
     if (directionOfBallForXInInt == 1)
-        directionOfBallForX = StatusOfBallDirectionForX::Left;
+        directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
     else
-        directionOfBallForX = StatusOfBallDirectionForX::Right;
+        directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Right;
+
+    // Y coords
     if (directionOfBallForYInInt == 1)
-        directionOfBallForY = StatusOfBallDirectionForY::Up;
+        directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Up;
     else
-        directionOfBallForY = StatusOfBallDirectionForY::Down;
+        directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Down;
 
     // Objects position
     Vector2 ballPosition = { screenWidth / 2, screenHeight / 2 };
@@ -76,7 +77,7 @@ void main()
 
     SetTargetFPS(screenFPS);
 
-    while (!WindowShouldClose())    // Detect window close button or ESC key
+    while (!WindowShouldClose()) // Detect window close button or ESC key
     {
         // Rectangles update
         firstHalfSquare = { firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
@@ -84,26 +85,26 @@ void main()
 
         #pragma region Ball physics
         // X coords
-        if (directionOfBallForX == StatusOfBallDirectionForX::Left && ballPosition.x <= screenWidth - ballRadius)
+        if (directionOfBallForX == GameEnums::StatusOfBallDirectionForX::Left && ballPosition.x <= screenWidth - ballRadius)
             ballPosition.x += ballSpeed;
         else
-            directionOfBallForX = StatusOfBallDirectionForX::Right;
+            directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Right;
 
-        if (directionOfBallForX == StatusOfBallDirectionForX::Right && ballPosition.x >= ballRadius)
+        if (directionOfBallForX == GameEnums::StatusOfBallDirectionForX::Right && ballPosition.x >= ballRadius)
             ballPosition.x -= ballSpeed;
         else
-            directionOfBallForX = StatusOfBallDirectionForX::Left;
+            directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
 
         // Y coords
-        if (directionOfBallForY == StatusOfBallDirectionForY::Up && ballPosition.y <= screenHeight - ballRadius)
+        if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Up && ballPosition.y <= screenHeight - ballRadius)
             ballPosition.y += ballSpeed;
         else 
-            directionOfBallForY = StatusOfBallDirectionForY::Down;
+            directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Down;
 
-        if (directionOfBallForY == StatusOfBallDirectionForY::Down && ballPosition.y >= ballRadius)
+        if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Down && ballPosition.y >= ballRadius)
             ballPosition.y -= ballSpeed;
         else 
-            directionOfBallForY = StatusOfBallDirectionForY::Up;
+            directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Up;
         #pragma endregion Ball physics
 
         #pragma region First Half Square physics
@@ -122,11 +123,21 @@ void main()
             secondHalfSquarePosition.y += secondHalfSquareSpeed;
         #pragma endregion
 
+        #pragma region Level up logic
+        // Level up
+        if (firstPlayerPointsCount >= 1000 && secondPlayerPointsCount >= 1000)
+        {
+            // Change ball settings
+            if (ballRadius - 2 >= 2) { ballRadius /= 2; }
+            if (ballSpeed * 2 <= 1000) { ballSpeed *= 2; }
+        }
+        #pragma endregion
+
         #pragma region Collision check
         // Collision first half-square with ball
         if (CheckCollisionCircleRec(ballPosition, ballRadius, firstHalfSquare))
         {
-            directionOfBallForX = StatusOfBallDirectionForX::Left;
+            directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
             firstPlayerPointsCount += onePointValue;
             continue;
         }
@@ -134,7 +145,7 @@ void main()
         // Collision second half-square with ball 
         if (CheckCollisionCircleRec(ballPosition, ballRadius, secondHalfSquare))
         {
-            directionOfBallForX = StatusOfBallDirectionForX::Right;
+            directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Right;
             secondPlayerPointsCount += onePointValue;
             continue;
         }
@@ -153,6 +164,13 @@ void main()
         // Welocome label
         DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
 
+        #pragma region Level labels draw
+        // Level labels
+        // First player
+        DrawText("First player", 5, 410, 20, DARKGRAY);
+        #pragma endregion
+
+        #pragma region Poins draw
         // Points label
         // First player
         DrawText("First player", 5, 410, 20, DARKGRAY);
@@ -161,7 +179,9 @@ void main()
         // Second player
         DrawText("Second player", 615, 410, 20, DARKGRAY);
         DrawText(secondPlayerPointsLabel.c_str(), 615, 430, 20, DARKGRAY);
+        #pragma endregion
 
+        #pragma region Game objects draw
         // Draw gaming ball
         DrawCircleV(ballPosition, ballRadius, BLACK);
 
@@ -170,19 +190,13 @@ void main()
 
         // Draw second HalfSquare
         DrawRectangle(secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
+        #pragma endregion
 
         EndDrawing();
         #pragma endregion
     }
 
-    CloseWindow();
-}
+    CloseWindow(); // Program end
 
-int randomFunction(int minValue, int maxValue)
-{
-    std::random_device dev;
-    std::mt19937 rng(dev());
-    std::uniform_int_distribution<std::mt19937::result_type> dist6(minValue, maxValue);
-
-    return dist6(rng);
+    return 0;
 }
