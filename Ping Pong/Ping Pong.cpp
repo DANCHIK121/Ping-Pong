@@ -42,6 +42,10 @@ int main(char* argv[])
     std::string firstPlayerPointsLabel;
     std::string secondPlayerPointsLabel;
 
+    // Button settings
+    std::string buttonText = "Settings";
+    Rectangle buttonObject = { 325, 410, 150, 35 };
+
     // Ball settings
     int ballRadius = 20;
     float ballSpeed = 2.0f;
@@ -206,12 +210,18 @@ int main(char* argv[])
         DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
 
         // Draw middle line
-        DrawRectangle(screenWidth / 2, 60, 5, 600, BLACK);
+        DrawRectangle(screenWidth / 2, 60, 5, 345, BLACK);
 
         #pragma region Level label draw
         // Level labels
         // First player
         DrawText(levelLabel.c_str(), 370, 40, 20, DARKGRAY);
+        #pragma endregion
+
+        #pragma region Buttons
+        // Draw settings button
+        if (GuiButton(buttonObject, buttonText.c_str()))
+            // system(argv[0]);
         #pragma endregion
 
         #pragma region Poins draw
