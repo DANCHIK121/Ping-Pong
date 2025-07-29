@@ -115,3 +115,11 @@ Multi-Arch: same
 Description: Build raylib with audio module
 Status: install ok installed
 
+Package: raygui
+Version: 4.0
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6d21684b7cec1dbeda681c1faf3a1ad1e648fa9f40f364a615b1abbcca8a892f
+Description: A simple and easy-to-use immediate-mode gui library
+Status: install ok installed
+

@@ -97,7 +97,12 @@ int main(char* argv[])
         // Check condition for game over
         if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
         {
-            GameOver::GameOverFunction();
+            if (firstPlayerPointsCount > secondPlayerPointsCount)
+                GameOver::GameOverFunction(argv, 1);
+            else if (firstPlayerPointsCount < secondPlayerPointsCount)
+                GameOver::GameOverFunction(argv, 2);
+            else 
+                GameOver::GameOverFunction(argv, 0);
         }
 
         // Y coords
@@ -183,6 +188,9 @@ int main(char* argv[])
 
         // Welcome label
         DrawText("Ping Pong Game", screenWidth / 2 - 80, 10, 20, DARKGRAY);
+
+        // Draw middle line
+        DrawRectangle(screenWidth / 2, 60, 5, 600, BLACK);
 
         #pragma region Level label draw
         // Level labels

@@ -1,0 +1,8 @@
+x64-windows/
+x64-windows/include/
+x64-windows/include/raygui.h
+x64-windows/share/
+x64-windows/share/raygui/
+x64-windows/share/raygui/copyright
+x64-windows/share/raygui/vcpkg.spdx.json
+x64-windows/share/raygui/vcpkg_abi_info.txt

@@ -1,17 +1,19 @@
 // Standart libraries
+#include <format>
 #include <iostream>
 
 // Project libraries
 #include "raylib.h"
+#include "raygui.h"
 
 namespace GameOver
 {
-	inline static void GameOverFunction()
+	inline static void GameOverFunction(char* argv[], int numberOfPlayerWin)
 	{
 		// Initialization
 		// Screen settings
 		const int screenFPS = 60;
-		const int screenWidth = 200;
+		const int screenWidth = 400;
 		const int screenHeight = 100;
 
 		// Window init
@@ -26,11 +28,14 @@ namespace GameOver
 
             ClearBackground(RAYWHITE);
 
-            // Welcome label
-            DrawText("Game Over", 10, 10, 20, DARKGRAY);
+            // Game status label
+            DrawText("Game Over", 160, 10, 20, DARKGRAY);
 
-            // Draw first HalfSquare
-            // DrawRectangle(firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
+			// Which player is win label
+			if (numberOfPlayerWin == 1 || numberOfPlayerWin == 2)
+				DrawText(std::format("Player Win: {}", numberOfPlayerWin).c_str(), 10, 60, 20, DARKGRAY);
+			else
+				DrawText("Player Win: Draw", 120, 40, 20, DARKGRAY);
 
 			// End drawing
 			EndDrawing();
