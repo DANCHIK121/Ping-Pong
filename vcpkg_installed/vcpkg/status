@@ -1,0 +1,125 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a6bbbf37c4a838266139abf2b8c3d1e24aeddbf61eecad99c783a970cf807611
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 377937e02d231e8e62f093ba0edd7848d535674283453168a97cf3a2c90b6158
+Status: install ok installed
+
+Package: fmt
+Version: 11.0.2
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: bd30166effba54c4ffd9a8b78d1d5dd0c76a34761d6ed78d603e7d8156fed07f
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: raygui
+Version: 4.0
+Architecture: x64-windows
+Multi-Arch: same
+Abi: fb4e112fe51dd532c5f27b1a34fb5df2892d6f3b75e5bab86d9570f0957325cc
+Description: A simple and easy-to-use immediate-mode gui library
+Status: install ok installed
+
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 10de9c9b734063991c11128289411d9a8f401582629bc8b170eedb7077d3025a
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: qoi
+Version: 2023-08-10
+Architecture: x64-windows
+Multi-Arch: same
+Abi: dd0b817ca63f9b9d91f9dd0962037c3229cdc59bfd09be3ec394843ba208daee
+Description: The Quite OK Image Format for fast, lossless image compression
+Status: install ok installed
+
+Package: nanosvg
+Version: 2023-12-29
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7c62f93bc488c83b8bbbc9432b394b726be4f24ba620c430b223e0b997d4ae3b
+Description: NanoSVG is a simple stupid single-header-file SVG parser. It is accompanied by a simple SVG rasterizer.
+Status: install ok installed
+
+Package: mmx
+Version: 2022-03-27
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f7bc990bdb55cf683f41d520a58a905b6b63cfb86c44cda6868e7a6a8352031f
+Description: Single header libraries for C/C++
+Status: install ok installed
+
+Package: miniaudio
+Version: 0.11.22
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e5e9059ec11cc0390b85382b9e825dbe9f10d0ef9f0265649b8e459844705794
+Description: Audio playback and capture library written in C, in a single source file
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9751ff682a30effadd8f8932c5afbc4230bada1c53b28b8db2cf6b786b5d78c5
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: drlibs
+Version: 2023-08-16
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b70deb8ff8e7f34676d3374b5ad060266495e14ca20eb5969bdd964bf7b98d5a
+Description: Single-file audio decoding libraries for C/C++
+Status: install ok installed
+
+Package: dirent
+Version: 1.24
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 49964760cf2efde66b2d0e5345a61e6933cdc786e6c871f848ca0138dea3b96c
+Description: Dirent is a C/C++ programming interface that allows programmers to retrieve information about files and directories under Linux/UNIX. This project provides Linux compatible Dirent interface for Microsoft Windows.
+Status: install ok installed
+
+Package: cgltf
+Version: 1.14
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ccba166a3f1a309cdcbd2c8734a4b7d74a7ae609a6530e7c0cb2c0717211475f
+Description: Single-file glTF 2.0 loader and writer written in C99
+Status: install ok installed
+
+Package: raylib
+Version: 5.5
+Depends: cgltf, dirent, drlibs, glfw3, miniaudio, mmx, nanosvg, qoi, stb, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: dd6451db92b9ff3802fb506729a5c5f3e085f4a481bede8aee2b1fc488035160
+Description: A simple and easy-to-use library to enjoy videogames programming
+Default-Features: use-audio
+Status: install ok installed
+
+Package: raylib
+Feature: use-audio
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build raylib with audio module
+Status: install ok installed
+

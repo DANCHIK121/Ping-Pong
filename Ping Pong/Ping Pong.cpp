@@ -1,10 +1,26 @@
+// Define settings
+#define _CRT_SECURE_NO_WARNINGS
+#define RAYGUI_IMPLEMENTATION
+
 // Standart libraries
 #include <string>
 #include <format>
 #include <iostream>
 
 // Projects libraries
+#ifndef RAY_LIB_CONNECTION
+
+#define RAY_LIB_CONNECTION
 #include "raylib.h"
+
+#endif 
+
+#ifndef RAY_GUI_CONNECTION
+
+#define RAY_GUI_CONNECTION
+#include "raygui.h"
+
+#endif
 
 // Project files
 #include "LevelsMap.cpp"

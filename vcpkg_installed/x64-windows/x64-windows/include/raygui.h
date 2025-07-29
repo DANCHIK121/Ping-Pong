@@ -365,12 +365,9 @@
 // NOTE: Some types are required for RAYGUI_STANDALONE usage
 //----------------------------------------------------------------------------------
 #if defined(RAYGUI_STANDALONE)
-    #ifndef __cplusplus
-    // Boolean type
-        #ifndef true
-            typedef enum { false, true } bool;
-        #endif
-    #endif
+    #ifdef __cplusplus
+extern "C" {
+#endif
 
     // Vector2 type
     typedef struct Vector2 {

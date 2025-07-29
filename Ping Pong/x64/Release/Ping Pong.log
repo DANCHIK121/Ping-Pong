@@ -1,0 +1,9 @@
+﻿  GameOverLogic.cpp
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\GameOverLogic.cpp(59,8): error C2664: "int GuiButton(Rectangle,const char *)": невозможно преобразовать аргумент 2 из "std::string" в "const char *"
+      E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\GameOverLogic.cpp(59,32):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+      E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\x64-windows\include\raygui.h(711,15):
+       см. объявление "GuiButton"
+      E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\GameOverLogic.cpp(59,8):
+      при попытке сопоставить список аргументов "(Rectangle, std::string)"
+  
