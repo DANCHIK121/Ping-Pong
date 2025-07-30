@@ -1,9 +1,12 @@
 #pragma once
 
+// Standart libraries
 #include <string>
+
+// Projects libraries
 #include <nlohmann/json.hpp>
 
-namespace WorkWithJson 
+namespace JsonLogic
 {
 	class Json 
 	{
@@ -19,6 +22,5 @@ namespace WorkWithJson
 		nlohmann::json* jsonObject;
 
 		std::string GetDirectory();
-
 	};
 }

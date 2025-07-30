@@ -19,6 +19,7 @@
 #endif
 
 // Project files
+#include "Json/Json.h"
 #include "LevelsMap.cpp"
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
@@ -45,12 +46,15 @@ void main()
 
     // Ball settings
     int ballRadius = 20;
-    float ballSpeed = 2.0f;
+    float ballSpeed = 1.0f; // If 60 FPS -> 2.0f
 
     // Screen settings
-    const int screenFPS = 60;
+    const int screenFPS = 120;
     const int screenWidth = 800;
     const int screenHeight = 450;
+
+    // FPS Settings
+    float preciseFPS = 0.0f;
 
     // HalfSquare settings
     int halfSquareSpeed = 2.0f;
@@ -61,7 +65,11 @@ void main()
     bool showSettingsWindow = false;
 
     // Instances of classes
+    JsonLogic::Json* json = new JsonLogic::Json();
     ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
+
+    // Work with json
+    nlohmann::json jsonTemp = json->ReadFromFile();
 
     // Variables of random ball direction
     int directionOfBallForYInInt = functions->RandomFunction(1, 2); 
@@ -105,6 +113,12 @@ void main()
     while (!WindowShouldClose()) // Detect window close button or ESC key
     {
         SetWindowSize(screenWidth, screenHeight);
+
+        // Show FPS
+        if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE")
+        {
+            preciseFPS = 1.0f / GetFrameTime();
+        }
 
         // Rectangles update
         firstHalfSquare = { firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
@@ -246,6 +260,11 @@ void main()
         // Level labels
         // First player
         DrawText(levelLabel.c_str(), 370, 40, 20, DARKGRAY);
+        #pragma endregion
+
+        #pragma region Current FPS draw
+        // FPS label
+        DrawText(std::format("FPS: {}", (int)preciseFPS).c_str(), 710, 10, 20, DARKGRAY);
         #pragma endregion
 
         #pragma region Poins draw

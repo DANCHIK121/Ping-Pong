@@ -31,7 +31,7 @@ namespace GameOver
 		Rectangle exitButtonObject = { 160, 100, 120, 35 };
 		// Restart button
 		std::string restartButtonText = "Restart";
-		Rectangle restartButtonObject = { 165, 135, 120, 35 };
+		Rectangle restartButtonObject = { 160, 140, 120, 35 };
 
 		while (!WindowShouldClose()) // Detect window close button or ESC key
 		{

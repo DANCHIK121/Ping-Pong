@@ -5,7 +5,7 @@
 
 #include "Json.h"
 
-namespace WorkWithJson
+namespace JsonLogic
 {
 	Json::Json()
 	{
