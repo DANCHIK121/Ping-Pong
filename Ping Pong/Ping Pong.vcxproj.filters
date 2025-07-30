@@ -19,6 +19,9 @@
     <Filter Include="Исходные файлы\Windows">
       <UniqueIdentifier>{e1bae0dd-85ba-44f9-af13-6443fed8c94d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Json">
+      <UniqueIdentifier>{666ac2f8-ee7c-492d-ab64-2d2d78364354}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ping Pong.cpp">
@@ -39,10 +42,16 @@
     <ClCompile Include="Windows\SettingsWindowLogic.cpp">
       <Filter>Исходные файлы\Windows</Filter>
     </ClCompile>
+    <ClCompile Include="Json\Json.cpp">
+      <Filter>Исходные файлы\Json</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions\Functions.h">
       <Filter>Исходные файлы\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\Json.h">
+      <Filter>Исходные файлы\Json</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

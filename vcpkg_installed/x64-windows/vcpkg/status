@@ -123,3 +123,13 @@ Abi: 6d21684b7cec1dbeda681c1faf3a1ad1e648fa9f40f364a615b1abbcca8a892f
 Description: A simple and easy-to-use immediate-mode gui library
 Status: install ok installed
 
+Package: nlohmann-json
+Version: 3.11.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7366d62fbf78db275a707600bc86b7a271616f09b941a0705ceb5b5b6688768e
+Description: JSON for Modern C++
+Status: install ok installed
+

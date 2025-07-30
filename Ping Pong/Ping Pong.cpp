@@ -125,12 +125,19 @@ void main()
         // Check condition for game over
         if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
         {
+            int result = 0;
+
             if (firstPlayerPointsCount > secondPlayerPointsCount)
-                GameOver::GameOverFunction(1);
+                result = GameOver::GameOverFunction(1);
             else if (firstPlayerPointsCount < secondPlayerPointsCount)
-                GameOver::GameOverFunction(2);
+                result = GameOver::GameOverFunction(2);
             else 
-                GameOver::GameOverFunction(0);
+                result = GameOver::GameOverFunction(0);
+
+            if (result == 1)
+            {
+
+            }
 
             continue;
         }

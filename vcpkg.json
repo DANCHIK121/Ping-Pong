@@ -1,7 +1,8 @@
 {
   "dependencies": [
     "fmt",
+    "raygui",
     "raylib",
-    "raygui"
+    "nlohmann-json"
   ]
 }

@@ -1,26 +1,111 @@
-﻿  Functions.cpp
-  GameLogicEnums.cpp
-  LevelsMap.cpp
+﻿  Installing vcpkg dependencies to E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\
+  "C:\vcpkg\vcpkg.exe" install  --x-wait-for-lock --triplet "x64-windows" --vcpkg-root "C:\vcpkg\\" "--x-manifest-root=E:\Programming\.cpp\Projects\Ping-Pong\\" "--x-install-root=E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\\" 
+  Обнаружение хэша компилятора для триплета x64-windows...
+  Найден компилятор: E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+  Следующие пакеты уже установлены:
+    * cgltf:x64-windows@1.14 -- git+https://github.com/microsoft/vcpkg@9e21f85900222031c3343b9f2c69b48e32a37782
+    * dirent:x64-windows@1.24 -- git+https://github.com/microsoft/vcpkg@bcace8750d2b6080c63877eed432f8b862501012
+    * drlibs:x64-windows@2023-08-16 -- git+https://github.com/microsoft/vcpkg@54c4836e6d8403c42520823d58b89c4632201f61
+      fmt:x64-windows@11.0.2#1 -- git+https://github.com/microsoft/vcpkg@07a73a7565e5de9eb42e90c16c133bdfdfebbcda
+    * glfw3:x64-windows@3.4#1 -- git+https://github.com/microsoft/vcpkg@d4bbd4f27c2ca619f57778985120cddcedadb1cc
+    * miniaudio:x64-windows@0.11.22 -- git+https://github.com/microsoft/vcpkg@f8929fad22bd004dd7b22703e3d88267ce05988f
+    * mmx:x64-windows@2022-03-27 -- git+https://github.com/microsoft/vcpkg@6d23578a42c45320294872b23c612b577a245c98
+    * nanosvg:x64-windows@2023-12-29 -- git+https://github.com/microsoft/vcpkg@6fbdab7bdd32d0755336f499d49f9a0f31e8fb36
+    * qoi:x64-windows@2023-08-10 -- git+https://github.com/microsoft/vcpkg@2501f06dad0450b48676652e4f8b053071f874fb
+      raygui:x64-windows@4.0 -- git+https://github.com/microsoft/vcpkg@d9b03e4c1effd2eabeac64b8475b55aedea84511
+      raylib[core,use-audio]:x64-windows@5.5 -- git+https://github.com/microsoft/vcpkg@293c69f77a430e6d7ed786224cd81e412c0c2db2
+    * stb:x64-windows@2024-07-29#1 -- git+https://github.com/microsoft/vcpkg@c362152d1d02973e7b1ce777960f8a6876656560
+    * vcpkg-cmake:x64-windows@2024-04-23 -- git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
+    * vcpkg-cmake-config:x64-windows@2024-05-23 -- git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  Будут собраны и установлены следующие пакеты:
+      nlohmann-json:x64-windows@3.11.3#1 -- git+https://github.com/microsoft/vcpkg@324d32ddba70bc49650d1a067ddcf3d0bfc6c9b6
+  Восстановлено несколько (0) пакетов из C:\Users\bahar\AppData\Local\vcpkg\archives за 134 us. Используйте --debug, чтобы увидеть больше деталей.
+  Выполняется установка 1/1 nlohmann-json:x64-windows@3.11.3#1…
+  Сборка nlohmann-json:x64-windows@3.11.3#1...
+  C:\Users\bahar\AppData\Local\vcpkg\registries\git-trees\324d32ddba70bc49650d1a067ddcf3d0bfc6c9b6: info: установка из реестра Git git+https://github.com/microsoft/vcpkg@324d32ddba70bc49650d1a067ddcf3d0bfc6c9b6
+  Downloading https://github.com/nlohmann/json/archive/v3.11.3.tar.gz -> nlohmann-json-v3.11.3.tar.gz
+  Successfully downloaded nlohmann-json-v3.11.3.tar.gz
+  -- Extracting source C:/vcpkg/downloads/nlohmann-json-v3.11.3.tar.gz
+  -- Using source at C:/vcpkg/buildtrees/nlohmann-json/src/v3.11.3-434e7fbc3e.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: C:/vcpkg/packages/nlohmann-json_x64-windows/share/pkgconfig/nlohmann_json.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+  -- Using cached msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+  -- Using msys root at C:/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+  -- Fixing pkgconfig file: C:/vcpkg/packages/nlohmann-json_x64-windows/debug/share/pkgconfig/nlohmann_json.pc
+  -- Installing: C:/vcpkg/packages/nlohmann-json_x64-windows/share/nlohmann-json/copyright
+  -- Выполнение проверки после сборки
+  Начинается отправка nlohmann-json:x64-windows@3.11.3#1 в 1 двоичных кэшах в фоновом режиме
+  Затраченное время на обработку nlohmann-json:x64-windows: 8.5 s
+  nlohmann-json:x64-windows ABI пакета: 7366d62fbf78db275a707600bc86b7a271616f09b941a0705ceb5b5b6688768e
+  Установленные содержимое предоставляется вам по лицензии владельцами этого содержимого. Корпорация Майкрософт не несет ответственности за пакеты сторонних производителей и не предоставляет лицензии на такие пакеты.
+  В пакетах, установленных в этой установке vcpkg, объявлены следующие лицензии:
+  MIT
+  The package fmt provides CMake targets:
+  
+      find_package(fmt CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE fmt::fmt)
+  
+      # Or use the header-only version
+      find_package(fmt CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE fmt::fmt-header-only)
+  
+  The package nlohmann-json provides CMake targets:
+  
+      find_package(nlohmann_json CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+  
+  The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+  
+      set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+  
+  For more information, see the docs here:
+      
+      https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+  
+  raygui является заголовочным и может использоваться из CMake через:
+  
+    find_path(RAYGUI_INCLUDE_DIRS "raygui.h")
+    target_include_directories(main PRIVATE ${RAYGUI_INCLUDE_DIRS})
+  
+  raylib предоставляет целевые объекты CMake:
+  
+    # этот элемент создан эвристически и может быть неверным
+    find_package(raylib CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE raylib)
+  
+  raylib предоставляет модули pkg-config:
+  
+    # A simple and easy-to-use library to enjoy videogames programming
+    raylib
+  
+  Ожидание 1 отправки двоичного кэша...
+  Завершена отправка nlohmann-json:x64-windows@3.11.3#1 в 1 двоичных кэшах в 86.2 ms (1/1)
+  Все запрошенные установки успешно завершены за: 8.5 s
+  Json.cpp
   Ping Pong.cpp
 E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\x64-windows\include\raygui.h(2651,46): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "Ping%20Pong.cpp")
   
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(28,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(56,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(168,36): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(168,102): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(191,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(199,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(257,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(260,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(260,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(263,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(263,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(175,36): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(175,102): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(198,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(206,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(264,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(267,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(267,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(270,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(270,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   GameOverLogic.cpp
-  SettingsWindowLogic.cpp
   Создание кода
-  Previous IPDB not found, fall back to full compilation.
-  All 930 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  340 of 1030 functions (33.0%) were compiled, the rest were copied from previous compilation.
+    100 functions were new in current compilation
+    84 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Ping Pong.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong\x64\Release\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней

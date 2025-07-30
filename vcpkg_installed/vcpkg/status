@@ -123,3 +123,13 @@ Multi-Arch: same
 Description: Build raylib with audio module
 Status: install ok installed
 
+Package: nlohmann-json
+Version: 3.11.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f5298a2cbeb4b88e5d4f64eb01240199ee208a3f398f8294c953c503cadfe7c2
+Description: JSON for Modern C++
+Status: install ok installed
+

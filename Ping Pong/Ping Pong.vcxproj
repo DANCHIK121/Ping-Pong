@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="GameLogicEnums.cpp" />
+    <ClCompile Include="Json\Json.cpp" />
     <ClCompile Include="LevelsMap.cpp" />
     <ClCompile Include="Ping Pong.cpp" />
     <ClCompile Include="Windows\GameOverLogic.cpp" />
@@ -144,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions\Functions.h" />
+    <ClInclude Include="Json\Json.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
