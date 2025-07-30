@@ -9,26 +9,23 @@
 
 // Projects libraries
 #ifndef RAY_LIB_CONNECTION
-
 #define RAY_LIB_CONNECTION
 #include "raylib.h"
-
 #endif 
 
 #ifndef RAY_GUI_CONNECTION
-
 #define RAY_GUI_CONNECTION
 #include "raygui.h"
-
 #endif
 
 // Project files
 #include "LevelsMap.cpp"
-#include "GameOverLogic.cpp"
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
+#include "Windows/GameOverLogic.cpp"
+#include "Windows/SettingsWindowLogic.cpp"
 
-int main(char* argv[])
+void main()
 {
     // Initialization
     // Level label object settings
@@ -59,6 +56,9 @@ int main(char* argv[])
     int halfSquareSpeed = 2.0f;
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
+
+    // App settings
+    bool showSettingsWindow = false;
 
     // Instances of classes
     ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
@@ -94,10 +94,18 @@ int main(char* argv[])
     // Window init
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
 
+    SetWindowSize(screenWidth, screenHeight);
+
     SetTargetFPS(screenFPS);
+
+    // Gui font settings
+    GuiSetStyle(DEFAULT, TEXT_SIZE, 30); // Change size of text
+    GuiSetStyle(BUTTON, TEXT_ALIGNMENT, TEXT_ALIGN_CENTER); // Center text in button
 
     while (!WindowShouldClose()) // Detect window close button or ESC key
     {
+        SetWindowSize(screenWidth, screenHeight);
+
         // Rectangles update
         firstHalfSquare = { firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
         secondHalfSquare = { secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
@@ -118,11 +126,13 @@ int main(char* argv[])
         if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
         {
             if (firstPlayerPointsCount > secondPlayerPointsCount)
-                GameOver::GameOverFunction(argv, 1);
+                GameOver::GameOverFunction(1);
             else if (firstPlayerPointsCount < secondPlayerPointsCount)
-                GameOver::GameOverFunction(argv, 2);
+                GameOver::GameOverFunction(2);
             else 
-                GameOver::GameOverFunction(argv, 0);
+                GameOver::GameOverFunction(0);
+
+            continue;
         }
 
         // Y coords
@@ -165,6 +175,9 @@ int main(char* argv[])
             // Change level index
             currentLevel++;
 
+            // Multiply onePointValue
+            onePointValue *= 2;
+
             // Reset player points
             firstPlayerPointsCount = 0;
             secondPlayerPointsCount = 0;
@@ -201,6 +214,16 @@ int main(char* argv[])
         levelLabel = std::format("Level: {}", currentLevel);
         #pragma endregion
 
+        #pragma region Buttons
+        // Draw settings button
+        if (GuiButton(buttonObject, buttonText.c_str()))
+        {
+            showSettingsWindow = true;
+            CloseWindow();
+            break;
+        }
+        #pragma endregion
+
         #pragma region Objects draw
         BeginDrawing();
 
@@ -216,12 +239,6 @@ int main(char* argv[])
         // Level labels
         // First player
         DrawText(levelLabel.c_str(), 370, 40, 20, DARKGRAY);
-        #pragma endregion
-
-        #pragma region Buttons
-        // Draw settings button
-        if (GuiButton(buttonObject, buttonText.c_str()))
-            // system(argv[0]);
         #pragma endregion
 
         #pragma region Poins draw
@@ -252,5 +269,5 @@ int main(char* argv[])
 
     CloseWindow(); // Program end
 
-    return 0;
+    if (showSettingsWindow) { SettingsWindow::SettingsWindowFunction(); }
 }

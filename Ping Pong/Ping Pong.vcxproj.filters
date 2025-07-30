@@ -16,6 +16,9 @@
     <Filter Include="Исходные файлы\Functions">
       <UniqueIdentifier>{2bb041e1-aeee-4f6a-9788-7fbe30044cfe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Windows">
+      <UniqueIdentifier>{e1bae0dd-85ba-44f9-af13-6443fed8c94d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ping Pong.cpp">
@@ -30,8 +33,11 @@
     <ClCompile Include="LevelsMap.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="GameOverLogic.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Windows\GameOverLogic.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\SettingsWindowLogic.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

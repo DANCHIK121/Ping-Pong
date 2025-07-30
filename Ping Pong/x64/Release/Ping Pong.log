@@ -1,24 +1,26 @@
 ﻿  Functions.cpp
   GameLogicEnums.cpp
-  GameOverLogic.cpp
   LevelsMap.cpp
   Ping Pong.cpp
 E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\x64-windows\include\raygui.h(2651,46): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "Ping%20Pong.cpp")
   
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(59,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(158,36): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(158,102): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(178,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(186,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(240,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(243,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(243,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(246,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(246,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(28,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(56,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(168,36): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(168,102): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(191,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(199,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(257,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(260,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(260,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(263,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(263,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  GameOverLogic.cpp
+  SettingsWindowLogic.cpp
   Создание кода
   Previous IPDB not found, fall back to full compilation.
-  All 929 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 930 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
   Ping Pong.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong\x64\Release\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней

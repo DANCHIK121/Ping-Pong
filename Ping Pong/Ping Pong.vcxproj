@@ -137,9 +137,10 @@
   <ItemGroup>
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="GameLogicEnums.cpp" />
-    <ClCompile Include="GameOverLogic.cpp" />
     <ClCompile Include="LevelsMap.cpp" />
     <ClCompile Include="Ping Pong.cpp" />
+    <ClCompile Include="Windows\GameOverLogic.cpp" />
+    <ClCompile Include="Windows\SettingsWindowLogic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions\Functions.h" />
