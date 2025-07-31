@@ -1,1 +1,1 @@
-{"ShowFPSInGame":"TRUE"}
+{"ShowFPSInGame":"TRUE", "FPSLimiter": 60}
