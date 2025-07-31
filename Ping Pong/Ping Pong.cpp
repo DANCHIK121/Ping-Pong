@@ -46,10 +46,10 @@ void main()
 
     // Ball settings
     int ballRadius = 20;
-    float ballSpeed = 1.0f; // If 60 FPS -> 2.0f
+    float ballSpeed = 2.0f; // If 60 FPS -> 2.0f or if 120 FPS -> 1.0f
 
     // Screen settings
-    const int screenFPS = 120;
+    const int screenFPS = 60;
     const int screenWidth = 800;
     const int screenHeight = 450;
 

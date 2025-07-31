@@ -1,9 +1,6 @@
 // Standart libraries
-#include <format>
 #include <string>
-#include <fstream>
 #include <iostream>
-#include <filesystem>
 
 // Project libraries
 #ifndef RAY_LIB_CONNECTION
@@ -25,6 +22,15 @@ namespace SettingsWindow
 		const int screenWidth = 400;
 		const int screenHeight = 350;
 
+		// Show FPS
+		bool showFPSCheckboxIsChecked = false;
+		Rectangle showFPSCheckboxRect = { 10, 50, 20, 20 };
+		std::string showFPSCheckboxText = "Show FPS on screen";
+
+		// Apply button settings
+		std::string applyButtonText = "Apply";
+		Rectangle applyButtonObject = { 140, 300, 150, 35 };
+
 		while (!WindowShouldClose()) // Detect window close button or ESC key
 		{
 			// Window init
@@ -37,6 +43,20 @@ namespace SettingsWindow
 
             // Settings label
             DrawText("Settings", 160, 10, 20, DARKGRAY);
+
+			#pragma region Settings
+			// Show FPS settings
+			GuiCheckBox(showFPSCheckboxRect, showFPSCheckboxText.c_str(), &showFPSCheckboxIsChecked);
+			#pragma endregion
+
+			#pragma region Buttons
+			// Apply button
+			if (GuiButton(applyButtonObject, applyButtonText.c_str()))
+			{
+				if (showFPSCheckboxIsChecked)
+					DrawText("GOIDA", 160, 10, 20, DARKGRAY);
+			}
+			#pragma endregion
 
 			// End drawing
 			EndDrawing();
