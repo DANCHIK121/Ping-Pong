@@ -19,8 +19,14 @@ namespace ProjectFunctions
 		return resultNumber;
 	}
 
-	int Functions::ResetGameData(int& currentLevel)
+	int Functions::ResetGameData(int& currentLevel, int& firstPlayerPointsCount, int& secondPlayerPointsCount, int& ballRadius, float& ballSpeed,
+		int& halfSquareSpeed)
 	{
-
+		ballRadius = 20;
+		currentLevel = 1;
+		ballSpeed = 2.0f;
+		halfSquareSpeed = 2.0f;
+		firstPlayerPointsCount = 0;
+		secondPlayerPointsCount = 0;
 	}
 }

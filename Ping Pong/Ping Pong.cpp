@@ -223,6 +223,7 @@ void main()
         if (GuiButton(buttonObject, buttonText.c_str()))
         {
             SettingsWindow::SettingsWindowFunction();
+            functions->ResetGameData(currentLevel, firstPlayerPointsCount, secondPlayerPointsCount, ballRadius, ballSpeed, halfSquareSpeed);
             continue;
         }
         #pragma endregion
