@@ -61,9 +61,6 @@ void main()
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
 
-    // App settings
-    bool showSettingsWindow = false;
-
     // Instances of classes
     JsonLogic::Json* json = new JsonLogic::Json();
     ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
@@ -115,10 +112,7 @@ void main()
         SetWindowSize(screenWidth, screenHeight);
 
         // Show FPS
-        if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE")
-        {
-            preciseFPS = 1.0f / GetFrameTime();
-        }
+        if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE") { preciseFPS = 1.0f / GetFrameTime(); }
 
         // Rectangles update
         firstHalfSquare = { firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
@@ -139,20 +133,9 @@ void main()
         // Check condition for game over
         if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
         {
-            int result = 0;
-
-            if (firstPlayerPointsCount > secondPlayerPointsCount)
-                result = GameOver::GameOverFunction(1);
-            else if (firstPlayerPointsCount < secondPlayerPointsCount)
-                result = GameOver::GameOverFunction(2);
-            else 
-                result = GameOver::GameOverFunction(0);
-
-            if (result == 1)
-            {
-
-            }
-
+            if (firstPlayerPointsCount > secondPlayerPointsCount) { GameOver::GameOverFunction(1); continue; }
+            else if (firstPlayerPointsCount < secondPlayerPointsCount) { GameOver::GameOverFunction(2); continue; }
+            else { GameOver::GameOverFunction(0); continue; }
             continue;
         }
 
@@ -239,9 +222,8 @@ void main()
         // Draw settings button
         if (GuiButton(buttonObject, buttonText.c_str()))
         {
-            showSettingsWindow = true;
-            CloseWindow();
-            break;
+            SettingsWindow::SettingsWindowFunction();
+            continue;
         }
         #pragma endregion
 
@@ -294,6 +276,4 @@ void main()
     }
 
     CloseWindow(); // Program end
-
-    if (showSettingsWindow) { SettingsWindow::SettingsWindowFunction(); }
 }

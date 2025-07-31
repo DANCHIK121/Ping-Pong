@@ -6,22 +6,30 @@
 E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\x64-windows\include\raygui.h(2651,46): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "Ping%20Pong.cpp")
   
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(58,91): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  (компиляция исходного файла "Ping%20Pong.cpp")
+  
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(59,92): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  (компиляция исходного файла "Ping%20Pong.cpp")
+  
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(29,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(60,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(189,36): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(189,102): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(212,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(220,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(283,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(286,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(286,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(289,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(289,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(172,36): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(172,102): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(195,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(203,51): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(265,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(268,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(268,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(271,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(271,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   GameOverLogic.cpp
   SettingsWindowLogic.cpp
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(58,91): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(59,92): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
   Создание кода
   Previous IPDB not found, fall back to full compilation.
-  All 2262 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 2451 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
   Ping Pong.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong\x64\Release\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней

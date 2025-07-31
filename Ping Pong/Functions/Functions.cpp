@@ -18,4 +18,9 @@ namespace ProjectFunctions
 
 		return resultNumber;
 	}
+
+	int Functions::ResetGameData(int& currentLevel)
+	{
+
+	}
 }

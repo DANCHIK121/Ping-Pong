@@ -9,5 +9,6 @@ namespace ProjectFunctions
 	{
 	public:
 		int RandomFunction(int minValue, int maxValue);
+		int ResetGameData(int& currentLevel);
 	};
 }
