@@ -1,5 +1,6 @@
 // Standart libraries
 #include <string>
+#include <format>
 #include <iostream>
 
 // Project libraries
@@ -30,23 +31,32 @@ namespace SettingsWindow
 		Rectangle showFPSCheckboxRect = { 10, 50, 20, 20 };
 		std::string showFPSCheckboxText = "Show FPS on screen";
 
+		// FPS Limiter
+		int currentValueOfFPSLimiter = 0;
+		std::string fpsLimiterText = "FPS limiter -> ";
+		// Right
+		std::string fpsLimiterLeftArrowText = "<";
+		std::string fpsLimiterRightArrowText = ">";
+		// Positions
+		Rectangle fpsLimiterLeftButtonRect = { 310, 80, 30, 30 };
+		Rectangle fpsLimiterRightButtonRect = { 350, 80, 30, 30 };
+
 		// Apply button settings
 		std::string applyButtonText = "Apply";
 		Rectangle applyButtonObject = { 140, 220, 150, 35 };
 
-		// Restart button settings
-		std::string restartButtonText = "Restart";
-		Rectangle restartButtonObject = { 140, 260, 150, 35 };
-
 		// Exit button settings
 		std::string exitButtonText = "Exit";
-		Rectangle exitButtonObject = { 140, 300, 150, 35 };
+		Rectangle exitButtonObject = { 140, 260, 150, 35 };
 
 		// Instances of classes
 		JsonLogic::Json* json = new JsonLogic::Json();
 
 		// Work with json
 		nlohmann::json jsonTemp = json->ReadFromFile();
+
+		// Read values
+		currentValueOfFPSLimiter = jsonTemp["FPSLimiter"].get<int>();
 
 		while (!WindowShouldClose()) // Detect window close button or ESC key
 		{
@@ -70,23 +80,32 @@ namespace SettingsWindow
 			#pragma region Settings
 			// Show FPS settings
 			GuiCheckBox(showFPSCheckboxRect, showFPSCheckboxText.c_str(), &showFPSCheckboxIsChecked);
+
+			// FPS Limiter
+			fpsLimiterText = std::format("FPS limiter -> {}", currentValueOfFPSLimiter); // Read actual value
+
+			DrawText(fpsLimiterText.c_str(), 35, 80, 30, DARKGRAY);
+
+			if (GuiButton(fpsLimiterLeftButtonRect, fpsLimiterLeftArrowText.c_str()))
+				if (currentValueOfFPSLimiter - 60 >= 60) { currentValueOfFPSLimiter -= 60; }
+
+			if (GuiButton(fpsLimiterRightButtonRect, fpsLimiterRightArrowText.c_str()))
+				if (currentValueOfFPSLimiter + 60 <= 240) { currentValueOfFPSLimiter += 60; }
 			#pragma endregion
 
 			#pragma region Buttons
 			// Apply button
 			if (GuiButton(applyButtonObject, applyButtonText.c_str()))
 			{
+				// Show FPS
 				if (showFPSCheckboxIsChecked) { jsonTemp["ShowFPSInGame"] = "TRUE"; }
 				if (!showFPSCheckboxIsChecked) { jsonTemp["ShowFPSInGame"] = "FALSE"; }
 
+				// FPS Limiter
+				jsonTemp["FPSLimiter"] = currentValueOfFPSLimiter;
+
 				// Write new settings to json
 				json->WriteToFromFile(jsonTemp);
-			}
-
-			// Restart button
-			if (GuiButton(restartButtonObject, restartButtonText.c_str()))
-			{
-				return 1;
 			}
 
 			// Exit button

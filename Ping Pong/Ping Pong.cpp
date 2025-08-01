@@ -49,7 +49,7 @@ void main()
     float ballSpeed = 2.0f; // If 60 FPS -> 2.0f or if 120 FPS -> 1.0f
 
     // Screen settings
-    const int screenFPS = 60;
+    int screenFPS = 60;
     const int screenWidth = 800;
     const int screenHeight = 450;
 
@@ -99,9 +99,10 @@ void main()
     // Window init
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
 
-    SetWindowSize(screenWidth, screenHeight);
-
-    SetTargetFPS(screenFPS);
+    // Set Icon
+    Image icon = LoadImage("./Icon/Icon.png"); // Load png
+    SetWindowIcon(icon);
+    UnloadImage(icon); // Unload png
 
     // Gui font settings
     GuiSetStyle(DEFAULT, TEXT_SIZE, 30); // Change size of text
@@ -110,6 +111,10 @@ void main()
     while (!WindowShouldClose()) // Detect window close button or ESC key
     {
         SetWindowSize(screenWidth, screenHeight);
+
+        // FPS Limiter
+        screenFPS = jsonTemp["FPSLimiter"].get<int>();
+        SetTargetFPS(screenFPS);
 
         // Show FPS
         if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE") { preciseFPS = 1.0f / GetFrameTime(); }
@@ -136,6 +141,7 @@ void main()
             if (firstPlayerPointsCount > secondPlayerPointsCount) { GameOver::GameOverFunction(1); continue; }
             else if (firstPlayerPointsCount < secondPlayerPointsCount) { GameOver::GameOverFunction(2); continue; }
             else { GameOver::GameOverFunction(0); continue; }
+            functions->ResetGameData(currentLevel, firstPlayerPointsCount, secondPlayerPointsCount, ballRadius, ballSpeed, halfSquareSpeed);
             continue;
         }
 
@@ -223,7 +229,6 @@ void main()
         if (GuiButton(buttonObject, buttonText.c_str()))
         {
             SettingsWindow::SettingsWindowFunction();
-            functions->ResetGameData(currentLevel, firstPlayerPointsCount, secondPlayerPointsCount, ballRadius, ballSpeed, halfSquareSpeed);
             continue;
         }
         #pragma endregion
@@ -247,7 +252,8 @@ void main()
 
         #pragma region Current FPS draw
         // FPS label
-        DrawText(std::format("FPS: {}", (int)preciseFPS).c_str(), 710, 10, 20, DARKGRAY);
+        if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE")
+            DrawText(std::format("FPS: {}", (int)preciseFPS).c_str(), 710, 10, 20, DARKGRAY);
         #pragma endregion
 
         #pragma region Poins draw

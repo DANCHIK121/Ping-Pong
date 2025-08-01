@@ -28,5 +28,7 @@ namespace ProjectFunctions
 		halfSquareSpeed = 2.0f;
 		firstPlayerPointsCount = 0;
 		secondPlayerPointsCount = 0;
+
+		return 0;
 	}
 }

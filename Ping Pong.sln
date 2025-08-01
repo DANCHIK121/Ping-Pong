@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ping Pong", "Ping Pong\Ping Pong.vcxproj", "{6A71DFD5-AAFC-4053-90C6-9867E1585DA9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Ping Pong Setup", "Ping Pong Setup\Ping Pong Setup.vdproj", "{23EEDA35-7D69-9694-5AFA-6F566A551E81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6A71DFD5-AAFC-4053-90C6-9867E1585DA9}.Release|x64.Build.0 = Release|x64
 		{6A71DFD5-AAFC-4053-90C6-9867E1585DA9}.Release|x86.ActiveCfg = Release|Win32
 		{6A71DFD5-AAFC-4053-90C6-9867E1585DA9}.Release|x86.Build.0 = Release|Win32
+		{23EEDA35-7D69-9694-5AFA-6F566A551E81}.Debug|x64.ActiveCfg = Debug
+		{23EEDA35-7D69-9694-5AFA-6F566A551E81}.Debug|x86.ActiveCfg = Debug
+		{23EEDA35-7D69-9694-5AFA-6F566A551E81}.Release|x64.ActiveCfg = Release
+		{23EEDA35-7D69-9694-5AFA-6F566A551E81}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

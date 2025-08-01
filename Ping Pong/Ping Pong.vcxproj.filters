@@ -53,5 +53,24 @@
     <ClInclude Include="Json\Json.h">
       <Filter>Исходные файлы\Json</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Release\Icon\Icon.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="..\x64\Release\Icon\Icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
 </Project>
