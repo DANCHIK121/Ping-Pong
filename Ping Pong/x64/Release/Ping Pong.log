@@ -31,12 +31,14 @@ E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp
   
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(30,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(61,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(196,36): warning C4018: '>=': signed/unsigned mismatch
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(196,102): warning C4018: '>=': signed/unsigned mismatch
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(296,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(296,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(299,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(299,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(203,36): warning C4018: '>=': signed/unsigned mismatch
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(203,102): warning C4018: '>=': signed/unsigned mismatch
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(303,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(303,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(306,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(306,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(310,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(310,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   GameOverLogic.cpp
   SettingsWindowLogic.cpp
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(68,91): warning C4553: '==': result of expression not used; did you intend '='?

@@ -114,6 +114,8 @@ void main()
     Rectangle firstHalfSquare;
     Rectangle secondHalfSquare;
 
+    Rectangle leftSpecialRectangles = { leftSpecialRectanglesPostions.x, leftSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight };
+
     // Window init
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
 
@@ -165,7 +167,8 @@ void main()
             directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Up;
 
         // Check condition for game over
-        if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
+        /*if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius )*/
+        if (CheckCollisionCircleRec(ballPosition, ballRadius, leftSpecialRectangles))
         {
             ballBouncedOffAudio->PlayMusic(ballBouncedOffAudioTemp);
 
@@ -304,7 +307,7 @@ void main()
 
         // Draw special rectangles
         // Left
-        DrawRectangle(secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
+        DrawRectangle(leftSpecialRectanglesPostions.x, leftSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight, BLACK);
         #pragma endregion
 
         EndDrawing();
