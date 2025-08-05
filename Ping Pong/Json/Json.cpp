@@ -1,8 +1,12 @@
+// Standart libraries
 #include <string>
 #include <fstream>
 #include <iostream>
+
+// Project libraries
 #include <nlohmann/json.hpp>
 
+// Project files
 #include "Json.h"
 
 namespace JsonLogic

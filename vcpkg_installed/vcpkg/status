@@ -133,3 +133,199 @@ Abi: f5298a2cbeb4b88e5d4f64eb01240199ee208a3f398f8294c953c503cadfe7c2
 Description: JSON for Modern C++
 Status: install ok installed
 
+Package: egl-registry
+Version: 2024-01-25
+Architecture: x64-windows
+Multi-Arch: same
+Abi: cdec9d16d363cee49864740a1580b0f2bf37c234ab06999ef911bd35abe85606
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2024-02-10
+Port-Version: 1
+Depends: egl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b6549c0e6ea9cc7f536f7cf5d57c4ed09178abddecfae2e065940016c9195cc3
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-windows
+Multi-Arch: same
+Abi: bd5db5730f0ae01c5ef32d72bff62b38ea60d2349999a426fee1b47602c9c6db
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7b07d1c5bd688899450e9a4c6ef47f749f0a3fa10c19e50e9845f0fceb0fd6a4
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.46
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 19f97c0db1015e7e04363c1f9004c4eb2079ae6b51ddb39bc68e79d9211cdd7d
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 6
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 229213fade88ab1202001df2943ca753b0f7af1e2944827caf1adc696eee97da
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: install ok installed
+
+Package: bzip2
+Feature: tool
+Architecture: x64-windows
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: install ok installed
+
+Package: brotli
+Version: 1.1.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e231ccfdcd1d916fe2b538d8ca98c64489fcce1995d47152a6c845d97e55b5de
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: freetype
+Version: 2.13.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: acff855be3c5ce82b4385a65efe25c803bcf3f4b5dbb0ac3b438b48c6a9d2879
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: install ok installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: install ok installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: install ok installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: install ok installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: install ok installed
+
+Package: libogg
+Version: 1.3.5
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 78c2e12060ca754728fcc411389a451e544ec4dda7de6203a01e6fa5e56b80b7
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: install ok installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 4
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: efbd1df6e8c98f8663b12ad3e82cc4f945953ebaceed9185a8d8eff3d76935ef
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: install ok installed
+
+Package: libflac
+Version: 1.4.3
+Port-Version: 2
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a0a01d5fca65c3a38b929f797fe0ed7815353f07246f4aad7a3d11bf02c9d51f
+Description: Library for manipulating FLAC files
+Default-Features: stack-protector
+Status: install ok installed
+
+Package: libflac
+Feature: stack-protector
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build with stack smashing protection
+Status: install ok installed
+
+Package: sfml
+Version: 3.0.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ac337a114ca213c9565e01b5c2bf20b72358cf4edeae5c5b070483fffba4b679
+Description: Simple and fast multimedia library
+Default-Features: audio, graphics, network, window
+Status: install ok installed
+
+Package: sfml
+Feature: audio
+Depends: libflac, libogg, libvorbis, miniaudio
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-audio library
+Status: install ok installed
+
+Package: sfml
+Feature: graphics
+Depends: freetype, stb
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-graphics library
+Status: install ok installed
+
+Package: sfml
+Feature: network
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-network library
+Status: install ok installed
+
+Package: sfml
+Feature: window
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-window library
+Status: install ok installed
+

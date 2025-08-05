@@ -22,6 +22,9 @@
     <Filter Include="Исходные файлы\Json">
       <UniqueIdentifier>{666ac2f8-ee7c-492d-ab64-2d2d78364354}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Audio">
+      <UniqueIdentifier>{d94a1900-1681-4a30-b8f7-1100ed1d3189}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ping Pong.cpp">
@@ -45,6 +48,9 @@
     <ClCompile Include="Json\Json.cpp">
       <Filter>Исходные файлы\Json</Filter>
     </ClCompile>
+    <ClCompile Include="Audio\WorkWithAudio.cpp">
+      <Filter>Исходные файлы\Audio</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions\Functions.h">
@@ -55,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WorkWithAudio.h">
+      <Filter>Исходные файлы\Audio</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

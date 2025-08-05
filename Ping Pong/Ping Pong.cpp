@@ -23,6 +23,7 @@
 #include "LevelsMap.cpp"
 #include "GameLogicEnums.cpp"
 #include "Functions/Functions.h"
+#include "Audio/WorkWithAudio.h"
 #include "Windows/GameOverLogic.cpp"
 #include "Windows/SettingsWindowLogic.cpp"
 
@@ -45,7 +46,7 @@ void main()
     Rectangle buttonObject = { 325, 410, 150, 35 };
 
     // Ball settings
-    int ballRadius = 20;
+    float ballRadius = 20;
     float ballSpeed = 2.0f; // If 60 FPS -> 2.0f or if 120 FPS -> 1.0f
 
     // Screen settings
@@ -61,9 +62,24 @@ void main()
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
 
+    // Special rectangles
+    const int specialRectangleWidth = 5;
+    const int specialRectangleHeight = 450;
+
     // Instances of classes
     JsonLogic::Json* json = new JsonLogic::Json();
+    WorkWithAudio::Audio* ballBouncedAudio = new WorkWithAudio::Audio();
+    WorkWithAudio::Audio* ballBouncedOffAudio = new WorkWithAudio::Audio();
     ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
+
+    // Settings for music
+    ballBouncedAudio->LoadFileToBuffer(WorkWithAudio::MusicModes::TheBallBounced);
+    auto ballBouncedAudioTemp = ballBouncedAudio->LoadBufferToSound();
+    ballBouncedAudio->SetVolume(ballBouncedAudioTemp, 30);
+
+    ballBouncedOffAudio->LoadFileToBuffer(WorkWithAudio::MusicModes::TheBallBouncedOff);
+    auto ballBouncedOffAudioTemp = ballBouncedOffAudio->LoadBufferToSound();
+    ballBouncedOffAudio->SetVolume(ballBouncedOffAudioTemp, 30);
 
     // Work with json
     nlohmann::json jsonTemp = json->ReadFromFile();
@@ -88,6 +104,8 @@ void main()
         directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Down;
 
     // Objects position
+    Vector2 leftSpecialRectanglesPostions = { 0, 0 };
+    Vector2 rightSpecialRectanglesPostions = { 0, 0 };
     Vector2 ballPosition = { screenWidth / 2, screenHeight / 2 };
     Vector2 firstHalfSquarePosition = { halfSquareWidth, screenHeight / 2 - halfSquareHeight + 30};
     Vector2 secondHalfSquarePosition = { screenWidth - halfSquareWidth - 20, screenHeight / 2 - halfSquareHeight + 30 };
@@ -135,26 +153,30 @@ void main()
         else
             directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
 
-        // Check condition for game over
-        if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
-        {
-            if (firstPlayerPointsCount > secondPlayerPointsCount) { GameOver::GameOverFunction(1); continue; }
-            else if (firstPlayerPointsCount < secondPlayerPointsCount) { GameOver::GameOverFunction(2); continue; }
-            else { GameOver::GameOverFunction(0); continue; }
-            functions->ResetGameData(currentLevel, firstPlayerPointsCount, secondPlayerPointsCount, ballRadius, ballSpeed, halfSquareSpeed);
-            continue;
-        }
-
         // Y coords
         if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Up && ballPosition.y <= screenHeight - ballRadius)
             ballPosition.y += ballSpeed;
-        else 
+        else
             directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Down;
 
         if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Down && ballPosition.y >= ballRadius)
             ballPosition.y -= ballSpeed;
-        else 
+        else
             directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Up;
+
+        // Check condition for game over
+        if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius)
+        {
+            ballBouncedOffAudio->PlayMusic(ballBouncedOffAudioTemp);
+
+            if (firstPlayerPointsCount > secondPlayerPointsCount) { GameOver::GameOverFunction(1); }
+            else if (firstPlayerPointsCount < secondPlayerPointsCount) { GameOver::GameOverFunction(2); }
+            else { GameOver::GameOverFunction(0); }
+
+            // functions->ResetGameData(currentLevel, firstPlayerPointsCount, secondPlayerPointsCount, ballRadius, ballSpeed, halfSquareSpeed);
+
+            continue;
+        }
         #pragma endregion Ball physics
 
         #pragma region First Half Square physics
@@ -175,10 +197,11 @@ void main()
 
         #pragma region Level up logic
         // Level up
-        if (firstPlayerPointsCount >= GameLevels::LevelsMap[currentLevel] && secondPlayerPointsCount >= GameLevels::LevelsMap[currentLevel])
+        if (firstPlayerPointsCount >= GameLevels::LevelsMap[currentLevel] && secondPlayerPointsCount >= GameLevels::LevelsMap[currentLevel] &&
+            currentLevel + 1 <= 3)
         {
             // Change ball and half-squares settings
-            if (ballRadius - 2 >= 2) { ballRadius -= 2; }
+            if (ballRadius / 2 >= 0.5f) { ballRadius /= 2; }
             if (ballSpeed * 2 <= 1000) { ballSpeed *= 2; }
             if (halfSquareSpeed * 2 <= 1000) { halfSquareSpeed *= 2; }
 
@@ -202,6 +225,7 @@ void main()
         {
             directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
             firstPlayerPointsCount += onePointValue;
+            ballBouncedAudio->PlayMusic(ballBouncedAudioTemp);
             continue;
         }
 
@@ -210,6 +234,7 @@ void main()
         {
             directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Right;
             secondPlayerPointsCount += onePointValue;
+            ballBouncedAudio->PlayMusic(ballBouncedAudioTemp);
             continue;
         }
         #pragma endregion
@@ -275,6 +300,10 @@ void main()
         DrawRectangle(firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
 
         // Draw second HalfSquare
+        DrawRectangle(secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
+
+        // Draw special rectangles
+        // Left
         DrawRectangle(secondHalfSquarePosition.x, secondHalfSquarePosition.y, halfSquareWidth, halfSquareHeight, BLACK);
         #pragma endregion
 

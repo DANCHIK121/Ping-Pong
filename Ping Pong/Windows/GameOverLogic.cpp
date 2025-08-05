@@ -29,9 +29,6 @@ namespace GameOver
 		// Exit button
 		std::string exitButtonText = "Exit";
 		Rectangle exitButtonObject = { 160, 100, 120, 35 };
-		// Restart button
-		std::string restartButtonText = "Restart";
-		Rectangle restartButtonObject = { 160, 140, 120, 35 };
 
 		while (!WindowShouldClose()) // Detect window close button or ESC key
 		{
@@ -55,10 +52,6 @@ namespace GameOver
 			// Draw exit button
 			if (GuiButton(exitButtonObject, exitButtonText.c_str()))
 				exit(0);
-
-			// Draw restart button
-			if (GuiButton(restartButtonObject, restartButtonText.c_str()))
-				return 1;
 
 			// End drawing
 			EndDrawing();

@@ -129,6 +129,7 @@
       <LanguageStandard>stdcpp23</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalOptions>/SUBSYSTEM:windows %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -137,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Audio\WorkWithAudio.cpp" />
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="GameLogicEnums.cpp" />
     <ClCompile Include="Json\Json.cpp" />
@@ -146,6 +148,7 @@
     <ClCompile Include="Windows\SettingsWindowLogic.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Audio\WorkWithAudio.h" />
     <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="Json\Json.h" />
     <ClInclude Include="resource.h" />
