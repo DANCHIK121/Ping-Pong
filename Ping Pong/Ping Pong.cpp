@@ -30,6 +30,9 @@
 void main()
 {
     // Initialization
+    // App variables
+    int FPSLimiterCounter = 0;
+
     // Level label object settings
     int currentLevel = 1;
     std::string levelLabel;
@@ -47,7 +50,7 @@ void main()
 
     // Ball settings
     float ballRadius = 20;
-    float ballSpeed = 2.0f; // If 60 FPS -> 2.0f or if 120 FPS -> 1.0f
+    float ballSpeed = 100.0f; // If 60 FPS -> 2.0f or if 120 FPS -> 1.0f
 
     // Screen settings
     int screenFPS = 60;
@@ -58,7 +61,7 @@ void main()
     float preciseFPS = 0.0f;
 
     // HalfSquare settings
-    int halfSquareSpeed = 2.0f;
+    int halfSquareSpeed = 100.0f;
     const int halfSquareWidth = 20;
     const int halfSquareHeight = 100;
 
@@ -73,10 +76,12 @@ void main()
     ProjectFunctions::Functions* functions = new ProjectFunctions::Functions();
 
     // Settings for music
+    // Bounced
     ballBouncedAudio->LoadFileToBuffer(WorkWithAudio::MusicModes::TheBallBounced);
     auto ballBouncedAudioTemp = ballBouncedAudio->LoadBufferToSound();
     ballBouncedAudio->SetVolume(ballBouncedAudioTemp, 30);
 
+    // Bounced off
     ballBouncedOffAudio->LoadFileToBuffer(WorkWithAudio::MusicModes::TheBallBouncedOff);
     auto ballBouncedOffAudioTemp = ballBouncedOffAudio->LoadBufferToSound();
     ballBouncedOffAudio->SetVolume(ballBouncedOffAudioTemp, 30);
@@ -129,6 +134,10 @@ void main()
     GuiSetStyle(DEFAULT, TEXT_SIZE, 30); // Change size of text
     GuiSetStyle(BUTTON, TEXT_ALIGNMENT, TEXT_ALIGN_CENTER); // Center text in button
 
+    // Read FPS limiter
+    screenFPS = jsonTemp["FPSLimiter"].get<int>();
+    SetTargetFPS(screenFPS);
+
     while (!WindowShouldClose()) // Detect window close button or ESC key
     {
         SetWindowSize(screenWidth, screenHeight);
@@ -138,7 +147,11 @@ void main()
         SetTargetFPS(screenFPS);
 
         // Show FPS
-        if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE") { preciseFPS = 1.0f / GetFrameTime(); }
+        if (FPSLimiterCounter == screenFPS * 50)
+        {
+            FPSLimiterCounter = 0;
+            if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE") { preciseFPS = 1.0f / GetFrameTime(); }
+        }
 
         // Rectangles update
         firstHalfSquare = { firstHalfSquarePosition.x, firstHalfSquarePosition.y, halfSquareWidth, halfSquareHeight };
@@ -147,23 +160,23 @@ void main()
         #pragma region Ball physics
         // X coords
         if (directionOfBallForX == GameEnums::StatusOfBallDirectionForX::Left && ballPosition.x <= screenWidth - ballRadius)
-            ballPosition.x += ballSpeed;
+            ballPosition.x += ballSpeed * GetFrameTime();
         else
             directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Right;
 
         if (directionOfBallForX == GameEnums::StatusOfBallDirectionForX::Right && ballPosition.x >= ballRadius)
-            ballPosition.x -= ballSpeed;
+            ballPosition.x -= ballSpeed * GetFrameTime();
         else
             directionOfBallForX = GameEnums::StatusOfBallDirectionForX::Left;
 
         // Y coords
         if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Up && ballPosition.y <= screenHeight - ballRadius)
-            ballPosition.y += ballSpeed;
+            ballPosition.y += ballSpeed * GetFrameTime();
         else
             directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Down;
 
         if (directionOfBallForY == GameEnums::StatusOfBallDirectionForY::Down && ballPosition.y >= ballRadius)
-            ballPosition.y -= ballSpeed;
+            ballPosition.y -= ballSpeed * GetFrameTime();
         else
             directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Up;
 
@@ -186,17 +199,17 @@ void main()
         #pragma region First Half Square physics
         // Y coords for first half-square
         if (IsKeyDown(KEY_W) && firstHalfSquarePosition.y >= 5)
-            firstHalfSquarePosition.y -= halfSquareSpeed;
+            firstHalfSquarePosition.y -= halfSquareSpeed * GetFrameTime();
         if (IsKeyDown(KEY_S) && firstHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10) 
-            firstHalfSquarePosition.y += halfSquareSpeed;
+            firstHalfSquarePosition.y += halfSquareSpeed * GetFrameTime();
         #pragma endregion
 
         #pragma region Second Half Square physics
         // Y coords for second half-square
         if (IsKeyDown(KEY_UP) && secondHalfSquarePosition.y >= 5)
-            secondHalfSquarePosition.y -= halfSquareSpeed;
+            secondHalfSquarePosition.y -= halfSquareSpeed * GetFrameTime();
         if (IsKeyDown(KEY_DOWN) && secondHalfSquarePosition.y <= screenHeight - halfSquareHeight - 10)
-            secondHalfSquarePosition.y += halfSquareSpeed;
+            secondHalfSquarePosition.y += halfSquareSpeed * GetFrameTime();
         #pragma endregion
 
         #pragma region Level up logic
@@ -206,7 +219,7 @@ void main()
         {
             // Change ball and half-squares settings
             if (ballRadius - 0.15f >= 0.5f) { ballRadius -= 0.15f; }
-            if (ballSpeed * 2 <= 1000) { ballSpeed *= 2; }
+            if (ballSpeed * 2 <= 100000.0f) { ballSpeed *= 2; }
             if (halfSquareSpeed * 2 <= 1000) { halfSquareSpeed *= 2; }
 
             // Change level index
@@ -282,7 +295,7 @@ void main()
         #pragma region Current FPS draw
         // FPS label
         if (jsonTemp["ShowFPSInGame"].get<std::string>() == "TRUE")
-            DrawText(std::format("FPS: {}", (int)preciseFPS).c_str(), 710, 10, 20, DARKGRAY);
+            DrawText(std::format("FPS: {}", (int)preciseFPS).c_str(), 700, 10, 20, DARKGRAY);
         #pragma endregion
 
         #pragma region Poins draw
@@ -316,6 +329,8 @@ void main()
 
         EndDrawing();
         #pragma endregion
+
+        FPSLimiterCounter += screenFPS;
     }
 
     CloseWindow(); // Program end
