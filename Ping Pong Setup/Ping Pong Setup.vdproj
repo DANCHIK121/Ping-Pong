@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0335FB43AB01C520C607B7B790A73453"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_128DBFAD414747079C09BC94B5C14BB0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -23,6 +29,24 @@
         {
         "MsmKey" = "8:_287DF08D7214497AA8345A31200193AB"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_307ABF16EDCF8772BF73B75F7F37A3AA"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_41D3C000E7091C9F15A0FE92F78F3443"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,6 +63,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5207FBB3D5862AB3EA93B9EB987B2CDE"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6245238FCB70D96D2748EA05E8E600A3"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_69CE797D42F14745B0974CD06E07DBCC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -51,8 +87,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8610AD51DC5AAEA04F904AE674A86577"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_87B34C1797DF4E2AA47604D80FB924CF"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_89563D0FAF02C72438AAF48B47CFDC43"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -63,8 +111,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9923B203E4B14865B458970C9B711E3B"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_9084F084502C8E3F843BA13BF6C09CFB"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -77,6 +125,18 @@
         {
         "MsmKey" = "8:_C28A2E7D241D43318198AD4AA4ABEDD3"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C4EB55829BA82505069CF6E442061647"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D3D43E5F86CA91FBCBF9B54D59008E11"
+        "OwnerKey" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -128,6 +188,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -149,9 +217,17 @@
             {
             "Enabled" = "11:TRUE"
             "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
+            "PrerequisitesLocation" = "2:2"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Visual.C++.14.0.x86"
+                    {
+                    "Name" = "8:Visual C++ \"14\" Runtime Libraries (x86)"
+                    "ProductCode" = "8:Microsoft.Visual.C++.14.0.x86"
+                    }
+                }
             }
         }
     }
@@ -174,6 +250,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0335FB43AB01C520C607B7B790A73453"
+            {
+            "SourcePath" = "8:VCRUNTIME140_1.dll"
+            "TargetName" = "8:VCRUNTIME140_1.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_128DBFAD414747079C09BC94B5C14BB0"
             {
             "SourcePath" = "8:..\\x64\\Release\\vorbisfile.dll"
@@ -212,6 +308,46 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_307ABF16EDCF8772BF73B75F7F37A3AA"
+            {
+            "SourcePath" = "8:api-ms-win-crt-stdio-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-stdio-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_41D3C000E7091C9F15A0FE92F78F3443"
+            {
+            "SourcePath" = "8:api-ms-win-crt-math-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-math-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_43DE4EC865BC48649CF3C82BC1C1A6C8"
@@ -254,6 +390,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5207FBB3D5862AB3EA93B9EB987B2CDE"
+            {
+            "SourcePath" = "8:api-ms-win-crt-locale-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-locale-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6245238FCB70D96D2748EA05E8E600A3"
+            {
+            "SourcePath" = "8:api-ms-win-crt-filesystem-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-filesystem-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69CE797D42F14745B0974CD06E07DBCC"
             {
             "SourcePath" = "8:..\\x64\\Release\\vorbisenc.dll"
@@ -294,6 +470,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8610AD51DC5AAEA04F904AE674A86577"
+            {
+            "SourcePath" = "8:api-ms-win-crt-convert-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-convert-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_87B34C1797DF4E2AA47604D80FB924CF"
             {
             "SourcePath" = "8:..\\x64\\Release\\vorbis.dll"
@@ -314,6 +510,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_89563D0FAF02C72438AAF48B47CFDC43"
+            {
+            "SourcePath" = "8:MSVCP140.dll"
+            "TargetName" = "8:MSVCP140.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_90039B843D45472E98569A0C1F9EC835"
             {
             "SourcePath" = "8:..\\x64\\Release\\Music\\Мячик-не-отбит.wav"
@@ -332,6 +548,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9084F084502C8E3F843BA13BF6C09CFB"
+            {
+            "SourcePath" = "8:VCRUNTIME140.dll"
+            "TargetName" = "8:VCRUNTIME140.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A7B232A6026F453B87889657B99EA8F3"
@@ -372,6 +608,46 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C4EB55829BA82505069CF6E442061647"
+            {
+            "SourcePath" = "8:api-ms-win-crt-heap-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-heap-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D3D43E5F86CA91FBCBF9B54D59008E11"
+            {
+            "SourcePath" = "8:api-ms-win-crt-runtime-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-runtime-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_F9C264818B9646E783C4B76474C85AF8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DDAC22E675154B35B161F83DCF7A530F"
@@ -544,7 +820,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ping Pong Setup"
         "ProductCode" = "8:{A62D243E-18B8-4A18-BEE7-1551A5731597}"
-        "PackageCode" = "8:{988DDBAA-A8C1-4AF3-BBF3-5DBCDA76E0BF}"
+        "PackageCode" = "8:{1F7EC815-2914-4506-AF5E-290DD27B569E}"
         "UpgradeCode" = "8:{6BA28A0E-C6C1-4EBD-92B5-1EEF6B23D5E3}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -664,7 +940,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2CDCD12DA5B440D9A564FF2320D13C64"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5B6555197B0B4F05A7AB93281F2428A8"
             {
             "Name" = "8:Ping Pong"
             "Arguments" = "8:"
@@ -672,13 +948,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9923B203E4B14865B458970C9B711E3B"
+            "Target" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
             "Folder" = "8:_8BABAD97CFEA4295879F065177F29640"
             "WorkingFolder" = "8:_F9C264818B9646E783C4B76474C85AF8"
             "Icon" = "8:_DF2604B3593F4AD58D7BDB7144303C37"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CF461E29B8FA4E53AFEE6E7B5044915D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7C85497B47374336BEE08CF6B6A89FA1"
             {
             "Name" = "8:Ping Pong"
             "Arguments" = "8:"
@@ -686,7 +962,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9923B203E4B14865B458970C9B711E3B"
+            "Target" = "8:_30EA06A7EEC54B5480BAFE064CF7B6D4"
             "Folder" = "8:_F73D2144D3284BD3BE3EE74556B27972"
             "WorkingFolder" = "8:_F9C264818B9646E783C4B76474C85AF8"
             "Icon" = "8:_DF2604B3593F4AD58D7BDB7144303C37"
@@ -705,7 +981,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_25F4391A4F434903A03D2550825CF8C4"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Ход выполнения"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -749,7 +1025,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_295EDB053000453BBF048D55AB620AF3"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Подтверждение установки"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -771,7 +1047,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4B189EFF717D4328BEEAA7863BFCB02E"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Добро пожаловать!"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -819,7 +1095,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F020BFFC0D584ACE9A6C1C6CE42D99B3"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Папка установки"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -850,7 +1126,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A2C796DF6E2A4A22BDED804CA8ABC8A2"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Ход выполнения"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -894,7 +1170,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_41FCBA4F2220407BBFC556A7CAC59E3A"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Добро пожаловать!"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -942,7 +1218,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_51DEA9AAF789433498C30E030A716CD0"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Папка установки"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -977,7 +1253,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B2EC21A72075471A95548D53333D6F4A"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Подтверждение установки"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -1008,7 +1284,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_651C89FA95AE4A3DA60C651932F06712"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Готово"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
@@ -1058,7 +1334,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_E88EA813561449EC969629A3688DE173"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Готово"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -1091,7 +1367,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9923B203E4B14865B458970C9B711E3B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_30EA06A7EEC54B5480BAFE064CF7B6D4"
             {
             "SourcePath" = "8:..\\x64\\Release\\Ping Pong.exe"
             "TargetName" = "8:"

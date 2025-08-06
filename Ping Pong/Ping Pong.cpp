@@ -105,7 +105,7 @@ void main()
 
     // Objects position
     Vector2 leftSpecialRectanglesPostions = { 0, 0 };
-    Vector2 rightSpecialRectanglesPostions = { 0, 0 };
+    Vector2 rightSpecialRectanglesPostions = { 795, 0 };
     Vector2 ballPosition = { screenWidth / 2, screenHeight / 2 };
     Vector2 firstHalfSquarePosition = { halfSquareWidth, screenHeight / 2 - halfSquareHeight + 30};
     Vector2 secondHalfSquarePosition = { screenWidth - halfSquareWidth - 20, screenHeight / 2 - halfSquareHeight + 30 };
@@ -115,6 +115,7 @@ void main()
     Rectangle secondHalfSquare;
 
     Rectangle leftSpecialRectangles = { leftSpecialRectanglesPostions.x, leftSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight };
+    Rectangle rightSpecialRectangles = { rightSpecialRectanglesPostions.x, rightSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight };
 
     // Window init
     InitWindow(screenWidth, screenHeight, "Ping Pong with C++ and raylib");
@@ -167,8 +168,8 @@ void main()
             directionOfBallForY = GameEnums::StatusOfBallDirectionForY::Up;
 
         // Check condition for game over
-        /*if (ballPosition.x == screenWidth - ballRadius || ballPosition.x == ballRadius )*/
-        if (CheckCollisionCircleRec(ballPosition, ballRadius, leftSpecialRectangles))
+        if (CheckCollisionCircleRec(ballPosition, ballRadius, leftSpecialRectangles) || 
+            CheckCollisionCircleRec(ballPosition, ballRadius, rightSpecialRectangles))
         {
             ballBouncedOffAudio->PlayMusic(ballBouncedOffAudioTemp);
 
@@ -201,10 +202,10 @@ void main()
         #pragma region Level up logic
         // Level up
         if (firstPlayerPointsCount >= GameLevels::LevelsMap[currentLevel] && secondPlayerPointsCount >= GameLevels::LevelsMap[currentLevel] &&
-            currentLevel + 1 <= 3)
+            currentLevel + 1 <= 10)
         {
             // Change ball and half-squares settings
-            if (ballRadius / 2 >= 0.5f) { ballRadius /= 2; }
+            if (ballRadius - 0.15f >= 0.5f) { ballRadius -= 0.15f; }
             if (ballSpeed * 2 <= 1000) { ballSpeed *= 2; }
             if (halfSquareSpeed * 2 <= 1000) { halfSquareSpeed *= 2; }
 
@@ -307,7 +308,10 @@ void main()
 
         // Draw special rectangles
         // Left
-        DrawRectangle(leftSpecialRectanglesPostions.x, leftSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight, BLACK);
+        DrawRectangle(leftSpecialRectanglesPostions.x, leftSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight, WHITE);
+
+        // Right
+        DrawRectangle(rightSpecialRectanglesPostions.x, rightSpecialRectanglesPostions.y, specialRectangleWidth, specialRectangleHeight, WHITE);
         #pragma endregion
 
         EndDrawing();
