@@ -1,0 +1,8 @@
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/nanosvg.lib
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/nanosvgrast.lib
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/include/nanosvg/nanosvg.h
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/include/nanosvg/nanosvgrast.h
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGTargets.cmake
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGTargets-debug.cmake
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGConfig.cmake
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGConfigVersion.cmake

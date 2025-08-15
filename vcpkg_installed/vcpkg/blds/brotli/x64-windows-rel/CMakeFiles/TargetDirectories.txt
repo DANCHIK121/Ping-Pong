@@ -1,0 +1,9 @@
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/brotlicommon.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/brotlidec.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/brotlienc.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/brotli.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/brotli/x64-windows-rel/CMakeFiles/install/local.dir

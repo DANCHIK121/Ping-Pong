@@ -1,0 +1,6 @@
+Downloading https://github.com/mackron/dr_libs/archive/d35a3bc5efd02455d98cbe12b94647136f09b42d.tar.gz -> mackron-dr_libs-d35a3bc5efd02455d98cbe12b94647136f09b42d.tar.gz
+Successfully downloaded mackron-dr_libs-d35a3bc5efd02455d98cbe12b94647136f09b42d.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/mackron-dr_libs-d35a3bc5efd02455d98cbe12b94647136f09b42d.tar.gz
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/drlibs/src/136f09b42d-cbba59f685.clean
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/drlibs_x64-windows/share/drlibs/copyright
+-- Выполнение проверки после сборки

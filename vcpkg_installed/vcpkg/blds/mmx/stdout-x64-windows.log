@@ -1,0 +1,11 @@
+Downloading https://github.com/vurtun/mmx/archive/71382a1d14dad58219e7f6634d2381fa30dab175.tar.gz -> vurtun-mmx-71382a1d14dad58219e7f6634d2381fa30dab175.tar.gz
+Successfully downloaded vurtun-mmx-71382a1d14dad58219e7f6634d2381fa30dab175.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/vurtun-mmx-71382a1d14dad58219e7f6634d2381fa30dab175.tar.gz
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/mmx/src/fa30dab175-b5e72cb935.clean
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/mmx_x64-windows/include/mmx/json.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/mmx_x64-windows/include/mmx/sched.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/mmx_x64-windows/include/mmx/sdefl.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/mmx_x64-windows/include/mmx/sinfl.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/mmx_x64-windows/include/mmx/web.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/mmx_x64-windows/share/mmx/copyright
+-- Выполнение проверки после сборки

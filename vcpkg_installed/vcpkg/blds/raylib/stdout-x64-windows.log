@@ -1,0 +1,32 @@
+Downloading https://github.com/raysan5/raylib/archive/5.5.tar.gz -> raysan5-raylib-5.5.tar.gz
+Successfully downloaded raysan5-raylib-5.5.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/raysan5-raylib-5.5.tar.gz
+-- Applying patch android.diff
+-- Applying patch fix-link-path.patch
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/raylib/src/5.5-966575b391.clean
+-- De-vendoring 'cgltf.h'
+-- De-vendoring 'dr_flac.h'
+-- De-vendoring 'dr_mp3.h'
+-- De-vendoring 'dr_wav.h'
+-- De-vendoring 'miniaudio.h'
+-- De-vendoring 'qoi.h'
+-- De-vendoring 'sdefl.h'
+-- De-vendoring 'sinfl.h'
+-- De-vendoring 'stb_image.h'
+-- De-vendoring 'stb_image_resize2.h'
+-- De-vendoring 'stb_image_write.h'
+-- De-vendoring 'stb_perlin.h'
+-- De-vendoring 'stb_rect_pack.h'
+-- De-vendoring 'stb_truetype.h'
+-- De-vendoring 'stb_vorbis.c'
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/lib/pkgconfig/raylib.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/bahar/AppData/Local/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/lib/pkgconfig/raylib.pc
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/share/raylib/copyright
+-- Выполнение проверки после сборки

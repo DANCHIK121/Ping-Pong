@@ -1,0 +1,15 @@
+Downloading https://github.com/SFML/SFML/archive/3.0.0.tar.gz -> SFML-SFML-3.0.0.tar.gz
+Successfully downloaded SFML-SFML-3.0.0.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/SFML-SFML-3.0.0.tar.gz
+-- Applying patch 01-fix-findudev-module.patch
+-- Applying patch 02-fix-dependency-resolve.patch
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/sfml/src/3.0.0-c8cd3229b2.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/bahar/AppData/Local/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/sfml_x64-windows/share/sfml/copyright
+-- Выполнение проверки после сборки

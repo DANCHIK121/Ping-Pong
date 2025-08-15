@@ -1,0 +1,12 @@
+prefix=C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows
+exec_prefix=C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows
+libdir=C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/lib
+includedir=C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.46
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: 
+Cflags: -I${includedir}

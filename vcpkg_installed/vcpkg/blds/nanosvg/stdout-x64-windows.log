@@ -1,0 +1,12 @@
+-- Note: nanosvg only supports static library linkage. Building static library.
+Downloading https://github.com/memononen/nanosvg/archive/93ce879dc4c04a3ef1758428ec80083c38610b1f.tar.gz -> memononen-nanosvg-93ce879dc4c04a3ef1758428ec80083c38610b1f.tar.gz
+Successfully downloaded memononen-nanosvg-93ce879dc4c04a3ef1758428ec80083c38610b1f.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/memononen-nanosvg-93ce879dc4c04a3ef1758428ec80083c38610b1f.tar.gz
+-- Applying patch fltk.patch
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/nanosvg/src/3c38610b1f-dc4edc4939.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/share/nanosvg/copyright
+-- Выполнение проверки после сборки

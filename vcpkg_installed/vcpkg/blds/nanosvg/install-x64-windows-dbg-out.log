@@ -1,0 +1,18 @@
+Change Dir: 'C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/nanosvg/x64-windows-dbg'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v -v -j13 install
+[1/5] C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe   -DNANOSVGRAST_IMPLEMENTATION -I"C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\blds\nanosvg\src\3c38610b1f-dc4edc4939.clean\src" /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\nanosvgrast.dir\nanosvgrast.c.obj /FdCMakeFiles\nanosvgrast.dir\nanosvgrast.pdb /FS -c "C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\blds\nanosvg\x64-windows-dbg\nanosvgrast.c"
+[2/5] C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\cl.exe   -DNANOSVG_IMPLEMENTATION  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\nanosvg.dir\nanosvg.c.obj /FdCMakeFiles\nanosvg.dir\nanosvg.pdb /FS -c "C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\blds\nanosvg\x64-windows-dbg\nanosvg.c"
+[3/5] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\lib.exe  /machine:x64 /nologo /out:nanosvg.lib CMakeFiles\nanosvg.dir\nanosvg.c.obj && cd ."
+[4/5] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1444~1.352\bin\Hostx64\x64\lib.exe  /machine:x64 /nologo /out:nanosvgrast.lib CMakeFiles\nanosvgrast.dir\nanosvgrast.c.obj && cd ."
+[4/5] C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\blds\nanosvg\x64-windows-dbg" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Debug"
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/nanosvg.lib
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/nanosvgrast.lib
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/include/nanosvg/nanosvg.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/include/nanosvg/nanosvgrast.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGTargets.cmake
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGTargets-debug.cmake
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGConfig.cmake
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/nanosvg_x64-windows/debug/lib/cmake/NanoSVG/NanoSVGConfigVersion.cmake
+

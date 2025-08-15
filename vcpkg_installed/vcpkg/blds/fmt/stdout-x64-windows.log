@@ -1,0 +1,20 @@
+Downloading https://github.com/fmtlib/fmt/archive/11.0.2.tar.gz -> fmtlib-fmt-11.0.2.tar.gz
+Successfully downloaded fmtlib-fmt-11.0.2.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/fmtlib-fmt-11.0.2.tar.gz
+-- Applying patch fix-write-batch.patch
+-- Applying patch fix-pass-utf-8-only-if-the-compiler-is-MSVC-at-build.patch
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/src/11.0.2-c30c0a133f.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/lib/pkgconfig/fmt.pc
+Downloading msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst, trying https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+Successfully downloaded msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+Downloading msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst, trying https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+Successfully downloaded msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/bahar/AppData/Local/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/debug/lib/pkgconfig/fmt.pc
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/share/fmt/usage
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/fmt_x64-windows/share/fmt/copyright
+-- Выполнение проверки после сборки

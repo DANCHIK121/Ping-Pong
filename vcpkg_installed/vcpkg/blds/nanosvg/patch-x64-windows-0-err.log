@@ -1,0 +1,18 @@
+Checking patch src/nanosvgrast.h...
+Hunk #5 succeeded at 386 (offset 1 line).
+Hunk #6 succeeded at 394 (offset 1 line).
+Hunk #7 succeeded at 750 (offset 1 line).
+Hunk #8 succeeded at 758 (offset 1 line).
+Hunk #9 succeeded at 813 (offset 1 line).
+Hunk #10 succeeded at 835 (offset 1 line).
+Hunk #11 succeeded at 1004 (offset 1 line).
+Hunk #12 succeeded at 1045 (offset 1 line).
+Hunk #13 succeeded at 1090 (offset 1 line).
+Hunk #14 succeeded at 1131 (offset 1 line).
+Hunk #15 succeeded at 1213 (offset 1 line).
+Hunk #16 succeeded at 1382 (offset 2 lines).
+Hunk #17 succeeded at 1415 (offset 2 lines).
+Hunk #18 succeeded at 1433 (offset 2 lines).
+Hunk #19 succeeded at 1460 (offset 2 lines).
+Hunk #20 succeeded at 1472 (offset 2 lines).
+Applied patch src/nanosvgrast.h cleanly.

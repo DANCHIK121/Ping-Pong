@@ -1,0 +1,7 @@
+Downloading https://github.com/phoboslab/qoi/archive/19b3b4087b66963a3699ee45f05ec9ef205d7c0e.tar.gz -> phoboslab-qoi-19b3b4087b66963a3699ee45f05ec9ef205d7c0e.tar.gz
+Successfully downloaded phoboslab-qoi-19b3b4087b66963a3699ee45f05ec9ef205d7c0e.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/phoboslab-qoi-19b3b4087b66963a3699ee45f05ec9ef205d7c0e.tar.gz
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/qoi/src/ef205d7c0e-98fb9778bd.clean
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/qoi_x64-windows/include/qoi.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/qoi_x64-windows/share/qoi/copyright
+-- Выполнение проверки после сборки

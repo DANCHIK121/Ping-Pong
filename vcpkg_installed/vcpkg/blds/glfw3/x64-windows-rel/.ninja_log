@@ -1,0 +1,26 @@
+# ninja log v6
+50	767	7758382788651253	src/CMakeFiles/glfw.dir/monitor.c.obj	ad2d535fa7287553
+63	791	7758382788781396	src/CMakeFiles/glfw.dir/platform.c.obj	3053e37c42a40b92
+117	819	7758382789312518	src/CMakeFiles/glfw.dir/osmesa_context.c.obj	2bde21bc9b2ae99f
+167	850	7758382789821398	src/CMakeFiles/glfw.dir/null_joystick.c.obj	c240888286fda8f7
+144	871	7758382789582603	src/CMakeFiles/glfw.dir/null_monitor.c.obj	5e3c0d622941a638
+156	893	7758382789712761	src/CMakeFiles/glfw.dir/null_window.c.obj	e41a79d2b731f66e
+77	942	7758382788921605	src/CMakeFiles/glfw.dir/vulkan.c.obj	1a652542e784a350
+90	969	7758382789039243	src/CMakeFiles/glfw.dir/window.c.obj	759b8513c7ff8d20
+28	992	7758382788424895	src/CMakeFiles/glfw.dir/init.c.obj	9ea2525b7c61f4e0
+133	1015	7758382789477131	src/CMakeFiles/glfw.dir/null_init.c.obj	a6e4df2cfefd9921
+104	1022	7758382789185332	src/CMakeFiles/glfw.dir/egl_context.c.obj	dc469db9ab26d2e1
+16	1028	7758382788307355	src/CMakeFiles/glfw.dir/context.c.obj	2ace28439ea361f3
+38	1072	7758382788532468	src/CMakeFiles/glfw.dir/input.c.obj	92ec6bc1074e6348
+993	1342	7758382798078872	src/CMakeFiles/glfw.dir/glfw.rc.res	c287101850f019f
+820	1460	7758382796349288	src/CMakeFiles/glfw.dir/win32_thread.c.obj	807be11c316503fa
+770	1468	7758382795848643	src/CMakeFiles/glfw.dir/win32_module.c.obj	2dc48ece67f255a7
+792	1482	7758382796060163	src/CMakeFiles/glfw.dir/win32_time.c.obj	19998291e2533678
+851	1535	7758382796660884	src/CMakeFiles/glfw.dir/win32_init.c.obj	65f4310e8d5f5d17
+872	1576	7758382796861701	src/CMakeFiles/glfw.dir/win32_joystick.c.obj	dd0dc3bd543ba42
+901	1600	7758382797157710	src/CMakeFiles/glfw.dir/win32_monitor.c.obj	ab6c4669302e46bf
+971	1624	7758382797860466	src/CMakeFiles/glfw.dir/wgl_context.c.obj	f350d269964a138a
+943	1709	7758382797576888	src/CMakeFiles/glfw.dir/win32_window.c.obj	85187237fe1522e
+1709	2664	7758382814236160	src/glfw3.dll	20c77fd9e1303904
+1709	2664	7758382814236160	src/glfw3dll.lib	20c77fd9e1303904
+2665	3369	7758382814799859	CMakeFiles/install.util	346a4e7b8ab6f028

@@ -1,0 +1,54 @@
+[33;1mVERBOSE: Resolving base path C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/tools/brotli/brotli.exe...[0m
+[33;1mVERBOSE: Resolving C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/tools/brotli/brotli.exe...[0m
+[33;1mVERBOSE:   brotlienc.dll: Copying C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\brotlienc.dll[0m
+[33;1mVERBOSE: Resolving C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\tools\brotli\brotlienc.dll...[0m
+[33;1mVERBOSE:   brotlicommon.dll: Copying C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\brotlicommon.dll[0m
+[33;1mVERBOSE: Resolving C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\tools\brotli\brotlicommon.dll...[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\VCRUNTIME140.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-heap-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-runtime-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   KERNEL32.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\KERNEL32.dll not found[0m
+[33;1mVERBOSE: Done Resolving C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\tools\brotli\brotlicommon.dll.[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-math-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-math-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   KERNEL32.dll: previously searched - Skip[0m
+[33;1mVERBOSE: Done Resolving C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\tools\brotli\brotlienc.dll.[0m
+[33;1mVERBOSE:   brotlidec.dll: Copying C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\brotlidec.dll[0m
+[33;1mVERBOSE: Resolving C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\tools\brotli\brotlidec.dll...[0m
+[33;1mVERBOSE:   brotlicommon.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   KERNEL32.dll: previously searched - Skip[0m
+[33;1mVERBOSE: Done Resolving C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\tools\brotli\brotlidec.dll.[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-stdio-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-stdio-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-math-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-filesystem-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-filesystem-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: previously searched - Skip[0m
+[33;1mVERBOSE:   api-ms-win-crt-string-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-string-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-time-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-time-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-locale-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\vcpkg\pkgs\brotli_x64-windows\bin\api-ms-win-crt-locale-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   KERNEL32.dll: previously searched - Skip[0m
+[33;1mVERBOSE: Done Resolving C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/tools/brotli/brotli.exe.[0m
+[33;1mVERBOSE: 
+Name                           Value
+----                           -----
+api-ms-win-crt-runtime-l1-1-0… True
+api-ms-win-crt-math-l1-1-0.dll True
+api-ms-win-crt-filesystem-l1-… True
+brotlidec.dll                  True
+VCRUNTIME140.dll               True
+api-ms-win-crt-stdio-l1-1-0.d… True
+brotlienc.dll                  True
+api-ms-win-crt-string-l1-1-0.… True
+api-ms-win-crt-time-l1-1-0.dll True
+api-ms-win-crt-heap-l1-1-0.dll True
+brotlicommon.dll               True
+api-ms-win-crt-locale-l1-1-0.… True
+KERNEL32.dll                   True
+
+[0m

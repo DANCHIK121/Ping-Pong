@@ -1,0 +1,8 @@
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/fmt.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/package.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/package_source.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/fmt/x64-windows-rel/CMakeFiles/install/local.dir

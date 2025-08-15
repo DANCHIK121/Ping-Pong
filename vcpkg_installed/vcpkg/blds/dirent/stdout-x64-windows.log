@@ -1,0 +1,8 @@
+Downloading https://github.com/tronkko/dirent/archive/1.24.tar.gz -> tronkko-dirent-1.24.tar.gz
+Successfully downloaded tronkko-dirent-1.24.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/tronkko-dirent-1.24.tar.gz
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/dirent/src/1.24-cd31aecacf.clean
+-- Up-to-date: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/dirent_x64-windows/include
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/dirent_x64-windows/include/dirent.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/dirent_x64-windows/share/dirent/copyright
+-- Выполнение проверки после сборки

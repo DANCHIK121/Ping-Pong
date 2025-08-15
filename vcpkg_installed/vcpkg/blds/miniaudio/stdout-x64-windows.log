@@ -1,0 +1,7 @@
+Downloading https://github.com/mackron/miniaudio/archive/0.11.22.tar.gz -> mackron-miniaudio-0.11.22.tar.gz
+Successfully downloaded mackron-miniaudio-0.11.22.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/mackron-miniaudio-0.11.22.tar.gz
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/miniaudio/src/0.11.22-72ab6761dd.clean
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/miniaudio_x64-windows/include/miniaudio.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/miniaudio_x64-windows/share/miniaudio/copyright
+-- Выполнение проверки после сборки

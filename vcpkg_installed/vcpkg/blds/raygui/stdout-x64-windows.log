@@ -1,0 +1,7 @@
+Downloading https://github.com/raysan5/raygui/archive/4.0.tar.gz -> raysan5-raygui-4.0.tar.gz
+Successfully downloaded raysan5-raygui-4.0.tar.gz
+-- Extracting source C:/Users/bahar/AppData/Local/vcpkg/downloads/raysan5-raygui-4.0.tar.gz
+-- Using source at C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/raygui/src/4.0-d8c756c071.clean
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raygui_x64-windows/include/raygui.h
+-- Installing: C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raygui_x64-windows/share/raygui/copyright
+-- Выполнение проверки после сборки

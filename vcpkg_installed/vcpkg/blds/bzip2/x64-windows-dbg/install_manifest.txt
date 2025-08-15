@@ -1,0 +1,2 @@
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/debug/lib/bz2d.lib
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/debug/bin/bz2d.dll

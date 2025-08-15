@@ -1,0 +1,649 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Примечание: включение файла:  C:\\Users\\bahar\\Programming\\.cpp\\Projects\\Ping Pong\\vcpkg_installed\\vcpkg\\blds\\libpng\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Примечание: включение файла:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка error D8004: для "/V" требуется аргумент
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "--version"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка error D8004: для "/V" требуется аргумент
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+      cl: командная строка warning D9002: пропуск неизвестного параметра "-qversion"
+      cl: командная строка error D8003: отсутствие исходного имени файла
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1237 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35213 для x64
+      (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+      
+                               ПАРАМЕТРЫ КОМПИЛЯТОРА C/C++
+      
+      
+                                    -ОПТИМИЗАЦИЯ-
+      
+      Максимальная оптимизация /O1 (приоритет места)
+      Максимальная оптимизация /O2 (приоритет скорости)
+      /Ob<n> подстановка кода (по умолчанию n=0)
+      /Od отключить оптимизации (по умолчанию)/Og включить глобальную оптимизацию
+      /Oi[-] включить подставляемые функции   /Os предпочтительное пространство кода
+      /Ot предпочтительная скорость кода      Оптимизация /Ox (приоритет скорости)
+      /favor:<blend|AMD64|INTEL64|ATOM> - выбрать процессор, для которого оптимизировать; один из вариантов:
+          blend - сочетание оптимизаций для нескольких разных процессоров x64
+          AMD64 - 64-разрядные процессоры AMD
+          INTEL64 - процессоры с архитектурой Intel(R)64
+          ATOM - процессоры Intel(R) Atom(TM)
+      
+                                   -ФОРМИРОВАНИЕ КОДА-
+      
+      /Gu[-] гарантирует, что у разных функций будут разные адреса
+      /Gw[-] разделять глобальные переменные для компоновщика
+      /GF включить объединение строк только для чтения
+      /Gy[-] разделять функции для компоновщика
+      /GS[-] включить проверку системы безопасности
+      /GR[-] включить C++ RTTI                
+      /guard:cf[-] включает CFG (защита потока управления)
+      /guard:ehcont[-]: включение метаданных продолжения EH (CET)
+      /EHs включить C++ EH (без исключений SEH)
+      /EHa включить C++ EH (с исключениями SEH)
+      /EHc внешний C получает значение по умолчанию nothrow
+      /EHr всегда создавать проверки завершения времени выполнения noexcept
+      /fp:<contract|except[-]|fast|precise|strict> выбор модели с плавающей запятой:
+          сокращение — рассмотрите возможность использования сокращений с плавающей запятой при создании кода
+          except[-] — возможность использования исключений с плавающей запятой при создании кода
+          fast — "быстрая" (fast) модель с плавающей запятой; результаты менее предсказуемы
+          precise — "точная" (precise) модель с плавающей запятой; результаты предсказуемы
+          strict — "строгая" (strict) модель с плавающей запятой (выражает /fp:except)
+      /Qfast_transcendentals создание встроенных макроопределений FP даже с /fp:except
+      / Qspectre[-] — включить исправления CVE 2017-5753
+      /Qpar[-] — включение параллельного создания кода
+      /Qpar-report:1 — диагностика автоматического параллелизатора; указание параллелизованных циклов
+      /Qpar-report:2 — диагностика автоматического параллелизатора; указание непараллелизованных циклов
+      /Qvec-report:1 — диагностика автоматического векторизатора; указание векторизированных циклов
+      /Qvec-report:2 — диагностика автоматического векторизатора; указание невекторизованных циклов
+      /GL[-] — включение создания кода во время компоновки
+      /volatile:<iso|ms> — выбор непостоянной модели:
+          iso — семантика получения и освобождения не гарантируется при непостоянном обращении
+          ms — семантика получения и освобождения гарантируется при непостоянном обращении
+      /GA оптимизировать для приложения Windows
+      /Ge проверять стек для всех функций     
+      /Gs[число] контролировать вызовы проверки стека
+      /Gh включить вызов функции _penter      /GH включить вызов функции _pexit
+      /GT создать безопасные относительно волокон доступы к локальному хранилищу потока (TLS)
+      /RTC1 включить быструю проверку (/RTCsu)
+      /RTCc преобразовать к сокращенной проверке типов
+      /RTCs проверка кадров стека во время выполнения
+      /RTCu неинициализированная проверка локального использования
+      /clr[:option] компилировать для среды clrtime, где параметр:
+          pure : создать выходной файл только IL (без машинного исполняемого кода)
+          safe: создание выходного файла, доступного только для IL
+          netcore : создание сборок, нацеленных на среду выполнения .NET Core
+          noAssembly : не создавать сборку
+          nostdlib : игнорировать системный каталог .NET Framework при поиске сборок
+          nostdimport : не импортировать требуемые сборки неявно
+          initialAppDomain : включить начальное поведение Домена приложения Visual C++ 2002
+          implicitKeepAlive- : отключить неявное исключение System::GC::KeepAlive(this)
+          char_t- : отключить поддержку метаданных для char8_t, char16_t и char32_t
+          ECMAParamArray : используйте правила, указанные в ECMA-372/14.6, для перегрузки с массивами параметров (подразумеваемые /clr)
+          ECMAParamArray- : использовать новые правила для перегрузки с массивами параметров (подразумевается /clr:netcore)
+      /fsanitize=address Включить codegen для санитайзера адресов
+      /homeparams обеспечить запись параметров, передаваемых в регистрах, в стек
+      /GZ включить проверку стека (/RTCs)     
+      /Gv использовать соглашение о вызовах __vectorcall
+      (Предварительная версия) /dynamicdeopt включить динамическую отладку; разместите деоптимизированные точки останова и вступайте в любом месте с деоптимизацией функций по запросу
+      (Предварительная версия) /dynamicdeopt:suffix <суффикс> суффикс расширения файла для деоптимизированных выходных данных (по умолчанию: .alt)
+      (Предварительная версия) /dynamicdeopt:sync создание деоптимизированных выходных данных после оптимизированных выходных данных, а не параллельно
+      /arch:<SSE2|SSE4.2|AVX|AVX2|AVX512|AVX10.x> минимальные требования к архитектуре ЦП; один из вариантов:
+         SSE2 — (по умолчанию) включить использование инструкций, доступных для ЦП, поддерживающих SSE2
+         SSE4.2 — включить использование инструкций, доступных для ЦП, поддерживающих SSE 4.2
+         AVX — включить использование инструкций, доступных для ЦП, поддерживающих AVX
+         AVX2 — включить использование инструкций, доступных для ЦП, поддерживающих AVX2
+         AVX512 — включить использование инструкций, доступных для ЦП, поддерживающих AVX-512
+         AVX10.x — включить использование инструкций, доступных для ЦП, поддерживающих AVX10.x. Допустимые значения x: 1
+      /QIntel-jcc-erratum — включить устранение рисков Intel JCC Erratum
+      /Qspectre-load Включить устранение рисков Spectre для всех инструкций, которые загружают память
+      /Qspectre-load-cf Включить устранение рисков Spectre для всех инструкций управления потоком, которые загружают память
+      /Qspectre-jmp[-] Включить устранение рисков Spectre для безусловных инструкций по переходу
+      /fpcvt:<IA|BC> совместимость преобразования числа с плавающей точкой в беззнаковое целое
+         IA — результаты совместимы с инструкцией VCVTTSD2USI
+         BC — результаты, совместимые с компилятором VS2017 и более ранних версий
+      /jumptablerdata Поместите таблицы переходов для операторов switch case в раздел .rdata.
+      /vlen=<256|512> выбор длины вектора 256 или 512 для автоматического создания кода
+      /vlen выбор длины вектора по умолчанию на основе параметра /arch
+      
+                                    -ВЫХОДНЫЕ ФАЙЛЫ-
+      
+      /Fa[файл] — задать имя файла листинга сборки
+      /FA[scu] настроить список сборок        /Fd[файл] задать имя PDB-файла
+      /Fe<файл> задать имя исполняемого файла /Fm[файл] задать имя файла соответствий
+      /Fo<файл> задать имя объектного файла   
+      /Fp<файл> задать имя файла предкомпилированного заголовка
+      /Fr[файл] задать имя исходного файла браузера
+      /FR[файл] задать имя расширенного SBR-файла
+      /Fi[файл] имя файла препроцессора       /Fd: <файл> задание имени PDB-файла
+      /Fe: <файл> задание имени исполняемого файла
+      /Fm: <файл> задание имени файла сопоставления
+      /Fo: <файл> задание имени объектного файла
+      /Fp: <файл> задание имени PCH-файла     
+      /FR: <файл> задание имени расширенного SBR-файла
+      /Fi: <файл> задание имени файла препроцессора
+      /Ft<dir> расположение файлов заголовков, созданных для директивы #import
+      /doc[файл] обработать комментарии к XML-документации и дать имя (необязательно) XDC-файлу
+      
+                                    -ПРЕПРОЦЕССОР-
+      
+      /AI<каталог> добавить к пути поиска сборок
+      /FU<файл> импортировать сборку или модуль .NET
+      /FU:asFriend<файл> импортировать сборку или модуль .NET в качестве друга
+      /C не удалять комментарии               /D<имя>{=|#}<текст> задать макрос
+      /E вывод сообщений в stdout             /EP вывод сообщений в stdout, без #line
+      /P вывод сообщений в файл               /Fx добавить внесенный код в файл
+      /FI<файл> задать имя обязательно включаемого файла
+      /U<имя> удалить встроенное макроопределение
+      /u удалить все встроенные макроопределения
+      /I<каталог> добавить в путь поиска включаемых файлов
+      /X пропустить "standard places"         
+      /PH создает #pragma file_hash во время предварительной обработки
+      /PD выводить все определения макросов   
+      
+                                      -ЯЗЫК-
+      
+      /std:<c++14|c++17|c++20|c++latest> — стандартная версия C++
+          c++14 — ISO/IEC 14882:2014 (по умолчанию)
+          c++17 — ISO/IEC 14882:2017
+          c++20 — ISO/IEC 14882:2020
+          c++latest — последний проект стандарта (набор возможностей может быть изменен)
+      /std:<c11|c17|clatest> Стандартная версия C
+          c11 - ISO/IEC 9899:2011
+          c17 - ISO/IEC 9899:2018
+          clatest — последний черновик стандарта (набор функций может быть изменен)
+      /permissive[-] включить компиляцию некоторого несоответствующего кода
+                     (набор функций может быть изменен) (по умолчанию отключено в C++20 и более поздних версиях)
+      /Za отключить расширения (не рекомендуется для C++)
+      /ZW включение языковых расширений WinRT /Zs только проверка синтаксиса
+      /await разрешает расширение возобновляемых функций
+      /await:strict разрешает стандартную поддержку сопрограмм C++20 с более ранними версиями языка
+      /constexpr:depth<N>     предельная глубина рекурсии при вычислении constexpr (по умолчанию 512)
+      /constexpr:backtrace<N> выводить N вычислений constexpr в диагностике (по умолчанию 10)
+      /constexpr:steps<N>     завершать вычисление constexpr через N шагов (по умолчанию 1048576)
+      /Zi включить отладочную информацию      
+      /Z7 включить отладочную информацию старого типа
+      /Zo[-] расширить отладочную информацию для оптимизированного кода (включено по умолчанию)
+      /ZH:[MD5|SHA1|SHA_256] хэш-алгоритм для вычисления контрольной суммы в сведениях отладки (по умолчанию: SHA_256)
+      /Zp[n] паковать структуры по n-байтной границе
+      /Zl не включать имя библиотеки по умолчанию в OBJ-файл
+      /vd{0|1|2} отключить или включить vtordisp
+      /vm<x> тип указателей на члены          
+      /Zc:arg1[,arg2] соответствие языку, где аргументы могут быть:
+        forScope[-]           применять стандарт C++ для правил определения областей
+        wchar_t[-]            wchar_t — встроенный тип, а не typedef
+        auto[-]               использовать новый смысл стандартного C++ для auto
+        trigraphs[-]          включить триграфы (отключено по умолчанию)
+        rvalueCast[-]         применять правила явного преобразования типов из стандарта C++
+                              (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        strictStrings[-]      отключает строковый литерал для [char|wchar_t]*
+                              преобразование (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        implicitNoexcept[-]   включить неявный noexcept для требуемых функций
+        threadSafeInit[-]     включить потокобезопасную локальную статическую инициализацию
+        inline[-]             удалить неиспользуемую функцию или данные, если они есть
+                              COMDAT или имеет только внутреннюю связь (по умолчанию отключено)
+        sizedDealloc[-]       включить освобождение глобального размера C++14
+                              функции (по умолчанию включены)
+        throwingNew[-]        предполагать исключение оператора new при сбое (отключено по умолчанию)
+        referenceBinding[-]   временное значение не будет привязано к неконстантному
+                              Ссылка на lvalue (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        twoPhase-             отключить двухэтапный поиск имен
+        ternary[-]            применять правила из C++11 для условного оператора
+                              (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        noexceptTypes[-]      применять правила noexcept C++17 (включено по умолчанию в C++17 и более поздних версиях)
+        alignedNew[-]         включить выравнивание C++17 для динамически выделяемых объектов (по умолчанию включено)
+        hiddenFriend[-]       применяет стандартные правила скрытого друга C++
+                              (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        externC[-]            применить стандартные правила C++ для функций "extern "C""
+                              (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        lambda[-]             Улучшенная поддержка лямбда-выражений за счет более нового обработчика
+                              (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        tlsGuards[-]          — создание проверок инициализации TLS-переменных во время выполнения (по умолчанию включено)
+        zeroSizeArrayNew[-]   вызов элемента new/delete для массивов объектов нулевого размера (по умолчанию включено)
+        static_assert[-]      строгая обработка static_assert (включена по умолчанию в C++20 или более поздних версиях,
+                              подразумевается посредством /permissive-)
+        gotoScope[-]          не может перейти после инициализации переменной (подразумеваемой параметром /permissive-)
+        templateScope[-]      применяет стандартные правила удаленного управления параметрами шаблона C++
+        enumTypes[-]          включить базовые типы перечислений C++ Стандартный (по умолчанию отключены)
+        checkGwOdr[-]         обеспечивает соблюдение правил стандарта C++ с одним определением
+                              когда параметр /Gw включен (по умолчанию отключен)
+        nrvo[-]               включить необязательное копирование и пропуск перемещения (включено по умолчанию в C++20 или более поздних версиях,
+                              подразумевается посредством /permissive- или /O2)
+        __STDC__              определить __STDC__ для 1 в C
+        __cplusplus[-]        макрос __cplusplus сообщает о поддерживаемом стандарте C++ (по умолчанию отключено)
+        char8_t[-]            включить встроенную поддержку литералов "u8" в C++20 как "char8_t"
+                              (включено по умолчанию в C++20 или более поздней версии)
+        externConstexpr[-]    включить внешнюю связь для переменных constexpr в C++
+                              (включено по умолчанию в C++20 или более поздних версиях, подразумевается /permissive-)
+        preprocessor[-]       включить препроцессор, соответствующий стандарту в C/C++
+                              (включено по умолчанию в C11 или более поздней версии)
+      /ZI включить отладочные данные в режиме "Изменить и продолжить"
+      /openmp включить языковые расширения OpenMP 2.0
+      /openmp:experimental: включить расширения языка OpenMP 2.0, а также выбрать расширения языка OpenMP 3.0 и более поздних версий
+      /openmp:llvm расширения языка OpenMP, использующие среду выполнения LLVM
+      
+                                    -ПРОЧЕЕ-
+      
+      @<файл> параметры файла ответов         
+      /?, /help вывести это справочное сообщение
+      /bigobj создать расширенный формат объекта
+      /c только компилировать, без компоновки 
+      /FC использовать полные пути в диагностических сообщениях
+      /H<число> максимальная длина внешнего имени
+      /J использовать по умолчанию unsigned для типа char
+      /MP[n] использовать до n процессов для компиляции
+      /nologo не выводить уведомление об авторских правах
+      /showIncludes показать имена включаемых файлов
+      /Tc<исходный_файл> компилировать файл как .c
+      /Tp<исходный_файл> компилировать файл как .cpp
+      /TC компилировать все файлы как .c      /TP компилировать все файлы как .cpp
+      /V<строка> задать строку с номером версии
+      /Yc[файл] создать PCH-файл              
+      /Yd выводить отладочные данные в каждый OBJ-файл
+      /Yl[символ] ввести ссылку PCH-файла для отладочной библиотеки
+      /Yu[файл] использовать PCH-файл         /Y- отключить все параметры PCH
+      /Zm<n> задать максимальное выделение памяти (% от значения по умолчанию)
+      /FS принудительно использовать MSPDBSRV.EXE
+      /source-charset:<iana-name>|.nnnn: задание исходной кодировки
+      /execution-charset:<iana-name>|.nnnn задание кодировки выполнения
+      /utf-8 задание UTF-8 в качестве исходной кодировки и кодировки выполнения
+      /validate-charset[-] проверка файлов UTF-8 на наличие только допустимых знаков
+      /fastfail[-] включение режима fast-fail 
+      /JMC[-] включение отладки только собственного кода с помощью функции Just My Code
+      /presetPadding[-] инициализация заполнения нулевым значением для типов классов на основе стека
+      /volatileMetadata[-] создает метаданные при доступах к энергозависимой памяти
+      /sourcelink [file] файл, содержащий сведения об исходной ссылке
+      
+                                      -КОМПОНОВКА-
+      
+      /LD создать библиотеку .DLL             
+      /LDd создать отладочную библиотеку (.DLL)
+      /LN создать .netmodule                  /F<число> задать размер стека
+      /link [параметры компоновщика и библиотеки]
+      /MD компоновать с MSVCRT.LIB            /MT компоновать с LIBCMT.LIB
+      /MDd компоновать с отладочной библиотекой MSVCRTD.LIB
+      /MTd компоновать с отладочной библиотекой LIBCMTD.LIB
+      
+                                    -АНАЛИЗ КОДА-
+      
+      /analyze[-] Включить анализ машинного кода
+      /analyze:quiet[-] Не выводить предупреждения на консоль
+      /analyze:log<имя> Вывод предупреждений в файл
+      /analyze:autolog Запись журнала в *.pftlog
+      /analyze:autolog:ext<расширение> Запись журнала в *.<расширение>
+      /analyze:autolog- Не записывать файл журнала
+      /analyze:WX- Предупреждения не являются критическими
+      /analyze:stacksize<число> Максимальный размер кадра стека
+      /analyze:max_paths<число> Максимальное число путей
+      /analyze: только анализ, без создания кода
+      
+                                    -ДИАГНОСТИКА-
+      
+      /diagnostics:<args,...> — определяет формат сообщений диагностики:
+                   classic — сохранение предыдущего формата
+                   column[-] — печать сведений столбца
+                   caret[-] — печать столбца и указанной исходной строки
+      /Wall включить все предупреждения       /w   отключить все предупреждения
+      /W<n> установить уровень предупреждений (по умолчанию n=1)
+      /Wv:xx[.yy[.zzzzz]] отключить предупреждения, появившиеся после версии xx.yy.zzzzz
+      /WX обрабатывать предупреждения как ошибки
+      /WL включить однострочные диагностические сообщения
+      /wd<n> отключить предупреждение уровня n
+      /we<n> обрабатывать предупреждение уровня n как ошибку
+      /wo<n> выдавать предупреждение уровня n один раз
+      /w<l><n> установить для n уровень предупреждений 1-4
+      /external:I <путь>      — расположение внешних заголовков
+      /external:env:<var> — переменная среды с расположениями внешних заголовков
+      /external:anglebrackets — считать все заголовки в <> внешними
+      /external:W<n> — порог предупреждений для внешних заголовков
+      /external:templates[-]  — оценка порога предупреждений по всей цепочке создания экземпляров шаблонов
+      /sdl - включить дополнительные уведомления и функции безопасности
+      /options:strict неизвестные параметры компилятора являются ошибкой
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-56qtgd"
+      binary: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-56qtgd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-56qtgd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_25905
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_25905.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_25905.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_25905.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_25905.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_25905.exe /implib:cmTC_25905.lib /pdb:cmTC_25905.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~1/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:28 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~1/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35213.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:340 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LD_VERSION_SCRIPT"
+    directories:
+      source: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-gj4m3d"
+      binary: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-gj4m3d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LD_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-gj4m3d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_62378
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_LD_VERSION_SCRIPT  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -Wl,--version-script='C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/conftest.map' /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_62378.dir\\src.c.obj /FdCMakeFiles\\cmTC_62378.dir\\ /FS -c "C:\\Users\\bahar\\Programming\\.cpp\\Projects\\Ping Pong\\vcpkg_installed\\vcpkg\\blds\\libpng\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-gj4m3d\\src.c"
+        FAILED: CMakeFiles/cmTC_62378.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_LD_VERSION_SCRIPT  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -Wl,--version-script='C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/conftest.map' /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_62378.dir\\src.c.obj /FdCMakeFiles\\cmTC_62378.dir\\ /FS -c "C:\\Users\\bahar\\Programming\\.cpp\\Projects\\Ping Pong\\vcpkg_installed\\vcpkg\\blds\\libpng\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-gj4m3d\\src.c"
+        cl: командная строка error D8021: недопустимый числовой аргумент "/Wl,--version-script='C:/Users/bahar/Programming/.cpp/Projects/Ping"
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:353 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT"
+    directories:
+      source: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-o1yb58"
+      binary: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-o1yb58"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SOLARIS_LD_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-o1yb58'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a0791
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SOLARIS_LD_VERSION_SCRIPT  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -Wl,-M -Wl,C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/conftest.map /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a0791.dir\\src.c.obj /FdCMakeFiles\\cmTC_a0791.dir\\ /FS -c "C:\\Users\\bahar\\Programming\\.cpp\\Projects\\Ping Pong\\vcpkg_installed\\vcpkg\\blds\\libpng\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-o1yb58\\src.c"
+        FAILED: CMakeFiles/cmTC_a0791.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SOLARIS_LD_VERSION_SCRIPT  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -Wl,-M -Wl,C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/blds/libpng/x64-windows-rel/conftest.map /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a0791.dir\\src.c.obj /FdCMakeFiles\\cmTC_a0791.dir\\ /FS -c "C:\\Users\\bahar\\Programming\\.cpp\\Projects\\Ping Pong\\vcpkg_installed\\vcpkg\\blds\\libpng\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-o1yb58\\src.c"
+        cl: командная строка error D8021: недопустимый числовой аргумент "/Wl,-M"
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

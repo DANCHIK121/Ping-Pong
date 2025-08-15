@@ -1,0 +1,11 @@
+# ninja log v6
+81	382	7758383893590028	raylib/CMakeFiles/raylib.dir/utils.c.obj	f66f26caeffdc87d
+49	613	7758383893267550	raylib/CMakeFiles/raylib.dir/rshapes.c.obj	654b58951c27771d
+59	1977	7758383893367550	raylib/CMakeFiles/raylib.dir/rtext.c.obj	dcaa00e9909ea80a
+70	4033	7758383893480043	raylib/CMakeFiles/raylib.dir/rtextures.c.obj	685d0cc78c030c07
+29	4679	7758383893063089	raylib/CMakeFiles/raylib.dir/rcore.c.obj	16d418d221c053f8
+39	6035	7758383893163122	raylib/CMakeFiles/raylib.dir/rmodels.c.obj	f4b4a355497394a
+17	7706	7758383892941097	raylib/CMakeFiles/raylib.dir/raudio.c.obj	3de8040a16ae61c0
+7707	8721	7758383979071070	raylib/raylib.dll	2740a2887402faa1
+7707	8721	7758383979071070	raylib/raylib.lib	2740a2887402faa1
+8724	9393	7758383980011126	CMakeFiles/install.util	91a29f31d152af18

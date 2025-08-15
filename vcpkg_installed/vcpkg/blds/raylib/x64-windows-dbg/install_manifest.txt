@@ -1,0 +1,8 @@
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/lib/raylib.lib
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/bin/raylib.dll
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/include/raylib.h
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/include/rlgl.h
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/include/raymath.h
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/lib/pkgconfig/raylib.pc
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/raylib_x64-windows/debug/lib/cmake/raylib/raylib-config.cmake

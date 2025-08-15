@@ -1,0 +1,16 @@
+[33;1mVERBOSE: Resolving base path C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/tools/brotli/brotlicommon.dll...[0m
+[33;1mVERBOSE: Resolving C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/tools/brotli/brotlicommon.dll...[0m
+[33;1mVERBOSE:   VCRUNTIME140.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\x64-windows\bin\VCRUNTIME140.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-heap-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\x64-windows\bin\api-ms-win-crt-heap-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   api-ms-win-crt-runtime-l1-1-0.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\x64-windows\bin\api-ms-win-crt-runtime-l1-1-0.dll not found[0m
+[33;1mVERBOSE:   KERNEL32.dll: C:\Users\bahar\Programming\.cpp\Projects\Ping Pong\vcpkg_installed\x64-windows\bin\KERNEL32.dll not found[0m
+[33;1mVERBOSE: Done Resolving C:/Users/bahar/Programming/.cpp/Projects/Ping Pong/vcpkg_installed/vcpkg/pkgs/brotli_x64-windows/tools/brotli/brotlicommon.dll.[0m
+[33;1mVERBOSE: 
+Name                           Value
+----                           -----
+KERNEL32.dll                   True
+api-ms-win-crt-runtime-l1-1-0… True
+VCRUNTIME140.dll               True
+api-ms-win-crt-heap-l1-1-0.dll True
+
+[0m
