@@ -1,0 +1,10 @@
+^E:\PROGRAMMING\.CPP\PROJECTS\PING-PONG\CMAKEFILES\5177DF968FE886A92016B6D07A11E862\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Programming/.cpp/Projects/Ping-Pong -BE:/Programming/.cpp/Projects/Ping-Pong --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Programming/.cpp/Projects/Ping-Pong/PingPong.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

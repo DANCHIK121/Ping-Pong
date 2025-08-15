@@ -1,0 +1,10 @@
+^E:\PROGRAMMING\.CPP\PROJECTS\PING-PONG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Programming/.cpp/Projects/Ping-Pong -BE:/Programming/.cpp/Projects/Ping-Pong --check-stamp-file E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

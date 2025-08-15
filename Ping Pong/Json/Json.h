@@ -4,7 +4,7 @@
 #include <string>
 
 // Projects libraries
-#include <nlohmann/json.hpp>
+#include "../../vcpkg_installed/x64-windows/include/nlohmann/json.hpp"
 
 namespace JsonLogic
 {

@@ -1,0 +1,3202 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.10+8b8e13593 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 22:08:11.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in E:\\Programming\\.cpp\\Projects\\Ping-Pong\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+        ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+        ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.18
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/4.1.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+    searched_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+    searched_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/bahar/.dotnet/tools/lld-link.com"
+      - "C:/Users/bahar/.dotnet/tools/lld-link.exe"
+      - "C:/Users/bahar/.dotnet/tools/lld-link"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/lld-link.com"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/lld-link.exe"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/lld-link"
+      - "D:/CLion/CLion 2025.1.2/bin/lld-link.com"
+      - "D:/CLion/CLion 2025.1.2/bin/lld-link.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/lld-link"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lld-link.com"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lld-link.exe"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lld-link"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/lld-link.com"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/lld-link.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/lld-link"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/lld-link.com"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/lld-link.exe"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+    searched_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+    searched_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/bahar/.dotnet/tools/mt.com"
+      - "C:/Users/bahar/.dotnet/tools/mt.exe"
+      - "C:/Users/bahar/.dotnet/tools/mt"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/mt.com"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/mt.exe"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/mt"
+      - "D:/CLion/CLion 2025.1.2/bin/mt.com"
+      - "D:/CLion/CLion 2025.1.2/bin/mt.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/mt"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/mt.com"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/mt.exe"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/mt"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/mt.com"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/mt.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/mt"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/mt.com"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/mt.exe"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+    searched_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.10+8b8e13593 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 22:08:13.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      VcpkgCheckManifestRoot:
+        The vcpkg manifest was disabled, but we found a manifest file in E:\\Programming\\.cpp\\Projects\\Ping-Pong\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+      ClCompile:
+        E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+        ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+        ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.88
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/4.1.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+    searched_directories:
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/bahar/.dotnet/tools/lld-link.com"
+      - "C:/Users/bahar/.dotnet/tools/lld-link.exe"
+      - "C:/Users/bahar/.dotnet/tools/lld-link"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/lld-link.com"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/lld-link.exe"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/lld-link"
+      - "D:/CLion/CLion 2025.1.2/bin/lld-link.com"
+      - "D:/CLion/CLion 2025.1.2/bin/lld-link.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/lld-link"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lld-link.com"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lld-link.exe"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lld-link"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/lld-link.com"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/lld-link.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/lld-link"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/lld-link.com"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/lld-link.exe"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PingPong/bin/"
+      - "C:/Program Files (x86)/PingPong/sbin/"
+      - "C:/Program Files (x86)/PingPong/"
+    searched_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/bahar/.dotnet/tools/rc.com"
+      - "C:/Users/bahar/.dotnet/tools/rc.exe"
+      - "C:/Users/bahar/.dotnet/tools/rc"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/rc.com"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/rc.exe"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/rc"
+      - "D:/CLion/CLion 2025.1.2/bin/rc.com"
+      - "D:/CLion/CLion 2025.1.2/bin/rc.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/rc"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/rc.com"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/rc.exe"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/rc"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/rc.com"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/rc.exe"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/rc"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/rc.com"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/rc.exe"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/PingPong/bin/rc.com"
+      - "C:/Program Files (x86)/PingPong/bin/rc.exe"
+      - "C:/Program Files (x86)/PingPong/bin/rc"
+      - "C:/Program Files (x86)/PingPong/sbin/rc.com"
+      - "C:/Program Files (x86)/PingPong/sbin/rc.exe"
+      - "C:/Program Files (x86)/PingPong/sbin/rc"
+      - "C:/Program Files (x86)/PingPong/rc.com"
+      - "C:/Program Files (x86)/PingPong/rc.exe"
+      - "C:/Program Files (x86)/PingPong/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-h8jqsv"
+      binary: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-h8jqsv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-h8jqsv'
+        
+        Run Build Command(s): "E:/Programs/Visual Studio 2/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc45d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.10+8b8e13593 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 22:08:14.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\cmTC_dc45d.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_dc45d.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        VcpkgCheckManifestRoot:
+          The vcpkg manifest was disabled, but we found a manifest file in E:\\Programming\\.cpp\\Projects\\Ping-Pong\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+        ClCompile:
+          E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dc45d.dir\\Debug\\\\" /Fd"cmTC_dc45d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35209 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dc45d.dir\\Debug\\\\" /Fd"cmTC_dc45d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\Debug\\cmTC_dc45d.exe" /INCREMENTAL /ILK:"cmTC_dc45d.dir\\Debug\\cmTC_dc45d.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-h8jqsv/Debug/cmTC_dc45d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-h8jqsv/Debug/cmTC_dc45d.lib" /MACHINE:X64  /machine:x64 cmTC_dc45d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_dc45d.vcxproj -> E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\Debug\\cmTC_dc45d.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\Debug\\cmTC_dc45d.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\cmTC_dc45d.write.1u.tlog" "cmTC_dc45d.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\Debug\\cmTC_dc45d.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\cmTC_dc45d.write.1u.tlog" "cmTC_dc45d.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\Debug\\cmTC_dc45d.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\cmTC_dc45d.write.1u.tlog" "cmTC_dc45d.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_dc45d.dir\\Debug\\cmTC_dc45d.tlog\\cmTC_dc45d.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-h8jqsv\\cmTC_dc45d.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.91
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-gvz9ly"
+      binary: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-gvz9ly"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-gvz9ly'
+        
+        Run Build Command(s): "E:/Programs/Visual Studio 2/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_026d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.10+8b8e13593 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.08.2025 22:08:15.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\cmTC_026d0.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_026d0.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        VcpkgCheckManifestRoot:
+          The vcpkg manifest was disabled, but we found a manifest file in E:\\Programming\\.cpp\\Projects\\Ping-Pong\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+        ClCompile:
+          E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_026d0.dir\\Debug\\\\" /Fd"cmTC_026d0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35209 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_026d0.dir\\Debug\\\\" /Fd"cmTC_026d0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Programs\\Visual Studio 2\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\Debug\\cmTC_026d0.exe" /INCREMENTAL /ILK:"cmTC_026d0.dir\\Debug\\cmTC_026d0.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-gvz9ly/Debug/cmTC_026d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/CMakeScratch/TryCompile-gvz9ly/Debug/cmTC_026d0.lib" /MACHINE:X64  /machine:x64 cmTC_026d0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_026d0.vcxproj -> E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\Debug\\cmTC_026d0.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\Debug\\cmTC_026d0.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\cmTC_026d0.write.1u.tlog" "cmTC_026d0.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\Debug\\cmTC_026d0.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\cmTC_026d0.write.1u.tlog" "cmTC_026d0.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\Debug\\cmTC_026d0.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\cmTC_026d0.write.1u.tlog" "cmTC_026d0.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_026d0.dir\\Debug\\cmTC_026d0.tlog\\cmTC_026d0.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "E:\\Programming\\.cpp\\Projects\\Ping-Pong\\CMakeFiles\\CMakeScratch\\TryCompile-gvz9ly\\cmTC_026d0.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_package)"
+    name: "nlohmann_json"
+    configs:
+      -
+        filename: "nlohmann_jsonConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "nlohmann_json-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "nlohmann_json"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_package)"
+    name: "nlohmann-json"
+    configs:
+      -
+        filename: "nlohmann-jsonConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "nlohmann-json-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "nlohmann-json"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/nlohmann-jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/nlohmann-json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake:95 (find_path)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "SFML_DOC_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SFML.tag"
+    candidate_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFML/doc/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/doc/SFML/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/SFML/doc/"
+      - "C:/Windows/System32/share/doc/SFML/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/SFML/doc/"
+      - "C:/Windows/share/doc/SFML/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/SFML/doc/"
+      - "C:/Windows/System32/wbem/share/doc/SFML/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/SFML/doc/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/share/doc/SFML/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/SFML/doc/"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/SFML/doc/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/share/doc/SFML/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/SFML/doc/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/share/doc/SFML/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/SFML/doc/"
+      - "C:/Program Files/dotnet/share/doc/SFML/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/SFML/doc/"
+      - "C:/Program Files/CMake/bin/share/doc/SFML/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/SFML/doc/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/share/doc/SFML/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/SFML/doc/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/share/doc/SFML/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/SFML/doc/"
+      - "C:/Users/bahar/.dotnet/tools/share/doc/SFML/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/SFML/doc/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/share/doc/SFML/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/SFML/doc/"
+      - "D:/CLion/CLion 2025.1.2/bin/share/doc/SFML/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/SFML/doc/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/share/doc/SFML/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/SFML/doc/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/share/doc/SFML/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/SFML/doc/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/share/doc/SFML/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Program Files/include/SFML/doc/"
+      - "C:/Program Files/include/share/doc/SFML/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/SFML/doc/"
+      - "C:/Program Files/share/doc/SFML/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/SFML/doc/"
+      - "C:/Program Files (x86)/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/SFML/doc/"
+      - "C:/Program Files (x86)/share/doc/SFML/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/SFML/doc/"
+      - "C:/Program Files/CMake/include/share/doc/SFML/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/SFML/doc/"
+      - "C:/Program Files/CMake/share/doc/SFML/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PingPong/include/SFML/doc/"
+      - "C:/Program Files (x86)/PingPong/include/share/doc/SFML/"
+      - "C:/Program Files (x86)/PingPong/include/"
+      - "C:/Program Files (x86)/PingPong/SFML/doc/"
+      - "C:/Program Files (x86)/PingPong/share/doc/SFML/"
+      - "C:/Program Files (x86)/PingPong/"
+      - "C:/Users/bahar/Library/Frameworks/SFML/doc/"
+      - "C:/Users/bahar/Library/Frameworks/share/doc/SFML/"
+      - "C:/Users/bahar/Library/Frameworks/"
+      - "/Library/Frameworks/SFML/doc/"
+      - "/Library/Frameworks/share/doc/SFML/"
+      - "/Library/Frameworks/"
+      - "/usr/local/SFML/doc/"
+      - "/usr/local/share/doc/SFML/"
+      - "/usr/local/"
+      - "/usr/SFML/doc/"
+      - "/usr/share/doc/SFML/"
+      - "/usr/"
+      - "/sw/SFML/doc/"
+      - "/sw/share/doc/SFML/"
+      - "/sw/"
+      - "/opt/local/SFML/doc/"
+      - "/opt/local/share/doc/SFML/"
+      - "/opt/local/"
+      - "/opt/csw/SFML/doc/"
+      - "/opt/csw/share/doc/SFML/"
+      - "/opt/csw/"
+      - "/opt/SFML/doc/"
+      - "/opt/share/doc/SFML/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFML.tag"
+      - "C:/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/SFML.tag"
+      - "C:/Windows/SFML/doc/SFML.tag"
+      - "C:/Windows/share/doc/SFML/SFML.tag"
+      - "C:/Windows/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/wbem/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/share/doc/SFML/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/SFML/doc/SFML.tag"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/cmd/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML.tag"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/SFML/doc/SFML.tag"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/share/doc/SFML/SFML.tag"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/SFML.tag"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/SFML/doc/SFML.tag"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/SFML.tag"
+      - "C:/Program Files/dotnet/SFML/doc/SFML.tag"
+      - "C:/Program Files/dotnet/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/dotnet/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/bin/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/SFML/doc/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/share/doc/SFML/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/SFML/doc/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/share/doc/SFML/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/share/doc/SFML/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/Users/bahar/.dotnet/tools/SFML/doc/SFML.tag"
+      - "C:/Users/bahar/.dotnet/tools/share/doc/SFML/SFML.tag"
+      - "C:/Users/bahar/.dotnet/tools/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/share/doc/SFML/SFML.tag"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/SFML/doc/SFML.tag"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/share/doc/SFML/SFML.tag"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/SFML.tag"
+      - "D:/CLion/CLion 2025.1.2/bin/SFML/doc/SFML.tag"
+      - "D:/CLion/CLion 2025.1.2/bin/share/doc/SFML/SFML.tag"
+      - "D:/CLion/CLion 2025.1.2/bin/SFML.tag"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/SFML/doc/SFML.tag"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/share/doc/SFML/SFML.tag"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/SFML.tag"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/SFML/doc/SFML.tag"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/share/doc/SFML/SFML.tag"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/SFML.tag"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/SFML/doc/SFML.tag"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/share/doc/SFML/SFML.tag"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/SFML.tag"
+      - "C:/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/include/SFML.tag"
+      - "C:/Program Files/SFML/doc/SFML.tag"
+      - "C:/Program Files/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML.tag"
+      - "C:/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML.tag"
+      - "C:/Program Files/CMake/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/share/doc/SFML/SFML.tag"
+      - "C:/Program Files/CMake/SFML.tag"
+      - "C:/Program Files (x86)/PingPong/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/PingPong/include/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/PingPong/include/SFML.tag"
+      - "C:/Program Files (x86)/PingPong/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/PingPong/share/doc/SFML/SFML.tag"
+      - "C:/Program Files (x86)/PingPong/SFML.tag"
+      - "C:/Users/bahar/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/Users/bahar/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "C:/Users/bahar/Library/Frameworks/SFML.tag"
+      - "/Library/Frameworks/SFML/doc/SFML.tag"
+      - "/Library/Frameworks/share/doc/SFML/SFML.tag"
+      - "/Library/Frameworks/SFML.tag"
+      - "/usr/local/SFML/doc/SFML.tag"
+      - "/usr/local/share/doc/SFML/SFML.tag"
+      - "/usr/local/SFML.tag"
+      - "/usr/SFML/doc/SFML.tag"
+      - "/usr/share/doc/SFML/SFML.tag"
+      - "/usr/SFML.tag"
+      - "/sw/SFML/doc/SFML.tag"
+      - "/sw/share/doc/SFML/SFML.tag"
+      - "/sw/SFML.tag"
+      - "/opt/local/SFML/doc/SFML.tag"
+      - "/opt/local/share/doc/SFML/SFML.tag"
+      - "/opt/local/SFML.tag"
+      - "/opt/csw/SFML/doc/SFML.tag"
+      - "/opt/csw/share/doc/SFML/SFML.tag"
+      - "/opt/csw/SFML.tag"
+      - "/opt/SFML/doc/SFML.tag"
+      - "/opt/share/doc/SFML/SFML.tag"
+      - "/opt/SFML.tag"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:13 (find_package)"
+    name: "SFML"
+    components:
+      -
+        name: "Network"
+        required: true
+        found: false
+      -
+        name: "Graphics"
+        required: true
+        found: false
+      -
+        name: "Window"
+        required: true
+        found: false
+      -
+        name: "Audio"
+        required: true
+        found: false
+      -
+        name: "System"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "SFMLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sfml-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SFML"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/lib/cmake/SFML/SFMLConfig.cmake"
+      mode: "config"
+      version: "3.0.0"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:18 (find_package)"
+    name: "raylib"
+    configs:
+      -
+        filename: "raylibConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "raylib-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "raylib"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/raylibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/raylib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:16 (find_path)"
+    mode: "path"
+    variable: "RAYLIB_INCLUDE_DIRS"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "raylib.h"
+    candidate_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PingPong/include/"
+      - "C:/Program Files (x86)/PingPong/"
+    searched_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/raylib.h"
+      - "C:/Windows/System32/raylib.h"
+      - "C:/Windows/raylib.h"
+      - "C:/Windows/System32/wbem/raylib.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/raylib.h"
+      - "C:/Windows/System32/OpenSSH/raylib.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/raylib.h"
+      - "C:/Program Files/Git/cmd/raylib.h"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/raylib.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/raylib.h"
+      - "C:/Program Files/dotnet/raylib.h"
+      - "C:/Program Files/CMake/bin/raylib.h"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/raylib.h"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/raylib.h"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/raylib.h"
+      - "C:/Users/bahar/.dotnet/tools/raylib.h"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/raylib.h"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/raylib.h"
+      - "D:/CLion/CLion 2025.1.2/bin/raylib.h"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/raylib.h"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/raylib.h"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/raylib.h"
+      - "C:/Program Files/include/raylib.h"
+      - "C:/Program Files/raylib.h"
+      - "C:/Program Files (x86)/include/raylib.h"
+      - "C:/Program Files (x86)/raylib.h"
+      - "C:/Program Files/CMake/include/raylib.h"
+      - "C:/Program Files/CMake/raylib.h"
+      - "C:/Program Files (x86)/PingPong/include/raylib.h"
+      - "C:/Program Files (x86)/PingPong/raylib.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:20 (find_path)"
+    mode: "path"
+    variable: "RAYGUI_INCLUDE_DIRS"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "raygui.h"
+    candidate_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PingPong/include/"
+      - "C:/Program Files (x86)/PingPong/"
+    searched_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/raygui.h"
+      - "C:/Windows/System32/raygui.h"
+      - "C:/Windows/raygui.h"
+      - "C:/Windows/System32/wbem/raygui.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/raygui.h"
+      - "C:/Windows/System32/OpenSSH/raygui.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/raygui.h"
+      - "C:/Program Files/Git/cmd/raygui.h"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/raygui.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/raygui.h"
+      - "C:/Program Files/dotnet/raygui.h"
+      - "C:/Program Files/CMake/bin/raygui.h"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/raygui.h"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/raygui.h"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/raygui.h"
+      - "C:/Users/bahar/.dotnet/tools/raygui.h"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/raygui.h"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/raygui.h"
+      - "D:/CLion/CLion 2025.1.2/bin/raygui.h"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/raygui.h"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/raygui.h"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/raygui.h"
+      - "C:/Program Files/include/raygui.h"
+      - "C:/Program Files/raygui.h"
+      - "C:/Program Files (x86)/include/raygui.h"
+      - "C:/Program Files (x86)/raygui.h"
+      - "C:/Program Files/CMake/include/raygui.h"
+      - "C:/Program Files/CMake/raygui.h"
+      - "C:/Program Files (x86)/PingPong/include/raygui.h"
+      - "C:/Program Files (x86)/PingPong/raygui.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:29 (find_package)"
+    name: "fmt"
+    configs:
+      -
+        filename: "fmtConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "fmt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "fmt"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/pkgRedirects/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Windows Kits/10/Windows Performance Toolkit/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Python/Python313/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/vcpkg/vcpkg/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/CLion/CLion 2025.1.2/bin/mingw/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Programs/Rider/JetBrains Rider 2025.1.2/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:24 (find_path)"
+    mode: "path"
+    variable: "nlohmann_json_DIRS"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "./nlohmann/"
+    candidate_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bahar/.dotnet/tools/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/"
+      - "D:/CLion/CLion 2025.1.2/bin/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/PingPong/include/"
+      - "C:/Program Files (x86)/PingPong/"
+    searched_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/./nlohmann/"
+      - "C:/Windows/System32/./nlohmann/"
+      - "C:/Windows/./nlohmann/"
+      - "C:/Windows/System32/wbem/./nlohmann/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/./nlohmann/"
+      - "C:/Windows/System32/OpenSSH/./nlohmann/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/./nlohmann/"
+      - "C:/Program Files/Git/cmd/./nlohmann/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/./nlohmann/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/./nlohmann/"
+      - "C:/Program Files/dotnet/./nlohmann/"
+      - "C:/Program Files/CMake/bin/./nlohmann/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/Scripts/./nlohmann/"
+      - "C:/Users/bahar/AppData/Local/Programs/Python/Python313/./nlohmann/"
+      - "C:/Users/bahar/AppData/Local/Microsoft/WindowsApps/./nlohmann/"
+      - "C:/Users/bahar/.dotnet/tools/./nlohmann/"
+      - "C:/Users/bahar/AppData/Local/Programs/Microsoft VS Code/bin/./nlohmann/"
+      - "E:/Programming/.cpp/vcpkg/vcpkg/./nlohmann/"
+      - "D:/CLion/CLion 2025.1.2/bin/./nlohmann/"
+      - "E:/Programming/.cpp/SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit/SFML-3.0.0/./nlohmann/"
+      - "D:/CLion/CLion 2025.1.2/bin/mingw/bin/./nlohmann/"
+      - "E:/Programs/Rider/JetBrains Rider 2025.1.2/bin/./nlohmann/"
+      - "C:/Program Files/include/./nlohmann/"
+      - "C:/Program Files/./nlohmann/"
+      - "C:/Program Files (x86)/include/./nlohmann/"
+      - "C:/Program Files (x86)/./nlohmann/"
+      - "C:/Program Files/CMake/include/./nlohmann/"
+      - "C:/Program Files/CMake/./nlohmann/"
+      - "C:/Program Files (x86)/PingPong/include/./nlohmann/"
+      - "C:/Program Files (x86)/PingPong/./nlohmann/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bahar\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bahar\\.dotnet\\tools"
+        - "C:\\Users\\bahar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "E:\\Programming\\.cpp\\vcpkg\\vcpkg\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin"
+        - "E:\\Programming\\.cpp\\SFML-3.0.0-windows-gcc-14.2.0-mingw-64-bit\\SFML-3.0.0\\"
+        - "D:\\CLion\\CLion 2025.1.2\\bin\\mingw\\bin\\"
+        - "E:\\Programs\\Rider\\JetBrains Rider 2025.1.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PingPong"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/PingPong"
+...

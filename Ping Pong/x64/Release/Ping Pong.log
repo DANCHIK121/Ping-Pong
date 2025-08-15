@@ -1,17 +1,5 @@
 ﻿cl : command line  warning D9002: ignoring unknown option '/SUBSYSTEM:windows'
-  WorkWithAudio.cpp
-E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
-  (compiling source file 'Audio/WorkWithAudio.cpp')
-      E:\Programs\Visual Studio 2\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
-      see declaration of 'std::runtime_error'
-      E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\include\SFML\System\Exception.hpp(41,23):
-      see declaration of 'sf::Exception'
-  
-  Functions.cpp
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Functions\Functions.cpp(28,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  GameLogicEnums.cpp
   Json.cpp
-  LevelsMap.cpp
   Ping Pong.cpp
 E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\include\raygui.h(2654,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Ping%20Pong.cpp')
@@ -23,31 +11,33 @@ E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\include\SFML\
       E:\Programming\.cpp\Projects\Ping-Pong\vcpkg_installed\x64-windows\include\SFML\System\Exception.hpp(41,23):
       see declaration of 'sf::Exception'
   
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(68,91): warning C4553: '==': result of expression not used; did you intend '='?
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(82,91): warning C4553: '==': result of expression not used; did you intend '='?
   (compiling source file 'Ping%20Pong.cpp')
   
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(69,92): warning C4553: '==': result of expression not used; did you intend '='?
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(83,92): warning C4553: '==': result of expression not used; did you intend '='?
   (compiling source file 'Ping%20Pong.cpp')
   
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(30,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
 E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(64,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(217,36): warning C4018: '>=': signed/unsigned mismatch
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(217,102): warning C4018: '>=': signed/unsigned mismatch
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(317,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(317,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(320,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(320,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(324,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(324,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(327,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(327,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  GameOverLogic.cpp
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(93,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(94,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(221,36): warning C4018: '>=': signed/unsigned mismatch
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(221,102): warning C4018: '>=': signed/unsigned mismatch
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(321,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(321,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(324,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(324,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(328,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(328,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(331,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Ping Pong.cpp(331,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   SettingsWindowLogic.cpp
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(68,91): warning C4553: '==': result of expression not used; did you intend '='?
-E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(69,92): warning C4553: '==': result of expression not used; did you intend '='?
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(82,91): warning C4553: '==': result of expression not used; did you intend '='?
+E:\Programming\.cpp\Projects\Ping-Pong\Ping Pong\Windows\SettingsWindowLogic.cpp(83,92): warning C4553: '==': result of expression not used; did you intend '='?
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 2530 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  5 of 2530 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Ping Pong.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong\x64\Release\Ping Pong.exe
   "pwsh.exe" не является внутренней или внешней

@@ -4,7 +4,7 @@
 #include <iostream>
 
 // Project libraries
-#include <nlohmann/json.hpp>
+#include "../../vcpkg_installed/x64-windows/include/nlohmann/json.hpp"
 
 // Project files
 #include "Json.h"

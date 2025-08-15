@@ -23,7 +23,7 @@ namespace SettingsWindow
 	{
 		// Initialization
 		// Screen settings
-		const int screenWidth = 400;
+		const int screenWidth = 430;
 		const int screenHeight = 350;
 
 		// Show FPS
@@ -31,15 +31,28 @@ namespace SettingsWindow
 		Rectangle showFPSCheckboxRect = { 10, 50, 20, 20 };
 		std::string showFPSCheckboxText = "Show FPS on screen";
 
+		// Sound volume settings
+		int currentValueOfSoundVolume = 0;
+		std::string soundVolumeSettingsText = "Sound volume -> ";
+
+		// Left
+		std::string soundVolumeLeftArrowText = "<";
+		// Right
+		std::string soundVolumeRightArrowText = ">";
+		// Positions
+		Rectangle soundVolumeLeftButtonRect = { 340, 120, 30, 30 };
+		Rectangle soundVolumeRightButtonRect = { 390, 120, 30, 30 };
+
 		// FPS Limiter
 		int currentValueOfFPSLimiter = 0;
 		std::string fpsLimiterText = "FPS limiter -> ";
-		// Right
+		// Left
 		std::string fpsLimiterLeftArrowText = "<";
+		// Right
 		std::string fpsLimiterRightArrowText = ">";
 		// Positions
-		Rectangle fpsLimiterLeftButtonRect = { 310, 80, 30, 30 };
-		Rectangle fpsLimiterRightButtonRect = { 350, 80, 30, 30 };
+		Rectangle fpsLimiterLeftButtonRect = { 340, 80, 30, 30 };
+		Rectangle fpsLimiterRightButtonRect = { 390, 80, 30, 30 };
 
 		// Apply button settings
 		std::string applyButtonText = "Apply";
@@ -57,6 +70,7 @@ namespace SettingsWindow
 
 		// Read values
 		currentValueOfFPSLimiter = jsonTemp["FPSLimiter"].get<int>();
+		currentValueOfSoundVolume = jsonTemp["SoundVolume"].get<int>();
 
 		while (!WindowShouldClose()) // Detect window close button or ESC key
 		{
@@ -91,6 +105,17 @@ namespace SettingsWindow
 
 			if (GuiButton(fpsLimiterRightButtonRect, fpsLimiterRightArrowText.c_str()))
 				if (currentValueOfFPSLimiter + 60 <= 240) { currentValueOfFPSLimiter += 60; }
+
+			// Sound volume settings
+			soundVolumeSettingsText = std::format("Sound volume -> {}", currentValueOfSoundVolume); // Read actual value
+
+			DrawText(soundVolumeSettingsText.c_str(), 35, 120, 30, DARKGRAY);
+
+			if (GuiButton(soundVolumeLeftButtonRect, soundVolumeLeftArrowText.c_str()))
+				if (currentValueOfSoundVolume - 10 >= 0) { currentValueOfSoundVolume -= 10; }
+
+			if (GuiButton(soundVolumeRightButtonRect, soundVolumeRightArrowText.c_str()))
+				if (currentValueOfSoundVolume + 10 <= 100) { currentValueOfSoundVolume += 10; }
 			#pragma endregion
 
 			#pragma region Buttons

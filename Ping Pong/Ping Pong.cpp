@@ -10,12 +10,12 @@
 // Projects libraries
 #ifndef RAY_LIB_CONNECTION
 #define RAY_LIB_CONNECTION
-#include "raylib.h"
+#include "../vcpkg_installed/x64-windows/include/raylib.h"
 #endif 
 
 #ifndef RAY_GUI_CONNECTION
 #define RAY_GUI_CONNECTION
-#include "raygui.h"
+#include "../vcpkg_installed/x64-windows/include/raygui.h"
 #endif
 
 // Project files
@@ -79,15 +79,19 @@ void main()
     // Bounced
     ballBouncedAudio->LoadFileToBuffer(WorkWithAudio::MusicModes::TheBallBounced);
     auto ballBouncedAudioTemp = ballBouncedAudio->LoadBufferToSound();
-    ballBouncedAudio->SetVolume(ballBouncedAudioTemp, 30);
-
+    
     // Bounced off
     ballBouncedOffAudio->LoadFileToBuffer(WorkWithAudio::MusicModes::TheBallBouncedOff);
     auto ballBouncedOffAudioTemp = ballBouncedOffAudio->LoadBufferToSound();
-    ballBouncedOffAudio->SetVolume(ballBouncedOffAudioTemp, 30);
-
+    
     // Work with json
     nlohmann::json jsonTemp = json->ReadFromFile();
+
+    // Set volume
+    // Read volume
+    int volume = jsonTemp["SoundVolume"].get<int>();
+    ballBouncedAudio->SetVolume(ballBouncedAudioTemp, volume);
+    ballBouncedOffAudio->SetVolume(ballBouncedOffAudioTemp, volume);
 
     // Variables of random ball direction
     int directionOfBallForYInInt = functions->RandomFunction(1, 2); 
