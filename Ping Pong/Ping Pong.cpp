@@ -10,12 +10,12 @@
 // Projects libraries
 #ifndef RAY_LIB_CONNECTION
 #define RAY_LIB_CONNECTION
-#include "../vcpkg_installed/x64-windows/include/raylib.h"
+#include "/home/daniil/raylib/src/raylib.h"
 #endif 
 
 #ifndef RAY_GUI_CONNECTION
 #define RAY_GUI_CONNECTION
-#include "../vcpkg_installed/x64-windows/include/raygui.h"
+#include "/home/daniil/raygui/src/raygui.h"
 #endif
 
 // Project files
@@ -27,7 +27,7 @@
 #include "Windows/GameOverLogic.cpp"
 #include "Windows/SettingsWindowLogic.cpp"
 
-void main()
+int main()
 {
     // Initialization
     // App variables
@@ -338,4 +338,5 @@ void main()
     }
 
     CloseWindow(); // Program end
+	return 0;
 }

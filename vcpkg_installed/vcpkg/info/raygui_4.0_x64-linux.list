@@ -1,0 +1,8 @@
+x64-linux/
+x64-linux/include/
+x64-linux/include/raygui.h
+x64-linux/share/
+x64-linux/share/raygui/
+x64-linux/share/raygui/copyright
+x64-linux/share/raygui/vcpkg.spdx.json
+x64-linux/share/raygui/vcpkg_abi_info.txt

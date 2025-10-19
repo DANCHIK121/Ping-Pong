@@ -1,4 +1,16 @@
 {
+  "/bin/c++" : 
+  {
+    "hash" : "c50f6b25a87ca17f86cb96acf84bb87b9ab4cb16",
+    "size" : 14608,
+    "timestamp" : 1716386400
+  },
+  "/bin/cc" : 
+  {
+    "hash" : "c50f6b25a87ca17f86cb96acf84bb87b9ab4cb16",
+    "size" : 14608,
+    "timestamp" : 1716386400
+  },
   "E:/Programs/Visual Studio 2/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe" : 
   {
     "hash" : "ddfd9b25c30b7326e2f9d12d5a50cbb71068e0fb",

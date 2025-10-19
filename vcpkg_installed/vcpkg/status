@@ -3,14 +3,14 @@ Version: 2024-05-23
 Architecture: x64-windows
 Multi-Arch: same
 Abi: a6bbbf37c4a838266139abf2b8c3d1e24aeddbf61eecad99c783a970cf807611
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: vcpkg-cmake
 Version: 2024-04-23
 Architecture: x64-windows
 Multi-Arch: same
 Abi: 377937e02d231e8e62f093ba0edd7848d535674283453168a97cf3a2c90b6158
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: fmt
 Version: 11.0.2
@@ -20,7 +20,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: bd30166effba54c4ffd9a8b78d1d5dd0c76a34761d6ed78d603e7d8156fed07f
 Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: raygui
 Version: 4.0
@@ -28,7 +28,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: fb4e112fe51dd532c5f27b1a34fb5df2892d6f3b75e5bab86d9570f0957325cc
 Description: A simple and easy-to-use immediate-mode gui library
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: stb
 Version: 2024-07-29
@@ -37,7 +37,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 10de9c9b734063991c11128289411d9a8f401582629bc8b170eedb7077d3025a
 Description: public domain header-only libraries
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: qoi
 Version: 2023-08-10
@@ -45,7 +45,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: dd0b817ca63f9b9d91f9dd0962037c3229cdc59bfd09be3ec394843ba208daee
 Description: The Quite OK Image Format for fast, lossless image compression
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: nanosvg
 Version: 2023-12-29
@@ -54,7 +54,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 7c62f93bc488c83b8bbbc9432b394b726be4f24ba620c430b223e0b997d4ae3b
 Description: NanoSVG is a simple stupid single-header-file SVG parser. It is accompanied by a simple SVG rasterizer.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: mmx
 Version: 2022-03-27
@@ -62,7 +62,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: f7bc990bdb55cf683f41d520a58a905b6b63cfb86c44cda6868e7a6a8352031f
 Description: Single header libraries for C/C++
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: miniaudio
 Version: 0.11.22
@@ -70,7 +70,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: e5e9059ec11cc0390b85382b9e825dbe9f10d0ef9f0265649b8e459844705794
 Description: Audio playback and capture library written in C, in a single source file
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: glfw3
 Version: 3.4
@@ -80,7 +80,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 9751ff682a30effadd8f8932c5afbc4230bada1c53b28b8db2cf6b786b5d78c5
 Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: drlibs
 Version: 2023-08-16
@@ -88,7 +88,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: b70deb8ff8e7f34676d3374b5ad060266495e14ca20eb5969bdd964bf7b98d5a
 Description: Single-file audio decoding libraries for C/C++
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: dirent
 Version: 1.24
@@ -96,7 +96,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 49964760cf2efde66b2d0e5345a61e6933cdc786e6c871f848ca0138dea3b96c
 Description: Dirent is a C/C++ programming interface that allows programmers to retrieve information about files and directories under Linux/UNIX. This project provides Linux compatible Dirent interface for Microsoft Windows.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: cgltf
 Version: 1.14
@@ -104,7 +104,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: ccba166a3f1a309cdcbd2c8734a4b7d74a7ae609a6530e7c0cb2c0717211475f
 Description: Single-file glTF 2.0 loader and writer written in C99
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: raylib
 Version: 5.5
@@ -114,14 +114,14 @@ Multi-Arch: same
 Abi: dd6451db92b9ff3802fb506729a5c5f3e085f4a481bede8aee2b1fc488035160
 Description: A simple and easy-to-use library to enjoy videogames programming
 Default-Features: use-audio
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: raylib
 Feature: use-audio
 Architecture: x64-windows
 Multi-Arch: same
 Description: Build raylib with audio module
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: nlohmann-json
 Version: 3.11.3
@@ -131,7 +131,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: f5298a2cbeb4b88e5d4f64eb01240199ee208a3f398f8294c953c503cadfe7c2
 Description: JSON for Modern C++
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: egl-registry
 Version: 2024-01-25
@@ -139,7 +139,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: cdec9d16d363cee49864740a1580b0f2bf37c234ab06999ef911bd35abe85606
 Description: EGL API and Extension Registry
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: opengl-registry
 Version: 2024-02-10
@@ -149,7 +149,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: b6549c0e6ea9cc7f536f7cf5d57c4ed09178abddecfae2e065940016c9195cc3
 Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: opengl
 Version: 2022-12-04
@@ -159,7 +159,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: bd5db5730f0ae01c5ef32d72bff62b38ea60d2349999a426fee1b47602c9c6db
 Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: zlib
 Version: 1.3.1
@@ -168,7 +168,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 7b07d1c5bd688899450e9a4c6ef47f749f0a3fa10c19e50e9845f0fceb0fd6a4
 Description: A compression library
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: libpng
 Version: 1.6.46
@@ -177,7 +177,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 19f97c0db1015e7e04363c1f9004c4eb2079ae6b51ddb39bc68e79d9211cdd7d
 Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: bzip2
 Version: 1.0.8
@@ -188,14 +188,14 @@ Multi-Arch: same
 Abi: 229213fade88ab1202001df2943ca753b0f7af1e2944827caf1adc696eee97da
 Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
 Default-Features: tool
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: bzip2
 Feature: tool
 Architecture: x64-windows
 Multi-Arch: same
 Description: Builds bzip2 executable
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: brotli
 Version: 1.1.0
@@ -205,7 +205,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: e231ccfdcd1d916fe2b538d8ca98c64489fcce1995d47152a6c845d97e55b5de
 Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: freetype
 Version: 2.13.3
@@ -215,7 +215,7 @@ Multi-Arch: same
 Abi: acff855be3c5ce82b4385a65efe25c803bcf3f4b5dbb0ac3b438b48c6a9d2879
 Description: A library to render fonts.
 Default-Features: brotli, bzip2, png, zlib
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: freetype
 Feature: brotli
@@ -223,7 +223,7 @@ Depends: brotli
 Architecture: x64-windows
 Multi-Arch: same
 Description: Support decompression of WOFF2 streams
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: freetype
 Feature: bzip2
@@ -231,7 +231,7 @@ Depends: bzip2
 Architecture: x64-windows
 Multi-Arch: same
 Description: Support bzip2 compressed fonts.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: freetype
 Feature: png
@@ -239,7 +239,7 @@ Depends: libpng
 Architecture: x64-windows
 Multi-Arch: same
 Description: Support PNG compressed OpenType embedded bitmaps.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: freetype
 Feature: zlib
@@ -247,7 +247,7 @@ Depends: zlib
 Architecture: x64-windows
 Multi-Arch: same
 Description: Use zlib instead of internal library for DEFLATE
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: libogg
 Version: 1.3.5
@@ -257,7 +257,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: 78c2e12060ca754728fcc411389a451e544ec4dda7de6203a01e6fa5e56b80b7
 Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: libvorbis
 Version: 1.3.7
@@ -267,7 +267,7 @@ Architecture: x64-windows
 Multi-Arch: same
 Abi: efbd1df6e8c98f8663b12ad3e82cc4f945953ebaceed9185a8d8eff3d76935ef
 Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: libflac
 Version: 1.4.3
@@ -278,14 +278,14 @@ Multi-Arch: same
 Abi: a0a01d5fca65c3a38b929f797fe0ed7815353f07246f4aad7a3d11bf02c9d51f
 Description: Library for manipulating FLAC files
 Default-Features: stack-protector
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: libflac
 Feature: stack-protector
 Architecture: x64-windows
 Multi-Arch: same
 Description: Build with stack smashing protection
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: sfml
 Version: 3.0.0
@@ -296,7 +296,7 @@ Multi-Arch: same
 Abi: ac337a114ca213c9565e01b5c2bf20b72358cf4edeae5c5b070483fffba4b679
 Description: Simple and fast multimedia library
 Default-Features: audio, graphics, network, window
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: sfml
 Feature: audio
@@ -304,7 +304,7 @@ Depends: libflac, libogg, libvorbis, miniaudio
 Architecture: x64-windows
 Multi-Arch: same
 Description: Use sfml-audio library
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: sfml
 Feature: graphics
@@ -312,14 +312,14 @@ Depends: freetype, stb
 Architecture: x64-windows
 Multi-Arch: same
 Description: Use sfml-graphics library
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: sfml
 Feature: network
 Architecture: x64-windows
 Multi-Arch: same
 Description: Use sfml-network library
-Status: install ok installed
+Status: purge ok not-installed
 
 Package: sfml
 Feature: window
@@ -327,5 +327,294 @@ Depends: opengl
 Architecture: x64-windows
 Multi-Arch: same
 Description: Use sfml-window library
+Status: purge ok not-installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 47fbc065a47bfba64cec937226ca93f33faab94ec43f62722ccf0b24d6512c18
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e67683efa208bf522445baa985635c67ca7bfd7da45fe24f69275c76117755dc
+Status: install ok installed
+
+Package: fmt
+Version: 11.0.2
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: a2194155929126692e87411f635bb0f97ec93b141c4562b6629c74f08d926892
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.11.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 1a4386429961af2f29aa58a390aabba10008cd6a1e5ae9bb7677bd05193a3996
+Description: JSON for Modern C++
+Status: install ok installed
+
+Package: raygui
+Version: 4.0
+Architecture: x64-linux
+Multi-Arch: same
+Abi: c1fb1544550f76b4e9f5615a4b9e5a9015599411feb6829589456a135ccec5b0
+Description: A simple and easy-to-use immediate-mode gui library
+Status: install ok installed
+
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-linux
+Multi-Arch: same
+Abi: e997f2eb629d221e851ffae5e196c7ef1508995274c53b39369fd7a598f166f8
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: qoi
+Version: 2023-08-10
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 0e0155693ce6e63c8f0bf2ae389bcfb0726070bc722371023efe72e9604456f7
+Description: The Quite OK Image Format for fast, lossless image compression
+Status: install ok installed
+
+Package: nanosvg
+Version: 2023-12-29
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 9205a53c34c4138c8379e22ed30f16e143a027ade3d7880cfc42a0a85f0889d9
+Description: NanoSVG is a simple stupid single-header-file SVG parser. It is accompanied by a simple SVG rasterizer.
+Status: install ok installed
+
+Package: mmx
+Version: 2022-03-27
+Architecture: x64-linux
+Multi-Arch: same
+Abi: f7daee6baa43507f629a475e98eca3aecadf8af2ab703913c22d59b829542719
+Description: Single header libraries for C/C++
+Status: install ok installed
+
+Package: miniaudio
+Version: 0.11.22
+Architecture: x64-linux
+Multi-Arch: same
+Abi: d8d428425d3b828f7b60a5062ab6cf13c8d296908c655ef002d9ebc619f01549
+Description: Audio playback and capture library written in C, in a single source file
+Status: install ok installed
+
+Package: glfw3
+Version: 3.4
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 20798def0a96c00782662d4c77ef5988508cbe9d3b78dc54aa7cd529d255f8fd
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Status: install ok installed
+
+Package: drlibs
+Version: 2023-08-16
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 682ccb68eb79579e4ad6425a323b9c086f4848d5bcf65193f42fde72146a59d3
+Description: Single-file audio decoding libraries for C/C++
+Status: install ok installed
+
+Package: dirent
+Version: 1.24
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 1e01ffc3fd863103d9676eede718bdfa7004ff06fe94356de70476f1939421fb
+Description: Dirent is a C/C++ programming interface that allows programmers to retrieve information about files and directories under Linux/UNIX. This project provides Linux compatible Dirent interface for Microsoft Windows.
+Status: install ok installed
+
+Package: cgltf
+Version: 1.14
+Architecture: x64-linux
+Multi-Arch: same
+Abi: cc78aee97bf767ac21e24c0e718f5192dac297b4c09b2ef1dea8eb8b507930b0
+Description: Single-file glTF 2.0 loader and writer written in C99
+Status: install ok installed
+
+Package: raylib
+Version: 5.5
+Depends: cgltf, dirent, drlibs, glfw3, miniaudio, mmx, nanosvg, qoi, stb, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8182c0275523904eb040c92744d08e71d157e8f5ce30a6dd0a60c2f5b7b09f4f
+Description: A simple and easy-to-use library to enjoy videogames programming
+Default-Features: use-audio
+Status: install ok installed
+
+Package: raylib
+Feature: use-audio
+Architecture: x64-linux
+Multi-Arch: same
+Description: Build raylib with audio module
+Status: install ok installed
+
+Package: egl-registry
+Version: 2024-01-25
+Architecture: x64-linux
+Multi-Arch: same
+Abi: aecf9de35b3a22a857ce35b6b71878153f9891b94e0a474daa3686043490d155
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2024-02-10
+Port-Version: 1
+Depends: egl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 94efc5b177397ac1663e0482ac463f67e28ecb403af8d101237d8ce42d80e528
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: opengl
+Version: 2022-12-04
+Port-Version: 3
+Depends: opengl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 0d7670ad09dc3440a4ab62f14f67448f1ea9aaed7891eef41758c4006ee74118
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 79c497f913f8b33b73fff463683e2b2971cdbdfed4b35b3ce6e0359692b3446e
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.46
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 8a731ab733988e98a7f2ce318093563866216c9c4996a5a0d0adc5f499944286
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 6
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 5374e5607c9eb5e51d018473bbf284a927b35dc071db97ad10f010bfec9318d0
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: install ok installed
+
+Package: bzip2
+Feature: tool
+Architecture: x64-linux
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: install ok installed
+
+Package: brotli
+Version: 1.1.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: b2956d39bd7328ad4af9168b2f81da66461c57c19319fa0cabda3ab4ce4956ec
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: freetype
+Version: 2.13.3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: dd0e0f747dc9fbc9ef8f0ddd4f35b7269b4c54a925cca8f0e20a015f2ddbaf19
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: install ok installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: install ok installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: install ok installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x64-linux
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: install ok installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-linux
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: install ok installed
+
+Package: libogg
+Version: 1.3.5
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 452f08f9e20cf5c12e33e95413d8059be1c812ad1f18f23da70ac658980c563a
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: install ok installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 4
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 5d1ada16bb169b3b23d13cd3559859709801dc0163150bad9d222101f4729fd1
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: install ok installed
+
+Package: libflac
+Version: 1.4.3
+Port-Version: 2
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 2713243ec9e47384537bfd0a0977bffdf07344c0ff0555a3d1d209a5685fc4b4
+Description: Library for manipulating FLAC files
+Default-Features: stack-protector
+Status: install ok installed
+
+Package: libflac
+Feature: stack-protector
+Architecture: x64-linux
+Multi-Arch: same
+Description: Build with stack smashing protection
 Status: install ok installed
 

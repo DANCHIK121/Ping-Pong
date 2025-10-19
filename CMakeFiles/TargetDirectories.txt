@@ -1,3 +1,3 @@
-E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/PingPong.dir
-E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/ALL_BUILD.dir
-E:/Programming/.cpp/Projects/Ping-Pong/CMakeFiles/ZERO_CHECK.dir
+/home/daniil/Ping-Pong/CMakeFiles/PingPongRelease.dir
+/home/daniil/Ping-Pong/CMakeFiles/edit_cache.dir
+/home/daniil/Ping-Pong/CMakeFiles/rebuild_cache.dir

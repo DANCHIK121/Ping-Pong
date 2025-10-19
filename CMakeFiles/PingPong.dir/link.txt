@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/PingPong.dir/link.d CMakeFiles/PingPong.dir/Ping_Pong/Ping_Pong.cpp.o -o PingPong  -lnetwork -lgraphics -lwindow -laudio -lsystem -lraylib -lfmt

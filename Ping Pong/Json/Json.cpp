@@ -4,7 +4,7 @@
 #include <iostream>
 
 // Project libraries
-#include "../../vcpkg_installed/x64-windows/include/nlohmann/json.hpp"
+#include "nlohmann/json.hpp"
 
 // Project files
 #include "Json.h"
@@ -14,7 +14,7 @@ namespace JsonLogic
 	Json::Json()
 	{
 		Json::jsonObject = new nlohmann::json();
-		Json::settingsFilePath = "\\Json\\Settings.json";
+		Json::settingsFilePath = "/Json/Settings.json";
 	}
 
 	nlohmann::json Json::ReadFromFile()
