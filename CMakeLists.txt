@@ -18,14 +18,13 @@ add_executable(
 set_target_properties(PingPongRelease PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/x64/Release/)
 
 # Get project source directory
-message("Current source directory: ${CMAKE_CURRENT_SOURCE_DIR}")  
-set(CUSTOM_DIR /home/daniil)
+message("Current source directory: ${CMAKE_CURRENT_SOURCE_DIR}")
 
 # Include needed directories
 target_include_directories(PingPongRelease PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/SFML/include
-    ./raylib/src
-    ./raygui/src
+    ${CMAKE_CURRENT_SOURCE_DIR}/raylib/src
+    ${CMAKE_CURRENT_SOURCE_DIR}/raygui/src
     ${CMAKE_CURRENT_SOURCE_DIR}/json/include
 )
 
@@ -61,18 +60,18 @@ else()
     message(FATAL_ERROR "SFML libraries not found in ${CMAKE_CURRENT_SOURCE_DIR}/SFML/lib/")
 endif()
 
-# Raylib - ищем статическую библиотеку
-if(EXISTS "${CUSTOM_DIR}/raylib/src/libraylib.a")
-    message(STATUS "Found static raylib: ${CUSTOM_DIR}/raylib/src/libraylib.a")
-    target_link_libraries(PingPongRelease PRIVATE ${CUSTOM_DIR}/raylib/src/libraylib.a)
-elseif(EXISTS "${CUSTOM_DIR}/raylib/raylib/libraylib.a")
-    message(STATUS "Found static raylib: ${CUSTOM_DIR}/raylib/raylib/libraylib.a")
-    target_link_libraries(PingPongRelease PRIVATE ${CUSTOM_DIR}/raylib/raylib/libraylib.a)
+# Raylib - looking for a static library
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/raylib/src/libraylib.a")
+    message(STATUS "Found static raylib: ${CMAKE_CURRENT_SOURCE_DIR}/raylib/src/libraylib.a")
+    target_link_libraries(PingPongRelease PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/raylib/src/libraylib.a)
+elseif(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/raylib/raylib/libraylib.a")
+    message(STATUS "Found static raylib: ${CMAKE_CURRENT_SOURCE_DIR}/raylib/raylib/libraylib.a")
+    target_link_libraries(PingPongRelease PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/raylib/raylib/libraylib.a)
 else()
     # Пробуем найти через find_library
     find_library(RAYLIB_LIB 
         NAMES raylib libraylib.a
-        PATHS ${CUSTOM_DIR}/raylib/src ${CUSTOM_DIR}/raylib/raylib ${CUSTOM_DIR}/raylib
+        PATHS ${CMAKE_CURRENT_SOURCE_DIR}/raylib/src ${CMAKE_CURRENT_SOURCE_DIR}/raylib/raylib ${CMAKE_CURRENT_SOURCE_DIR}/raylib
         NO_DEFAULT_PATH
     )
     if(RAYLIB_LIB)
@@ -83,14 +82,7 @@ else()
     endif()
 endif()
 
-# Системные библиотеки для статической линковки
-find_library(XXF86VM_LIB Xxf86vm)
-if(XXF86VM_LIB)
-    message(STATUS "Found Xxf86vm: ${XXF86VM_LIB}")
-else()
-    message(WARNING "Xxf86vm library not found, trying alternative names")
-endif()
-
+# System libraries for static linking
 target_link_libraries(PingPongRelease PRIVATE
     pthread
     dl
@@ -99,11 +91,11 @@ target_link_libraries(PingPongRelease PRIVATE
     Xrandr
     Xinerama
     Xi
-    /usr/lib64/libXxf86vm.so.1.0.0  # Подключаем через find_library
+    /usr/lib64/libXxf86vm.so.1.0.0
     Xcursor
 )
 
-# Дополнительные зависимости для статического SFML
+# Additional dependencies for static SFML
 target_link_libraries(PingPongRelease PRIVATE
     GL
     /usr/lib64/libopenal.so.1.22.2
@@ -123,12 +115,9 @@ else()
     target_link_libraries(PingPongRelease PRIVATE nlohmann_json::nlohmann_json)
 endif()
 
-# fmt - ищем статическую библиотеку
+# fmt - looking for a static library
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/fmt/lib/libfmt.a")
     target_link_libraries(PingPongRelease PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/fmt/lib/libfmt.a)
 elseif(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/fmt/bin/libfmt.a")
     target_link_libraries(PingPongRelease PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/fmt/bin/libfmt.a)
-else()
-    find_package(fmt REQUIRED)
-    target_link_libraries(PingPongRelease PRIVATE fmt::fmt)
 endif()

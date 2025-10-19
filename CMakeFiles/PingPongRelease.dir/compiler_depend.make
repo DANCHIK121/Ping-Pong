@@ -594,52 +594,52 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Functions/Functions.cpp.o: Ping\ Pong/F
 
 CMakeFiles/PingPongRelease.dir/Ping_Pong/Json/Json.cpp.o: Ping\ Pong/Json/Json.cpp \
   Ping\ Pong/Json/Json.h \
-  /home/daniil/json/include/nlohmann/adl_serializer.hpp \
-  /home/daniil/json/include/nlohmann/byte_container_with_subtype.hpp \
-  /home/daniil/json/include/nlohmann/detail/abi_macros.hpp \
-  /home/daniil/json/include/nlohmann/detail/conversions/from_json.hpp \
-  /home/daniil/json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /home/daniil/json/include/nlohmann/detail/conversions/to_json.hpp \
-  /home/daniil/json/include/nlohmann/detail/exceptions.hpp \
-  /home/daniil/json/include/nlohmann/detail/hash.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/binary_reader.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/input_adapters.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/json_sax.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/lexer.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/parser.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/position_t.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /home/daniil/json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /home/daniil/json/include/nlohmann/detail/json_pointer.hpp \
-  /home/daniil/json/include/nlohmann/detail/json_ref.hpp \
-  /home/daniil/json/include/nlohmann/detail/macro_scope.hpp \
-  /home/daniil/json/include/nlohmann/detail/macro_unscope.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/detected.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/is_sax.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/std_fs.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/type_traits.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/void_t.hpp \
-  /home/daniil/json/include/nlohmann/detail/output/binary_writer.hpp \
-  /home/daniil/json/include/nlohmann/detail/output/output_adapters.hpp \
-  /home/daniil/json/include/nlohmann/detail/output/serializer.hpp \
-  /home/daniil/json/include/nlohmann/detail/string_concat.hpp \
-  /home/daniil/json/include/nlohmann/detail/string_escape.hpp \
-  /home/daniil/json/include/nlohmann/detail/string_utils.hpp \
-  /home/daniil/json/include/nlohmann/detail/value_t.hpp \
-  /home/daniil/json/include/nlohmann/json.hpp \
-  /home/daniil/json/include/nlohmann/json_fwd.hpp \
-  /home/daniil/json/include/nlohmann/ordered_map.hpp \
-  /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  json/include/nlohmann/adl_serializer.hpp \
+  json/include/nlohmann/byte_container_with_subtype.hpp \
+  json/include/nlohmann/detail/abi_macros.hpp \
+  json/include/nlohmann/detail/conversions/from_json.hpp \
+  json/include/nlohmann/detail/conversions/to_chars.hpp \
+  json/include/nlohmann/detail/conversions/to_json.hpp \
+  json/include/nlohmann/detail/exceptions.hpp \
+  json/include/nlohmann/detail/hash.hpp \
+  json/include/nlohmann/detail/input/binary_reader.hpp \
+  json/include/nlohmann/detail/input/input_adapters.hpp \
+  json/include/nlohmann/detail/input/json_sax.hpp \
+  json/include/nlohmann/detail/input/lexer.hpp \
+  json/include/nlohmann/detail/input/parser.hpp \
+  json/include/nlohmann/detail/input/position_t.hpp \
+  json/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  json/include/nlohmann/detail/iterators/iter_impl.hpp \
+  json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  json/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  json/include/nlohmann/detail/json_custom_base_class.hpp \
+  json/include/nlohmann/detail/json_pointer.hpp \
+  json/include/nlohmann/detail/json_ref.hpp \
+  json/include/nlohmann/detail/macro_scope.hpp \
+  json/include/nlohmann/detail/macro_unscope.hpp \
+  json/include/nlohmann/detail/meta/call_std/begin.hpp \
+  json/include/nlohmann/detail/meta/call_std/end.hpp \
+  json/include/nlohmann/detail/meta/cpp_future.hpp \
+  json/include/nlohmann/detail/meta/detected.hpp \
+  json/include/nlohmann/detail/meta/identity_tag.hpp \
+  json/include/nlohmann/detail/meta/is_sax.hpp \
+  json/include/nlohmann/detail/meta/std_fs.hpp \
+  json/include/nlohmann/detail/meta/type_traits.hpp \
+  json/include/nlohmann/detail/meta/void_t.hpp \
+  json/include/nlohmann/detail/output/binary_writer.hpp \
+  json/include/nlohmann/detail/output/output_adapters.hpp \
+  json/include/nlohmann/detail/output/serializer.hpp \
+  json/include/nlohmann/detail/string_concat.hpp \
+  json/include/nlohmann/detail/string_escape.hpp \
+  json/include/nlohmann/detail/string_utils.hpp \
+  json/include/nlohmann/detail/value_t.hpp \
+  json/include/nlohmann/json.hpp \
+  json/include/nlohmann/json_fwd.hpp \
+  json/include/nlohmann/ordered_map.hpp \
+  json/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -992,6 +992,9 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Json/Json.cpp.o: Ping\ Pong/Json/Json.c
   /usr/lib64/gcc/x86_64-alt-linux/13/include/syslimits.h
 
 CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o: Ping\ Pong/Ping\ Pong.cpp \
+  raygui/src/raygui.h \
+  raygui/src/raylib.h \
+  raylib/src/raylib.h \
   Ping\ Pong/Audio/WorkWithAudio.h \
   Ping\ Pong/Functions/Functions.h \
   Ping\ Pong/GameLogicEnums.cpp \
@@ -1040,55 +1043,52 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o: Ping\ Pong/Ping\ Pong.
   SFML/include/SFML/System/Vector2.inl \
   SFML/include/SFML/System/Vector3.hpp \
   SFML/include/SFML/System/Vector3.inl \
-  /home/daniil/json/include/nlohmann/adl_serializer.hpp \
-  /home/daniil/json/include/nlohmann/byte_container_with_subtype.hpp \
-  /home/daniil/json/include/nlohmann/detail/abi_macros.hpp \
-  /home/daniil/json/include/nlohmann/detail/conversions/from_json.hpp \
-  /home/daniil/json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /home/daniil/json/include/nlohmann/detail/conversions/to_json.hpp \
-  /home/daniil/json/include/nlohmann/detail/exceptions.hpp \
-  /home/daniil/json/include/nlohmann/detail/hash.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/binary_reader.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/input_adapters.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/json_sax.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/lexer.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/parser.hpp \
-  /home/daniil/json/include/nlohmann/detail/input/position_t.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /home/daniil/json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /home/daniil/json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /home/daniil/json/include/nlohmann/detail/json_pointer.hpp \
-  /home/daniil/json/include/nlohmann/detail/json_ref.hpp \
-  /home/daniil/json/include/nlohmann/detail/macro_scope.hpp \
-  /home/daniil/json/include/nlohmann/detail/macro_unscope.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/detected.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/is_sax.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/std_fs.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/type_traits.hpp \
-  /home/daniil/json/include/nlohmann/detail/meta/void_t.hpp \
-  /home/daniil/json/include/nlohmann/detail/output/binary_writer.hpp \
-  /home/daniil/json/include/nlohmann/detail/output/output_adapters.hpp \
-  /home/daniil/json/include/nlohmann/detail/output/serializer.hpp \
-  /home/daniil/json/include/nlohmann/detail/string_concat.hpp \
-  /home/daniil/json/include/nlohmann/detail/string_escape.hpp \
-  /home/daniil/json/include/nlohmann/detail/string_utils.hpp \
-  /home/daniil/json/include/nlohmann/detail/value_t.hpp \
-  /home/daniil/json/include/nlohmann/json.hpp \
-  /home/daniil/json/include/nlohmann/json_fwd.hpp \
-  /home/daniil/json/include/nlohmann/ordered_map.hpp \
-  /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /home/daniil/raygui/src/raygui.h \
-  /home/daniil/raygui/src/raylib.h \
-  /home/daniil/raylib/src/raylib.h \
+  json/include/nlohmann/adl_serializer.hpp \
+  json/include/nlohmann/byte_container_with_subtype.hpp \
+  json/include/nlohmann/detail/abi_macros.hpp \
+  json/include/nlohmann/detail/conversions/from_json.hpp \
+  json/include/nlohmann/detail/conversions/to_chars.hpp \
+  json/include/nlohmann/detail/conversions/to_json.hpp \
+  json/include/nlohmann/detail/exceptions.hpp \
+  json/include/nlohmann/detail/hash.hpp \
+  json/include/nlohmann/detail/input/binary_reader.hpp \
+  json/include/nlohmann/detail/input/input_adapters.hpp \
+  json/include/nlohmann/detail/input/json_sax.hpp \
+  json/include/nlohmann/detail/input/lexer.hpp \
+  json/include/nlohmann/detail/input/parser.hpp \
+  json/include/nlohmann/detail/input/position_t.hpp \
+  json/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  json/include/nlohmann/detail/iterators/iter_impl.hpp \
+  json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  json/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  json/include/nlohmann/detail/json_custom_base_class.hpp \
+  json/include/nlohmann/detail/json_pointer.hpp \
+  json/include/nlohmann/detail/json_ref.hpp \
+  json/include/nlohmann/detail/macro_scope.hpp \
+  json/include/nlohmann/detail/macro_unscope.hpp \
+  json/include/nlohmann/detail/meta/call_std/begin.hpp \
+  json/include/nlohmann/detail/meta/call_std/end.hpp \
+  json/include/nlohmann/detail/meta/cpp_future.hpp \
+  json/include/nlohmann/detail/meta/detected.hpp \
+  json/include/nlohmann/detail/meta/identity_tag.hpp \
+  json/include/nlohmann/detail/meta/is_sax.hpp \
+  json/include/nlohmann/detail/meta/std_fs.hpp \
+  json/include/nlohmann/detail/meta/type_traits.hpp \
+  json/include/nlohmann/detail/meta/void_t.hpp \
+  json/include/nlohmann/detail/output/binary_writer.hpp \
+  json/include/nlohmann/detail/output/output_adapters.hpp \
+  json/include/nlohmann/detail/output/serializer.hpp \
+  json/include/nlohmann/detail/string_concat.hpp \
+  json/include/nlohmann/detail/string_escape.hpp \
+  json/include/nlohmann/detail/string_utils.hpp \
+  json/include/nlohmann/detail/value_t.hpp \
+  json/include/nlohmann/json.hpp \
+  json/include/nlohmann/json_fwd.hpp \
+  json/include/nlohmann/ordered_map.hpp \
+  json/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1448,9 +1448,7 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o: Ping\ Pong/Ping\ Pong.
   /usr/lib64/gcc/x86_64-alt-linux/13/include/stdint.h \
   /usr/lib64/gcc/x86_64-alt-linux/13/include/syslimits.h
 
-x64/Release/PingPongRelease: /home/daniil/fmt/libfmt.a \
-  /home/daniil/raylib/raylib/libraylib.a \
-  /lib64/ld-linux-x86-64.so.2 \
+x64/Release/PingPongRelease: /lib64/ld-linux-x86-64.so.2 \
   /lib64/libc.so.6 \
   /lib64/libm.so.6 \
   /lib64/libmvec.so.1 \
@@ -1490,8 +1488,11 @@ x64/Release/PingPongRelease: /home/daniil/fmt/libfmt.a \
   SFML/lib/libsfml-graphics-s.a \
   SFML/lib/libsfml-network-s.a \
   SFML/lib/libsfml-system-s.a \
-  SFML/lib/libsfml-window-s.a
+  SFML/lib/libsfml-window-s.a \
+  raylib/raylib/libraylib.a
 
+
+raylib/raylib/libraylib.a:
 
 SFML/lib/libsfml-system-s.a:
 
@@ -1506,6 +1507,8 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o:
 /usr/lib64/gcc/x86_64-alt-linux/13/crtbeginS.o:
 
 /usr/lib64/libvorbisenc.so:
+
+/usr/lib64/libogg.so:
 
 /usr/lib64/libfreetype.so:
 
@@ -1528,6 +1531,8 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o:
 /usr/include/c++/13/stdlib.h:
 
 Ping\ Pong/LevelsMap.cpp:
+
+raygui/src/raylib.h:
 
 /usr/include/string.h:
 
@@ -1565,53 +1570,51 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Functions/Functions.cpp.o:
 
 /usr/include/c++/13/algorithm:
 
-/home/daniil/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+json/include/nlohmann/thirdparty/hedley/hedley.hpp:
 
-/home/daniil/json/include/nlohmann/thirdparty/hedley/hedley.hpp:
+json/include/nlohmann/ordered_map.hpp:
 
-/home/daniil/json/include/nlohmann/detail/string_escape.hpp:
+json/include/nlohmann/detail/output/serializer.hpp:
 
-/home/daniil/json/include/nlohmann/detail/string_concat.hpp:
+json/include/nlohmann/detail/meta/void_t.hpp:
 
-/home/daniil/json/include/nlohmann/detail/output/serializer.hpp:
+json/include/nlohmann/detail/meta/type_traits.hpp:
 
-/home/daniil/json/include/nlohmann/detail/output/output_adapters.hpp:
+json/include/nlohmann/detail/meta/is_sax.hpp:
 
-/home/daniil/json/include/nlohmann/detail/output/binary_writer.hpp:
+json/include/nlohmann/detail/meta/identity_tag.hpp:
 
-/home/daniil/json/include/nlohmann/detail/meta/void_t.hpp:
+json/include/nlohmann/detail/meta/detected.hpp:
 
-/home/daniil/json/include/nlohmann/detail/meta/type_traits.hpp:
+json/include/nlohmann/detail/string_utils.hpp:
 
-/usr/lib64/libogg.so:
+json/include/nlohmann/detail/meta/call_std/begin.hpp:
 
-/home/daniil/json/include/nlohmann/detail/meta/call_std/end.hpp:
+json/include/nlohmann/detail/macro_unscope.hpp:
 
-/home/daniil/json/include/nlohmann/detail/macro_unscope.hpp:
+json/include/nlohmann/detail/json_ref.hpp:
 
-/home/daniil/json/include/nlohmann/detail/json_custom_base_class.hpp:
+json/include/nlohmann/detail/output/binary_writer.hpp:
 
-/home/daniil/json/include/nlohmann/detail/iterators/iterator_traits.hpp:
+json/include/nlohmann/detail/json_pointer.hpp:
 
-/home/daniil/json/include/nlohmann/detail/iterators/internal_iterator.hpp:
+json/include/nlohmann/detail/json_custom_base_class.hpp:
 
-/home/daniil/json/include/nlohmann/detail/input/parser.hpp:
+json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
 
-/home/daniil/json/include/nlohmann/detail/input/binary_reader.hpp:
+json/include/nlohmann/detail/iterators/iter_impl.hpp:
 
-/home/daniil/json/include/nlohmann/detail/iterators/iter_impl.hpp:
+json/include/nlohmann/detail/iterators/internal_iterator.hpp:
 
-/home/daniil/json/include/nlohmann/detail/exceptions.hpp:
+json/include/nlohmann/detail/input/position_t.hpp:
 
-/home/daniil/json/include/nlohmann/detail/conversions/to_json.hpp:
+json/include/nlohmann/detail/input/binary_reader.hpp:
 
-/home/daniil/json/include/nlohmann/detail/conversions/to_chars.hpp:
+json/include/nlohmann/detail/exceptions.hpp:
 
-/home/daniil/json/include/nlohmann/detail/macro_scope.hpp:
+json/include/nlohmann/detail/conversions/to_chars.hpp:
 
-/home/daniil/json/include/nlohmann/adl_serializer.hpp:
-
-/home/daniil/fmt/libfmt.a:
+json/include/nlohmann/adl_serializer.hpp:
 
 /usr/include/math.h:
 
@@ -1638,8 +1641,6 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Functions/Functions.cpp.o:
 /usr/include/c++/13/tr1/beta_function.tcc:
 
 /usr/include/c++/13/numeric:
-
-/home/daniil/json/include/nlohmann/detail/string_utils.hpp:
 
 /usr/include/c++/13/cmath:
 
@@ -1675,13 +1676,11 @@ Ping\ Pong/Json/Json.h:
 
 /usr/include/syscall.h:
 
-/home/daniil/json/include/nlohmann/detail/input/input_adapters.hpp:
-
 /usr/include/sys/types.h:
 
-/usr/include/sys/time.h:
+json/include/nlohmann/detail/iterators/primitive_iterator.hpp:
 
-/home/daniil/json/include/nlohmann/detail/meta/call_std/begin.hpp:
+/usr/include/sys/time.h:
 
 /usr/include/sys/select.h:
 
@@ -1731,13 +1730,11 @@ Ping\ Pong/Json/Json.h:
 
 /usr/include/c++/13/x86_64-alt-linux/bits/atomic_word.h:
 
-/home/daniil/raygui/src/raylib.h:
-
 /usr/include/c++/13/vector:
 
-/usr/include/c++/13/variant:
+json/include/nlohmann/detail/meta/std_fs.hpp:
 
-/home/daniil/json/include/nlohmann/detail/input/lexer.hpp:
+/usr/include/c++/13/variant:
 
 /usr/include/c++/13/unordered_set:
 
@@ -1764,6 +1761,8 @@ Ping\ Pong/Functions/Functions.h:
 /usr/include/c++/13/ratio:
 
 /usr/include/c++/13/bits/mask_array.h:
+
+json/include/nlohmann/detail/iterators/iterator_traits.hpp:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -1797,6 +1796,8 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Json/Json.cpp.o:
 
 /usr/include/strings.h:
 
+json/include/nlohmann/byte_container_with_subtype.hpp:
+
 /usr/include/c++/13/iomanip:
 
 /usr/include/c++/13/fstream:
@@ -1808,8 +1809,6 @@ Ping\ Pong/Windows/GameOverLogic.cpp:
 /usr/include/c++/13/filesystem:
 
 /usr/include/c++/13/ext/type_traits.h:
-
-/home/daniil/json/include/nlohmann/detail/json_ref.hpp:
 
 /usr/include/c++/13/ext/concurrence.h:
 
@@ -1831,8 +1830,6 @@ SFML/lib/libsfml-audio-s.a:
 
 /usr/include/c++/13/bits/shared_ptr.h:
 
-/home/daniil/raylib/raylib/libraylib.a:
-
 /usr/include/bits/unistd_ext.h:
 
 Ping\ Pong/Ping\ Pong.cpp:
@@ -1841,9 +1838,9 @@ Ping\ Pong/Ping\ Pong.cpp:
 
 /usr/include/bits/uio_lim.h:
 
-/usr/include/bits/types/timer_t.h:
+json/include/nlohmann/detail/conversions/to_json.hpp:
 
-/home/daniil/json/include/nlohmann/json_fwd.hpp:
+/usr/include/bits/types/timer_t.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
@@ -1856,8 +1853,6 @@ Ping\ Pong/Ping\ Pong.cpp:
 /usr/lib64/gcc/x86_64-alt-linux/13/include/stdint.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/home/daniil/json/include/nlohmann/detail/meta/is_sax.hpp:
 
 /usr/include/bits/types/__fpos64_t.h:
 
@@ -1877,19 +1872,11 @@ Ping\ Pong/Ping\ Pong.cpp:
 
 /usr/include/c++/13/bits/semaphore_base.h:
 
-/home/daniil/json/include/nlohmann/detail/value_t.hpp:
-
-/home/daniil/json/include/nlohmann/detail/conversions/from_json.hpp:
-
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/bits/types/error_t.h:
-
-/home/daniil/json/include/nlohmann/detail/meta/detected.hpp:
-
-/home/daniil/json/include/nlohmann/detail/abi_macros.hpp:
 
 /usr/include/c++/13/bits/chrono_io.h:
 
@@ -1899,6 +1886,8 @@ Ping\ Pong/Ping\ Pong.cpp:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
+json/include/nlohmann/detail/output/output_adapters.hpp:
+
 /usr/include/bits/setjmp.h:
 
 /usr/lib64/libXcursor.so:
@@ -1907,15 +1896,13 @@ Ping\ Pong/Ping\ Pong.cpp:
 
 /usr/include/bits/select.h:
 
-/home/daniil/raylib/src/raylib.h:
-
 /usr/include/bits/types/cookie_io_functions_t.h:
+
+json/include/nlohmann/json_fwd.hpp:
 
 /usr/include/bits/types/clock_t.h:
 
 SFML/include/SFML/System/Export.hpp:
-
-/home/daniil/json/include/nlohmann/detail/meta/std_fs.hpp:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -1924,6 +1911,8 @@ SFML/include/SFML/System/Export.hpp:
 SFML/include/SFML/System/MemoryInputStream.hpp:
 
 /lib64/libmvec.so.1:
+
+json/include/nlohmann/detail/string_escape.hpp:
 
 /usr/include/c++/13/atomic:
 
@@ -1981,11 +1970,11 @@ SFML/include/SFML/Audio/InputSoundFile.hpp:
 
 /usr/include/c++/13/bits/postypes.h:
 
+json/include/nlohmann/detail/meta/cpp_future.hpp:
+
 /usr/include/c++/13/bits/uses_allocator.h:
 
 SFML/lib/libsfml-network-s.a:
-
-/home/daniil/json/include/nlohmann/json.hpp:
 
 /usr/include/c++/13/pstl/glue_numeric_defs.h:
 
@@ -2003,13 +1992,13 @@ SFML/include/SFML/System/Exception.hpp:
 
 /usr/include/bits/types/clockid_t.h:
 
+json/include/nlohmann/detail/input/input_adapters.hpp:
+
 /usr/include/c++/13/string:
 
 SFML/include/SFML/System/Err.hpp:
 
 SFML/include/SFML/Audio/SoundStream.hpp:
-
-/home/daniil/json/include/nlohmann/detail/iterators/primitive_iterator.hpp:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -2019,9 +2008,13 @@ SFML/include/SFML/Audio/SoundStream.hpp:
 
 SFML/include/SFML/Audio/SoundFileReader.hpp:
 
+json/include/nlohmann/detail/input/parser.hpp:
+
 SFML/include/SFML/Audio/SoundFileFactory.inl:
 
 SFML/include/SFML/System/Utf.hpp:
+
+json/include/nlohmann/detail/input/json_sax.hpp:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
@@ -2037,6 +2030,8 @@ SFML/include/SFML/System/Utf.hpp:
 
 /usr/include/bits/waitflags.h:
 
+raylib/src/raylib.h:
+
 SFML/include/SFML/Audio/SoundRecorder.hpp:
 
 Ping\ Pong/Audio/WorkWithAudio.cpp:
@@ -2046,8 +2041,6 @@ Ping\ Pong/Audio/WorkWithAudio.cpp:
 /usr/include/bits/types/locale_t.h:
 
 /usr/include/c++/13/bits/stl_heap.h:
-
-/home/daniil/json/include/nlohmann/ordered_map.hpp:
 
 /usr/include/bits/byteswap.h:
 
@@ -2095,19 +2088,17 @@ SFML/include/SFML/System/Vector2.hpp:
 
 SFML/include/SFML/System/Vector3.inl:
 
-/home/daniil/raygui/src/raygui.h:
-
 /usr/include/bits/cpu-set.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
+
+json/include/nlohmann/json.hpp:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
 SFML/include/SFML/System/Clock.hpp:
 
 SFML/include/SFML/Audio/SoundFileFactory.hpp:
-
-/home/daniil/json/include/nlohmann/detail/meta/identity_tag.hpp:
 
 /usr/include/c++/13/bits/ranges_uninitialized.h:
 
@@ -2141,8 +2132,6 @@ SFML/include/SFML/Audio/Export.hpp:
 
 /usr/include/c++/13/bits/stl_relops.h:
 
-/home/daniil/json/include/nlohmann/byte_container_with_subtype.hpp:
-
 SFML/include/SFML/Audio/PlaybackDevice.hpp:
 
 /usr/include/c++/13/bits/refwrap.h:
@@ -2173,6 +2162,10 @@ SFML/include/SFML/Audio/AudioResource.hpp:
 
 CMakeFiles/PingPongRelease.dir/Ping_Pong/Audio/WorkWithAudio.cpp.o:
 
+json/include/nlohmann/detail/string_concat.hpp:
+
+json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
+
 SFML/include/SFML/System/Sleep.hpp:
 
 Ping\ Pong/Audio/WorkWithAudio.h:
@@ -2180,10 +2173,6 @@ Ping\ Pong/Audio/WorkWithAudio.h:
 /usr/include/alloca.h:
 
 /usr/include/bits/struct_mutex.h:
-
-/home/daniil/json/include/nlohmann/detail/input/position_t.hpp:
-
-/home/daniil/json/include/nlohmann/detail/input/json_sax.hpp:
 
 SFML/include/SFML/System/String.inl:
 
@@ -2199,8 +2188,6 @@ SFML/include/SFML/System/String.inl:
 
 /usr/include/bits/types/wint_t.h:
 
-/home/daniil/json/include/nlohmann/detail/json_pointer.hpp:
-
 /usr/include/c++/13/bits/sstream.tcc:
 
 SFML/include/SFML/Config.hpp:
@@ -2213,11 +2200,11 @@ SFML/include/SFML/System.hpp:
 
 SFML/include/SFML/System/Time.inl:
 
-/home/daniil/json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
-
 SFML/include/SFML/System/Vector2.inl:
 
 /usr/include/c++/13/array:
+
+json/include/nlohmann/detail/macro_scope.hpp:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
@@ -2236,6 +2223,8 @@ SFML/include/SFML/System/Vector2.inl:
 /usr/include/c++/13/bits/ranges_base.h:
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
+
+json/include/nlohmann/detail/input/lexer.hpp:
 
 /usr/include/bits/confname.h:
 
@@ -2258,6 +2247,8 @@ SFML/include/SFML/Audio.hpp:
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/basic_string.tcc:
+
+raygui/src/raygui.h:
 
 /usr/include/c++/13/x86_64-alt-linux/bits/ctype_inline.h:
 
@@ -2291,6 +2282,8 @@ SFML/include/SFML/Audio/SoundBuffer.hpp:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
 
+json/include/nlohmann/detail/hash.hpp:
+
 /usr/include/c++/13/bits/charconv.h:
 
 /lib64/ld-linux-x86-64.so.2:
@@ -2300,6 +2293,8 @@ SFML/include/SFML/Audio/SoundBuffer.hpp:
 /usr/include/asm/unistd.h:
 
 /usr/include/c++/13/bits/stl_pair.h:
+
+json/include/nlohmann/detail/meta/call_std/end.hpp:
 
 /usr/include/c++/13/x86_64-alt-linux/bits/c++allocator.h:
 
@@ -2321,19 +2316,23 @@ SFML/include/SFML/Audio/SoundBuffer.hpp:
 
 /usr/include/c++/13/bits/enable_special_members.h:
 
-/home/daniil/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
-
 SFML/include/SFML/Audio/SoundSource.hpp:
 
 /usr/include/c++/13/bits/stream_iterator.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
+json/include/nlohmann/detail/abi_macros.hpp:
+
 /usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/13/bits/exception.h:
+
+json/include/nlohmann/detail/value_t.hpp:
+
+json/include/nlohmann/detail/conversions/from_json.hpp:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
@@ -2411,8 +2410,6 @@ Ping\ Pong/Functions/Functions.cpp:
 
 /usr/include/c++/13/bits/mofunc_impl.h:
 
-/home/daniil/json/include/nlohmann/detail/hash.hpp:
-
 /usr/include/c++/13/tuple:
 
 /usr/include/c++/13/bits/nested_exception.h:
@@ -2465,7 +2462,7 @@ Ping\ Pong/GameLogicEnums.cpp:
 
 /usr/lib64/crti.o:
 
-/home/daniil/json/include/nlohmann/detail/meta/cpp_future.hpp:
+json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 
 /usr/include/stdio.h:
 

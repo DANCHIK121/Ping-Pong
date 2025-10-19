@@ -597,52 +597,52 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Functions/Functions.cpp.o
 CMakeFiles/PingPongRelease.dir/Ping_Pong/Json/Json.cpp.o
  /home/daniil/Ping-Pong/Ping Pong/Json/Json.cpp
  /home/daniil/Ping-Pong/Ping Pong/Json/Json.h
- /home/daniil/json/include/nlohmann/adl_serializer.hpp
- /home/daniil/json/include/nlohmann/byte_container_with_subtype.hpp
- /home/daniil/json/include/nlohmann/detail/abi_macros.hpp
- /home/daniil/json/include/nlohmann/detail/conversions/from_json.hpp
- /home/daniil/json/include/nlohmann/detail/conversions/to_chars.hpp
- /home/daniil/json/include/nlohmann/detail/conversions/to_json.hpp
- /home/daniil/json/include/nlohmann/detail/exceptions.hpp
- /home/daniil/json/include/nlohmann/detail/hash.hpp
- /home/daniil/json/include/nlohmann/detail/input/binary_reader.hpp
- /home/daniil/json/include/nlohmann/detail/input/input_adapters.hpp
- /home/daniil/json/include/nlohmann/detail/input/json_sax.hpp
- /home/daniil/json/include/nlohmann/detail/input/lexer.hpp
- /home/daniil/json/include/nlohmann/detail/input/parser.hpp
- /home/daniil/json/include/nlohmann/detail/input/position_t.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/internal_iterator.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/iter_impl.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/iteration_proxy.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/iterator_traits.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/primitive_iterator.hpp
- /home/daniil/json/include/nlohmann/detail/json_custom_base_class.hpp
- /home/daniil/json/include/nlohmann/detail/json_pointer.hpp
- /home/daniil/json/include/nlohmann/detail/json_ref.hpp
- /home/daniil/json/include/nlohmann/detail/macro_scope.hpp
- /home/daniil/json/include/nlohmann/detail/macro_unscope.hpp
- /home/daniil/json/include/nlohmann/detail/meta/call_std/begin.hpp
- /home/daniil/json/include/nlohmann/detail/meta/call_std/end.hpp
- /home/daniil/json/include/nlohmann/detail/meta/cpp_future.hpp
- /home/daniil/json/include/nlohmann/detail/meta/detected.hpp
- /home/daniil/json/include/nlohmann/detail/meta/identity_tag.hpp
- /home/daniil/json/include/nlohmann/detail/meta/is_sax.hpp
- /home/daniil/json/include/nlohmann/detail/meta/std_fs.hpp
- /home/daniil/json/include/nlohmann/detail/meta/type_traits.hpp
- /home/daniil/json/include/nlohmann/detail/meta/void_t.hpp
- /home/daniil/json/include/nlohmann/detail/output/binary_writer.hpp
- /home/daniil/json/include/nlohmann/detail/output/output_adapters.hpp
- /home/daniil/json/include/nlohmann/detail/output/serializer.hpp
- /home/daniil/json/include/nlohmann/detail/string_concat.hpp
- /home/daniil/json/include/nlohmann/detail/string_escape.hpp
- /home/daniil/json/include/nlohmann/detail/string_utils.hpp
- /home/daniil/json/include/nlohmann/detail/value_t.hpp
- /home/daniil/json/include/nlohmann/json.hpp
- /home/daniil/json/include/nlohmann/json_fwd.hpp
- /home/daniil/json/include/nlohmann/ordered_map.hpp
- /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley.hpp
- /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/adl_serializer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/byte_container_with_subtype.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/abi_macros.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/conversions/from_json.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/conversions/to_chars.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/conversions/to_json.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/exceptions.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/hash.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/binary_reader.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/input_adapters.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/json_sax.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/lexer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/parser.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/position_t.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/internal_iterator.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/iter_impl.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/iteration_proxy.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/iterator_traits.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/primitive_iterator.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/json_custom_base_class.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/json_pointer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/json_ref.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/macro_scope.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/macro_unscope.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/call_std/begin.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/call_std/end.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/cpp_future.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/detected.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/identity_tag.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/is_sax.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/std_fs.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/type_traits.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/void_t.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/output/binary_writer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/output/output_adapters.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/output/serializer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/string_concat.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/string_escape.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/string_utils.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/value_t.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/json.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/json_fwd.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/ordered_map.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/thirdparty/hedley/hedley.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -996,6 +996,9 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Json/Json.cpp.o
 
 CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o
  /home/daniil/Ping-Pong/Ping Pong/Ping Pong.cpp
+ /home/daniil/Ping-Pong/raygui/src/raygui.h
+ /home/daniil/Ping-Pong/raygui/src/raylib.h
+ /home/daniil/Ping-Pong/raylib/src/raylib.h
  /home/daniil/Ping-Pong/Ping Pong/Audio/WorkWithAudio.h
  /home/daniil/Ping-Pong/Ping Pong/Functions/Functions.h
  /home/daniil/Ping-Pong/Ping Pong/GameLogicEnums.cpp
@@ -1044,55 +1047,52 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o
  /home/daniil/Ping-Pong/SFML/include/SFML/System/Vector2.inl
  /home/daniil/Ping-Pong/SFML/include/SFML/System/Vector3.hpp
  /home/daniil/Ping-Pong/SFML/include/SFML/System/Vector3.inl
- /home/daniil/json/include/nlohmann/adl_serializer.hpp
- /home/daniil/json/include/nlohmann/byte_container_with_subtype.hpp
- /home/daniil/json/include/nlohmann/detail/abi_macros.hpp
- /home/daniil/json/include/nlohmann/detail/conversions/from_json.hpp
- /home/daniil/json/include/nlohmann/detail/conversions/to_chars.hpp
- /home/daniil/json/include/nlohmann/detail/conversions/to_json.hpp
- /home/daniil/json/include/nlohmann/detail/exceptions.hpp
- /home/daniil/json/include/nlohmann/detail/hash.hpp
- /home/daniil/json/include/nlohmann/detail/input/binary_reader.hpp
- /home/daniil/json/include/nlohmann/detail/input/input_adapters.hpp
- /home/daniil/json/include/nlohmann/detail/input/json_sax.hpp
- /home/daniil/json/include/nlohmann/detail/input/lexer.hpp
- /home/daniil/json/include/nlohmann/detail/input/parser.hpp
- /home/daniil/json/include/nlohmann/detail/input/position_t.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/internal_iterator.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/iter_impl.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/iteration_proxy.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/iterator_traits.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
- /home/daniil/json/include/nlohmann/detail/iterators/primitive_iterator.hpp
- /home/daniil/json/include/nlohmann/detail/json_custom_base_class.hpp
- /home/daniil/json/include/nlohmann/detail/json_pointer.hpp
- /home/daniil/json/include/nlohmann/detail/json_ref.hpp
- /home/daniil/json/include/nlohmann/detail/macro_scope.hpp
- /home/daniil/json/include/nlohmann/detail/macro_unscope.hpp
- /home/daniil/json/include/nlohmann/detail/meta/call_std/begin.hpp
- /home/daniil/json/include/nlohmann/detail/meta/call_std/end.hpp
- /home/daniil/json/include/nlohmann/detail/meta/cpp_future.hpp
- /home/daniil/json/include/nlohmann/detail/meta/detected.hpp
- /home/daniil/json/include/nlohmann/detail/meta/identity_tag.hpp
- /home/daniil/json/include/nlohmann/detail/meta/is_sax.hpp
- /home/daniil/json/include/nlohmann/detail/meta/std_fs.hpp
- /home/daniil/json/include/nlohmann/detail/meta/type_traits.hpp
- /home/daniil/json/include/nlohmann/detail/meta/void_t.hpp
- /home/daniil/json/include/nlohmann/detail/output/binary_writer.hpp
- /home/daniil/json/include/nlohmann/detail/output/output_adapters.hpp
- /home/daniil/json/include/nlohmann/detail/output/serializer.hpp
- /home/daniil/json/include/nlohmann/detail/string_concat.hpp
- /home/daniil/json/include/nlohmann/detail/string_escape.hpp
- /home/daniil/json/include/nlohmann/detail/string_utils.hpp
- /home/daniil/json/include/nlohmann/detail/value_t.hpp
- /home/daniil/json/include/nlohmann/json.hpp
- /home/daniil/json/include/nlohmann/json_fwd.hpp
- /home/daniil/json/include/nlohmann/ordered_map.hpp
- /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley.hpp
- /home/daniil/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
- /home/daniil/raygui/src/raygui.h
- /home/daniil/raygui/src/raylib.h
- /home/daniil/raylib/src/raylib.h
+ /home/daniil/Ping-Pong/json/include/nlohmann/adl_serializer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/byte_container_with_subtype.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/abi_macros.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/conversions/from_json.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/conversions/to_chars.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/conversions/to_json.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/exceptions.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/hash.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/binary_reader.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/input_adapters.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/json_sax.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/lexer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/parser.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/input/position_t.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/internal_iterator.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/iter_impl.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/iteration_proxy.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/iterator_traits.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/iterators/primitive_iterator.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/json_custom_base_class.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/json_pointer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/json_ref.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/macro_scope.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/macro_unscope.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/call_std/begin.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/call_std/end.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/cpp_future.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/detected.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/identity_tag.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/is_sax.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/std_fs.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/type_traits.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/meta/void_t.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/output/binary_writer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/output/output_adapters.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/output/serializer.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/string_concat.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/string_escape.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/string_utils.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/detail/value_t.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/json.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/json_fwd.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/ordered_map.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/thirdparty/hedley/hedley.hpp
+ /home/daniil/Ping-Pong/json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -1453,8 +1453,6 @@ CMakeFiles/PingPongRelease.dir/Ping_Pong/Ping_Pong.cpp.o
  /usr/lib64/gcc/x86_64-alt-linux/13/include/syslimits.h
 
 x64/Release/PingPongRelease
- /home/daniil/fmt/libfmt.a
- /home/daniil/raylib/raylib/libraylib.a
  /lib64/ld-linux-x86-64.so.2
  /lib64/libc.so.6
  /lib64/libm.so.6
@@ -1496,4 +1494,5 @@ x64/Release/PingPongRelease
  /home/daniil/Ping-Pong/SFML/lib/libsfml-network-s.a
  /home/daniil/Ping-Pong/SFML/lib/libsfml-system-s.a
  /home/daniil/Ping-Pong/SFML/lib/libsfml-window-s.a
+ /home/daniil/Ping-Pong/raylib/raylib/libraylib.a
 

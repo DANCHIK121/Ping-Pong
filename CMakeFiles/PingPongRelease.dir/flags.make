@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/daniil/Ping-Pong/SFML/include -I/home/daniil/Ping-Pong/./raylib/src -I/home/daniil/Ping-Pong/./raygui/src -I/home/daniil/Ping-Pong/json/include -isystem /home/daniil/fmt/include
+CXX_INCLUDES = -I/home/daniil/Ping-Pong/SFML/include -I/home/daniil/Ping-Pong/raylib/src -I/home/daniil/Ping-Pong/raygui/src -I/home/daniil/Ping-Pong/json/include
 
 CXX_FLAGS = -std=gnu++23
 

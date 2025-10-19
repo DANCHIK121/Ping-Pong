@@ -149,11 +149,10 @@ x64/Release/PingPongRelease: SFML/lib/libsfml-graphics-s.a
 x64/Release/PingPongRelease: SFML/lib/libsfml-window-s.a
 x64/Release/PingPongRelease: SFML/lib/libsfml-system-s.a
 x64/Release/PingPongRelease: SFML/lib/libsfml-network-s.a
-x64/Release/PingPongRelease: /home/daniil/raylib/raylib/libraylib.a
+x64/Release/PingPongRelease: raylib/raylib/libraylib.a
 x64/Release/PingPongRelease: /usr/lib64/libXxf86vm.so.1.0.0
 x64/Release/PingPongRelease: /usr/lib64/libopenal.so.1.22.2
 x64/Release/PingPongRelease: /usr/lib64/libFLAC.so.12.1.0
-x64/Release/PingPongRelease: /home/daniil/fmt/libfmt.a
 x64/Release/PingPongRelease: CMakeFiles/PingPongRelease.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/daniil/Ping-Pong/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable x64/Release/PingPongRelease"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PingPongRelease.dir/link.txt --verbose=$(VERBOSE)

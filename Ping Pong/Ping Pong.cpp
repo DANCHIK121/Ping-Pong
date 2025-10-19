@@ -10,12 +10,12 @@
 // Projects libraries
 #ifndef RAY_LIB_CONNECTION
 #define RAY_LIB_CONNECTION
-#include "/home/daniil/raylib/src/raylib.h"
+#include "../raylib/src/raylib.h"
 #endif 
 
 #ifndef RAY_GUI_CONNECTION
 #define RAY_GUI_CONNECTION
-#include "/home/daniil/raygui/src/raygui.h"
+#include "../raygui/src/raygui.h"
 #endif
 
 // Project files
