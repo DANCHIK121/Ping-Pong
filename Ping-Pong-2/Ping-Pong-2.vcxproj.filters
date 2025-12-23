@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Audio">
+      <UniqueIdentifier>{3b6cd0d4-de56-431c-a1e4-d545eaffd1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Json">
+      <UniqueIdentifier>{69ac8618-e3bc-41b2-a6c9-f5217cf8d37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Functions">
+      <UniqueIdentifier>{cbe6ee5c-e2a7-4fa0-83b1-6701d0f7dd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Windows">
+      <UniqueIdentifier>{90d8ac75-5e8f-456b-8507-535a1d6bf0ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ping-Pong-2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\Json.cpp">
+      <Filter>Исходные файлы\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelsMap.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogicEnums.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Functions.cpp">
+      <Filter>Исходные файлы\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\GameOverLogic.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\SettingsWindowLogic.cpp">
+      <Filter>Исходные файлы\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\WorkWithAudio.cpp">
+      <Filter>Исходные файлы\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Json\Json.h">
+      <Filter>Исходные файлы\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Functions.h">
+      <Filter>Исходные файлы\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\WorkWithAudio.h">
+      <Filter>Исходные файлы\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ping-Pong-2.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Release\Icon\Icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

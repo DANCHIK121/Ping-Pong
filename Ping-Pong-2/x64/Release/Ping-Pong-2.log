@@ -1,0 +1,33 @@
+﻿  WorkWithAudio.cpp
+  Ping-Pong-2.cpp
+E:\Programming\.cpp\Projects\Ping-Pong-2\vcpkg_installed\x64-windows\include\raygui.h(2654,46): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Ping-Pong-2.cpp")
+  
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Windows\SettingsWindowLogic.cpp(82,91): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  (компиляция исходного файла "Ping-Pong-2.cpp")
+  
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Windows\SettingsWindowLogic.cpp(83,92): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  (компиляция исходного файла "Ping-Pong-2.cpp")
+  
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(30,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(70,25): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(94,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(95,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(222,36): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(222,102): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(322,73): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(322,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(325,75): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(325,47): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(329,85): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(329,52): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(332,87): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\Programming\.cpp\Projects\Ping-Pong-2\Ping-Pong-2\Ping-Pong-2.cpp(332,53): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Создание кода
+  5 of 2525 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Ping-Pong-2.vcxproj -> E:\Programming\.cpp\Projects\Ping-Pong-2\x64\Release\Ping-Pong-2.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.

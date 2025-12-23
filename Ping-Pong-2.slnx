@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Ping-Pong-2/Ping-Pong-2.vcxproj" Id="65488aea-93d3-43f9-9b56-bab220326e78" />
+</Solution>

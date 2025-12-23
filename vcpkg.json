@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "fmt",
+    "nlohmann-json",
+    "raygui",
+    "raylib",
+    "sfml"
+  ]
+}
